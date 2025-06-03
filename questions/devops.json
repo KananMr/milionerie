@@ -1,0 +1,1858 @@
+[
+  {
+    "question": "What are the typical phases of the Waterfall model in software development?",
+    "options": ["Design, Code, Test, Deploy, Iterate", "Requirements, Design, Implementation, Verification, Maintenance", "Plan, Develop, Release, Monitor", "Conceive, Elaborate, Construct, Transition"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Agile methodologies primarily emphasize:",
+    "options": ["Comprehensive documentation and upfront planning", "Individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan", "Strict adherence to a predefined project plan", "Minimizing customer involvement until the final product is ready"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Scrum is an example of which software development methodology?",
+    "options": ["Waterfall", "Spiral Model", "Agile", "V-Model"],
+    "answer": 2,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'sprint' in the Scrum framework?",
+    "options": ["A quick coding session to fix bugs", "A fixed-length timebox (typically 1-4 weeks) during which a 'Done', usable, and potentially releasable product Increment is created. Sprints promote iterative development.", "A race to complete all project tasks", "A type of project management software"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Who is responsible for prioritizing the Product Backlog in Scrum?",
+    "options": ["The Development Team", "The Scrum Master", "The Product Owner", "The Stakeholders"],
+    "answer": 2,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the primary role of a Scrum Master?",
+    "options": ["To manage the Development Team's tasks", "To act as a servant-leader for the Scrum Team, helping them understand Scrum theory, practices, rules, and values, and removing impediments to the team's progress", "To define the product vision and features", "To write all the code for the sprint"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'user story' in Agile development?",
+    "options": ["A detailed technical specification of a feature", "A short, simple description of a feature or functionality told from the perspective of the person who desires the new capability, usually a user or customer (e.g., 'As a [type of user], I want [an action] so that [a benefit/value]').", "A bug report submitted by a user", "A fictional story used for software testing scenarios"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Kanban is a method for managing workflow that emphasizes:",
+    "options": ["Fixed-length iterations", "Limiting Work In Progress (WIP), visualizing workflow, and managing flow to improve efficiency and predictability", "Strict adherence to predefined roles", "Detailed upfront planning of all tasks"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What does 'WIP' stand for in Kanban and Lean methodologies?",
+    "options": ["Work In Progress", "Waiting In Progress", "Work Item Prioritization", "Workflow Improvement Plan"],
+    "answer": 0,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'requirements elicitation' in software engineering?",
+    "options": ["Writing down the final software requirements", "The process of discovering, understanding, and documenting the needs and constraints of stakeholders for a software system", "Testing if the software meets requirements", "Prioritizing software requirements"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Functional requirements describe:",
+    "options": ["How the system should perform (e.g., speed, reliability)", "What the system should do; the specific behaviors, functions, or services the system is expected to provide", "The quality attributes of the system", "The user interface design"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Non-functional requirements (NFRs) describe:",
+    "options": ["Specific features the system must have", "The quality attributes of a system, such as performance, usability, security, reliability, maintainability, and scalability. They define *how* the system should perform its functions.", "Functions that are not yet implemented", "Requirements that are not functional and can be ignored"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'use case' in software requirements analysis?",
+    "options": ["A specific test case for a function", "A description of a sequence of interactions between a user (or other actor) and a system to achieve a specific goal", "The primary user of the software", "A case for storing software documentation"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "UML (Unified Modeling Language) is used for:",
+    "options": ["Writing user manuals", "Visually specifying, constructing, and documenting the artifacts of a software-intensive system, using diagrams like class diagrams, sequence diagrams, use case diagrams, etc.", "A specific programming language", "Managing user access levels"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "A class diagram in UML primarily shows:",
+    "options": ["The sequence of interactions between objects", "The static structure of a system, including classes, their attributes, methods, and relationships between classes (e.g., inheritance, association, aggregation).", "The flow of activities in a process", "The deployment of software components on hardware"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "A sequence diagram in UML primarily shows:",
+    "options": ["The static structure of classes", "The interaction between objects in a time sequence, depicting the messages exchanged between objects and the order in which they occur to accomplish a specific scenario.", "The states an object can be in", "The physical layout of system components"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is software architecture?",
+    "options": ["The physical layout of servers", "The fundamental organization of a software system, embodied in its components, their relationships to each other and the environment, and the principles guiding its design and evolution.", "The process of writing code for an application", "The user interface design of a system"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "The 'Model-View-Controller' (MVC) pattern is an example of:",
+    "options": ["A data structure", "An architectural pattern for separating application concerns", "A specific programming language feature", "A testing methodology"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'coupling' in software design?",
+    "options": ["The number of couples working on a project", "The degree of interdependence between software modules. Low coupling is generally desirable, as it means changes in one module are less likely to affect others.", "The strength of a software component", "A type of network connection"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'cohesion' in software design?",
+    "options": ["How well team members cohere", "The degree to which the elements within a single module belong together or are focused on a single task. High cohesion is generally desirable, as it means a module has a well-defined responsibility.", "The physical compactness of code", "A measure of code comments"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "The SOLID principles are a set of design principles for:",
+    "options": ["Database design", "User interface design", "Object-oriented programming and design, aimed at making software designs more understandable, flexible, and maintainable.", "Network protocol design"],
+    "answer": 2,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the Single Responsibility Principle (SRP)?",
+    "options": ["A function should only have one line of code", "A class or module should have only one reason to change, meaning it should have only one specific responsibility.", "A developer should only work on one task at a time", "A software system should only serve a single user"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the Open/Closed Principle (OCP)?",
+    "options": ["Software entities should be open for modification and closed for extension", "Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification (i.e., new functionality should be added by adding new code, not by changing existing, working code).", "Files should be opened and closed explicitly", "The principle of open source and closed source software"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the Liskov Substitution Principle (LSP)?",
+    "options": ["Variables should be substitutable with their values", "Objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program. (Subtypes must be substitutable for their base types).", "Functions should be substitutable with their inline expansions", "Database tables should be substitutable with their views"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the Interface Segregation Principle (ISP)?",
+    "options": ["All interfaces should be kept in a segregated part of the codebase", "No client should be forced to depend on methods (interfaces) it does not use. It's better to have many small, client-specific interfaces than one large, general-purpose interface.", "User interfaces should be segregated from backend logic", "Network interfaces should be segregated by protocol type"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the Dependency Inversion Principle (DIP)?",
+    "options": ["Low-level modules should depend on high-level modules directly", "High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces). Abstractions should not depend on details. Details should depend on abstractions.", "All dependencies in a project should be inverted in order", "Dependencies should be managed by inverting the control flow manually"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'design pattern' in software engineering?",
+    "options": ["A pattern used for UI design aesthetics", "A general, reusable solution to a commonly occurring problem within a given context in software design. Examples include Singleton, Factory, Observer.", "A predefined code template", "A way to enforce coding style"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "The Singleton design pattern ensures that a class:",
+    "options": ["Can only be instantiated by a single other class", "Has only one instance and provides a global point of access to it", "Can only have a single method", "Is used only in single-threaded applications"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "The Factory Method design pattern is used to:",
+    "options": ["Manufacture hardware components for software", "Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.", "Optimize factory production lines using software", "A pattern for creating multiple instances of the same object quickly"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "The Observer design pattern is used when:",
+    "options": ["A subject needs to observe its dependencies", "An object (the subject) maintains a list of its dependents (observers) and notifies them automatically of any state changes, usually by calling one of their methods.", "Code needs to be observed for errors by a monitoring tool", "Users need to observe changes in the UI"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'version control' (e.g., Git, SVN)?",
+    "options": ["Controlling the version of the operating system", "A system that records changes to a file or set of files over time so that you can recall specific versions later. It allows multiple people to collaborate on a project, track history, and manage different lines of development (branches).", "A way to control access to different software versions for users", "A tool for automatically updating software to the latest version for end-users"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'repository' in a version control system like Git?",
+    "options": ["A secure storage location for compiled binaries", "A collection of files and folders, along with a history of changes (commits) made to those files. It can be local or remote (e.g., on GitHub, GitLab).", "A database for storing version control commands", "A list of users who have access to the versioned code"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'commit' in Git?",
+    "options": ["A promise to complete a feature by a certain date", "A snapshot of the changes made to the files in a repository at a specific point in time, along with a commit message describing the changes and metadata like author and timestamp.", "A command to compile the current state of the code", "A way to lock files to prevent further changes"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'branch' in Git?",
+    "options": ["A physical branching of server hardware", "An independent line of development within a repository. Branches allow developers to work on different features, bug fixes, or experiments simultaneously without affecting the main codebase (e.g., `main` or `master` branch).", "A type of conditional statement used in Git scripting", "A connection point between two different repositories"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'merging' branches in Git?",
+    "options": ["Deleting one of the branches to simplify the history", "The process of combining the changes from different branches (e.g., a feature branch and the main branch) into a single branch, integrating their histories.", "Creating a new branch that is an exact copy of an existing one", "Archiving old branches to save space"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'pull request' (or merge request) on platforms like GitHub or GitLab?",
+    "options": ["A request to pull the latest version of the software for use", "A formal proposal to merge changes from one branch (e.g., a feature branch) into another (e.g., the main branch). It typically triggers code review, automated checks, and discussion before the changes are integrated.", "A command to fetch updates from a remote repository into your local branch", "A request for help from another developer to pull their changes"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'code review'?",
+    "options": ["Reviewing the software's user interface", "A software quality assurance activity in which one or several people check a program mainly by viewing and reading parts of its source code, and they do so after implementation or as an interruption of implementation.", "A performance review for coders", "Automatically scanning code for viruses"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'unit testing'?",
+    "options": ["Testing the entire application as a single unit", "A software testing method by which individual units of source code—sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures—are tested to determine whether they are fit for use.", "Testing performed by a single user or unit", "Testing the user interface units"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'integration testing'?",
+    "options": ["Testing the integration of new developers into a team", "A phase in software testing in which individual software modules are combined and tested as a group. It occurs after unit testing and before validation testing.", "Integrating all test scripts into one file", "Testing the integration of different programming languages"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'system testing'?",
+    "options": ["Testing the operating system only", "Testing a complete and fully integrated software product to evaluate its compliance with specified requirements.", "Testing individual system components in isolation", "Testing the system's hardware components"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'acceptance testing' (or User Acceptance Testing - UAT)?",
+    "options": ["Testing if the developers accept the project requirements", "A phase of software testing in which the software is tested in the 'real world' by the intended audience or business representative. It's done to verify that the system meets the customer's specified requirements and is fit for purpose.", "Accepting test results without verification", "Testing the software's ability to accept user input"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'regression testing'?",
+    "options": ["Testing older versions of software", "A type of software testing that verifies that previously developed and tested software still performs correctly after it has been changed or interfaced with other software. The purpose is to ensure that new code changes do not adversely affect existing functionality.", "Testing features that have regressed in quality", "Testing software by regressing user data"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'black-box testing'?",
+    "options": ["Testing software with the monitor turned off", "A method of software testing that examines the functionality of an application without peering into its internal structures or workings. Test cases are based on specifications and requirements, i.e., what the system is supposed to do.", "Testing only the dark mode of an application", "Testing software that is proprietary and closed-source"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'white-box testing' (or clear-box/glass-box testing)?",
+    "options": ["Testing software with a white user interface", "A method of software testing that tests internal structures or workings of an application, as opposed to its functionality (i.e., black-box testing). The tester has knowledge of the system's internal logic and code structure.", "Testing software in a brightly lit room", "Testing open-source software only"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'code coverage' in software testing?",
+    "options": ["The amount of code that has user comments", "A measure used to describe the degree to which the source code of a program is executed when a particular test suite runs. Higher code coverage can be an indicator of more thorough testing but doesn't guarantee correctness.", "Covering the source code with a protective license", "The number of lines of code covered by insurance policies"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'mocking' in unit testing?",
+    "options": ["Making fun of the code being tested", "Creating mock objects (simulated objects) that mimic the behavior of real dependencies (e.g., database connections, external APIs, other classes) in a controlled way. This allows testing a unit of code in isolation.", "A technique for testing user interface mockups", "Using a mockingbird to announce test results"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'stubbing' in software testing?",
+    "options": ["Leaving parts of the code as unfinished stubs for later completion", "Providing pre-programmed, canned responses for dependencies during a test. Stubs are used to control the behavior of the dependency or to provide specific data needed for the test, without implementing the full logic of the dependency.", "A way to stub out (remove) unnecessary code during testing", "Shortening function names to stubs for easier testing"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is CI/CD (Continuous Integration / Continuous Delivery or Deployment)?",
+    "options": ["A methodology for integrating code only at the end of the project", "A set of practices where developers frequently merge their code changes into a central repository (CI), after which automated builds and tests are run. Continuous Delivery/Deployment then automates the release of software to staging or production environments.", "Customer Integration / Customer Deployment", "A type of secure coding practice"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Continuous Integration (CI) aims to:",
+    "options": ["Integrate all software components once, at the end of development", "Automate the process of developers merging their code changes into a shared repository frequently (e.g., multiple times a day), where each integration is verified by an automated build and automated tests.", "Integrate user feedback continuously throughout the project", "Continuously improve the integration between different software tools"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "Continuous Delivery (CD) aims to:",
+    "options": ["Deliver software to customers only when specifically requested", "Ensure that software can be released reliably whenever needed, by automating the release process. Every code change that passes automated tests is automatically built and deployed to a testing/staging environment, ready for potential release to production.", "Deliver software updates continuously, even if they are not tested", "Focus on delivering physical CD-ROMs to customers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "Continuous Deployment (often also CD) goes a step further than Continuous Delivery by:",
+    "options": ["Deploying software only once a month", "Automatically deploying every change that passes all stages of the production pipeline (build, test, staging) to the production environment, without manual intervention.", "Focusing on deploying documentation continuously", "Deploying software to development environments only"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'technical debt'?",
+    "options": ["The cost of hardware and software licenses", "A concept in software development reflecting the implied cost of rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer. If not addressed, it can make future development slower and more error-prone.", "Debt incurred from attending technical conferences", "A formal record of all unpaid technical invoices"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'refactoring' code?",
+    "options": ["Deleting and rewriting large sections of code from scratch", "The process of restructuring existing computer code—changing the factoring—without changing its external behavior or functionality. The goal is to improve nonfunctional attributes like readability, maintainability, performance, or reduce complexity.", "Adding new features to existing code without changing its structure", "Commenting out old or unused code"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "The 'DRY' principle in software development stands for:",
+    "options": ["Don't Repeat Yourself", "Do Replicate Yearly", "Develop, Review, Yield", "Data Redundancy Yields (problems)"],
+    "answer": 0,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "The 'KISS' principle in software design stands for:",
+    "options": ["Keep It Super Simple", "Keep It Short and Sweet", "Keep It Simple, Stupid (or Keep It Simple and Straightforward)", "Knowledge, Implementation, System, Support"],
+    "answer": 2,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "The 'YAGNI' principle in software development stands for:",
+    "options": ["You Always Get New Ideas", "You Aren't Gonna Need It", "Yesterday's Awesome Graphics, Not Implemented", "Yield, Acknowledge, Generate, Notify, Iterate"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'scalability' in software systems?",
+    "options": ["The ability of the software to be understood by many developers", "The capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth. Can refer to performance, user load, data volume, etc.", "The physical size of the software installation", "The number of different scales (e.g., units of measurement) the software can handle"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Vertical scaling (scaling up) of a system involves:",
+    "options": ["Adding more identical server instances to a cluster", "Increasing the resources (e.g., CPU, RAM, storage) of an existing single server or node.", "Distributing the system load across multiple geographical regions", "Scaling the database schema by adding more columns (vertical growth)"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Horizontal scaling (scaling out) of a system involves:",
+    "options": ["Increasing the RAM or CPU power of a single server", "Adding more server instances or nodes to a pool of resources to distribute the workload.", "Using a taller server rack", "Scaling the application to support wider screens"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'Big O notation' (e.g., O(n), O(log n), O(n²)) used for?",
+    "options": ["A notation for object-oriented class design", "To describe the asymptotic behavior (time or space complexity) of an algorithm in relation to the size of its input data, providing a standardized way to analyze and compare algorithm efficiency.", "A way to denote very large numbers in software documentation", "A musical notation system used by some software developers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "An algorithm with O(1) time complexity has an execution time that is:",
+    "options": ["Directly proportional to the input size (n)", "Constant, regardless of the input size", "Logarithmic with respect to the input size", "Quadratic with respect to the input size (n²)"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "An algorithm with O(n) time complexity typically means its execution time:",
+    "options": ["Is constant for all input sizes", "Grows linearly with the size of the input (n)", "Grows quadratically (n²) with the size of the input", "Grows logarithmically (log n) with the size of the input"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Which is generally more efficient for large inputs: an O(log n) algorithm or an O(n) algorithm?",
+    "options": ["O(n)", "O(log n)", "They are equally efficient", "Depends on the specific implementation details"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'API documentation'?",
+    "options": ["Documentation for the API developers only", "Information that describes how to use and integrate with an Application Programming Interface (API), including details about endpoints, request/response formats, authentication methods, parameters, and examples.", "A list of all APIs used in a project", "Documentation about the physical installation of API servers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'Software Development Kit' (SDK)?",
+    "options": ["A kit for developing soft skills", "A collection of software development tools, libraries, documentation, code samples, and guides that enable developers to create applications for a specific software package, hardware platform, operating system, or service.", "A physical kit with software installation media", "A set of development kid's toys"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'source code obfuscation'?",
+    "options": ["Making source code more readable and understandable", "The process of deliberately making source code difficult for humans to understand, often to protect intellectual property or make reverse engineering harder. It does not typically provide strong security.", "A way to encrypt source code completely", "Automatically generating comments for source code"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'pair programming'?",
+    "options": ["Programming applications for couples", "An agile software development technique in which two programmers work together at one workstation. One, the 'driver', writes code, while the other, the 'navigator' or 'observer', reviews each line of code as it is typed, suggests improvements, and thinks about the strategic direction.", "Using a pair of monitors for programming", "Creating pairs of functions that work together"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'bug tracking system' (e.g., Jira, Bugzilla)?",
+    "options": ["A system for tracking insects in the office", "A software application that is designed to help programmers and testers keep track of reported software bugs (defects) in their work. It typically includes features for reporting, prioritizing, assigning, tracking status, and resolving bugs.", "A tool for debugging code by tracking variable values", "A system for automatically fixing bugs in software"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'alpha testing'?",
+    "options": ["Testing the first version (alpha) of a software by external users", "A type of acceptance testing performed by internal employees (e.g., QA team, developers, product managers) within the developing organization, before the software is released to external users (beta testing).", "Testing software that uses alpha blending for graphics", "The very first test performed on a piece of code"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'beta testing'?",
+    "options": ["Testing the second version (beta) of a software by internal employees only", "A type of acceptance testing where the software is released to a limited audience of external users (beta testers) outside of the developing organization to get real-world feedback and identify issues before a wider public release.", "Testing software that is better than the alpha version", "A test that is performed after the software is officially released"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'software maintenance'?",
+    "options": ["Maintaining the hardware servers where software runs", "The process of modifying a software product after it has been delivered to correct faults, improve performance or other attributes, or adapt the product to a modified environment. It includes corrective, adaptive, perfective, and preventive maintenance.", "Only fixing bugs reported by users", "Keeping the software's user manual up-to-date"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'corrective maintenance'?",
+    "options": ["Correcting user documentation", "Reactive modification of a software product performed after delivery to correct discovered problems (bugs).", "Proactively improving software to prevent future issues", "Adapting software to new environments"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'adaptive maintenance'?",
+    "options": ["Adapting the user interface to user preferences", "Modification of a software product performed after delivery to keep a software product usable in a changed or changing environment (e.g., new operating system, new hardware, changes in regulations).", "Adapting software to learn from user behavior", "Fixing bugs that adapt over time"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'perfective maintenance'?",
+    "options": ["Making the software look perfect visually", "Modification of a software product after delivery to improve performance, maintainability, or other attributes, even if there are no existing faults. This includes enhancements, refactoring, and optimizations.", "Ensuring the software is bug-free (perfect)", "Adding perfect documentation to the software"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'preventive maintenance'?",
+    "options": ["Preventing users from accessing certain features", "Modification of a software product after delivery to detect and correct latent faults before they become effective faults (e.g., refactoring code to reduce complexity, updating libraries to address potential future vulnerabilities).", "Installing antivirus software to prevent issues", "Creating backups to prevent data loss"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'DevOps'?",
+    "options": ["A specific programming language for operations", "A set of practices, cultural philosophies, and tools that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle and provide continuous delivery with high software quality, emphasizing automation, collaboration, and communication.", "A job title for a developer who also manages IT infrastructure", "Developing software for operational tasks only"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'Infrastructure as Code' (IaC)?",
+    "options": ["Writing infrastructure documentation using code comments", "The process of managing and provisioning computer data centers (infrastructure) through machine-readable definition files (code), rather than physical hardware configuration or interactive configuration tools. Tools like Terraform, Ansible, Chef, Puppet are used.", "Embedding infrastructure details (e.g., IP addresses) directly into application source code", "A programming language specifically designed for defining infrastructure components"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'containerization' (e.g., using Docker)?",
+    "options": ["Storing software in physical containers for shipping", "A lightweight form of virtualization where an application and its dependencies are packaged together into a standardized unit (a container) that can run consistently across different computing environments. Containers share the host OS kernel but have isolated user spaces.", "Creating user interface containers for web pages", "Managing large data containers in a database"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'Kubernetes' (K8s)?",
+    "options": ["A type of container image format", "An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications. It groups containers into logical units (pods) and manages their lifecycle.", "A programming language for creating containers", "A brand of server hardware optimized for containers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'microservices architecture'?",
+    "options": ["An architecture where all services run on microcontrollers", "An architectural style that structures an application as a collection of small, independent, and loosely coupled services. Each service is responsible for a specific business capability, can be developed and deployed independently, and often communicates with others via APIs (e.g., HTTP/REST, gRPC, message queues).", "An architecture for very small software applications only", "A way to make monolithic applications appear as microservices"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'monolithic architecture'?",
+    "options": ["An architecture built from a single, large stone", "A traditional software architecture where an entire application is built as a single, unified unit. All components (e.g., UI, business logic, data access) are tightly coupled and deployed together.", "An architecture that uses only one programming language", "An architecture for applications with a very simple, monolithic user interface"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is an 'API Gateway' in a microservices architecture?",
+    "options": ["A physical gateway device for API traffic", "A server that acts as a single entry point for all client requests to backend microservices. It can handle tasks like request routing, composition/aggregation, authentication, rate limiting, logging, and protocol translation.", "A gateway for accessing external third-party APIs only, not internal microservices", "A software library for creating API documentation"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'serverless computing' (e.g., AWS Lambda, Azure Functions, Google Cloud Functions)?",
+    "options": ["Developing applications without needing any backend servers at all", "A cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. Developers write functions (code snippets) that are executed in response to events, and they are typically billed based on the actual execution time and resources consumed, without managing the underlying server infrastructure.", "Running all application logic on the client-side, making servers unnecessary", "A type of server hardware that requires no manual configuration"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'dependency injection' (DI)?",
+    "options": ["Injecting malicious code through dependencies", "A design pattern in which an object or function receives other objects or functions that it depends on (its dependencies) from an external source (e.g., a DI container, a factory, or manually), rather than creating them internally. This promotes loose coupling, testability, and flexibility.", "A way to automatically download and install project dependencies", "Injecting JavaScript dependencies into an HTML page"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Inversion of Control' (IoC)?",
+    "options": ["A principle where the user inverts control of the application", "A design principle in which custom-written portions of a computer program receive the flow of control from a generic framework or container. Dependency Injection is a common way to achieve IoC. The framework calls into your code, rather than your code calling the framework for everything.", "Inverting the order of execution of program statements for optimization", "A security measure to invert control flow if an attack is detected"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'software license'?",
+    "options": ["A license plate for a software developer's car", "A legal instrument (usually by way of contract law, with or without printed material) governing the use or redistribution of software. It grants specific rights to the user, often with conditions and restrictions.", "A certificate proving a developer is licensed to write software", "A hardware dongle required to run software"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'open-source software' (OSS)?",
+    "options": ["Software whose source code is not available to the public", "Software with source code that anyone can inspect, modify, and enhance. It is often developed collaboratively and distributed under licenses that grant users rights to use, study, change, and distribute the software and its source code.", "Software that can only be used on open hardware platforms", "A type of software that is always free of charge"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'proprietary software' (or closed-source software)?",
+    "options": ["Software that is owned by the user", "Software that is owned by an individual or a company (its publisher/developer) and is licensed to end-users under specific terms and conditions. Its source code is typically not made available, and users usually cannot modify or redistribute it freely.", "Software that can only be used for proprietary purposes", "Software that is very expensive"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'copyleft' (e.g., GNU General Public License - GPL)?",
+    "options": ["A type of copyright that prevents copying", "A licensing strategy that allows users to freely use, modify, and distribute a work (and derivative works) under the condition that any derivative works must also be distributed under the same or compatible copyleft terms. It aims to preserve the freedom of the software.", "The act of copying software from left to right", "A license that only allows copying for non-commercial use"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'permissive software license' (e.g., MIT License, Apache License 2.0)?",
+    "options": ["A license that permits all possible uses without any restrictions", "An open-source software license that has minimal restrictions on how the software can be used, modified, and redistributed. They generally allow derivative works to be licensed under different terms (including proprietary).", "A license that is very difficult to obtain permission for", "A license that only permits use for academic purposes"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'end-of-life' (EOL) for a software product?",
+    "options": ["The point at which the software becomes sentient", "The date after which a software product will no longer be supported, updated, or maintained by its vendor. Users are typically encouraged to migrate to a newer version or alternative product.", "The end of the software's useful lifespan as determined by users", "When the software is deleted from all servers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'software testing life cycle' (STLC)?",
+    "options": ["The lifespan of a software tester's career", "A sequence of specific activities conducted during the software testing process, from test planning and design to execution, evaluation, and closure.", "The cycle of testing, fixing bugs, and re-testing", "The time it takes for software to go through all its life stages"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'smoke testing'?",
+    "options": ["Testing software in a smoky environment", "A preliminary type of software testing performed after a new build is created to verify that the critical functionalities of the program are working correctly. If the smoke test fails, the build is often rejected, saving time on more extensive testing.", "Testing the smoke alarm features of a software", "A very quick, superficial test"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'sanity testing'?",
+    "options": ["Testing if the developers are sane", "A subset of regression testing performed after a software build (often after minor changes or bug fixes) to ensure that the core functionalities are still working as expected and that recent changes haven't broken anything critical. It's typically a quick check.", "Testing software for logical sanity", "A test to ensure the software doesn't cause user insanity"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'performance testing'?",
+    "options": ["Testing the performance of the development team", "A type of software testing that determines how a system performs in terms of responsiveness, stability, scalability, and resource usage under a particular workload. Subtypes include load testing, stress testing, endurance testing, spike testing.", "Testing if the software performs all its functions", "A review of the software's visual performance"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'load testing'?",
+    "options": ["Testing how much weight a server can physically hold", "A type of performance testing that subjects a system to expected or anticipated peak load conditions to verify that it can handle the load and perform adequately.", "Testing the time it takes to load the software", "Testing the software's ability to load different file types"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'stress testing'?",
+    "options": ["Testing how much stress developers can handle", "A type of performance testing that subjects a system to loads beyond its normal or peak operating conditions to determine its robustness, stability, and how it behaves under extreme load (e.g., finding its breaking point).", "Testing software in stressful user scenarios", "A test to see if the software causes stress to the user"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'usability testing'?",
+    "options": ["Testing if the software can be used by anyone", "A technique used in user-centered interaction design to evaluate a product by testing it on users. It focuses on ease of use, learnability, efficiency, memorability, error prevention, and user satisfaction.", "Testing the reusability of software components", "Testing if the software is useful for its intended purpose"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'security testing'?",
+    "options": ["Testing the physical security of the development office", "A type of software testing that intends to uncover vulnerabilities in the security mechanisms of a software system and protect data and resources from potential intruders or malicious attacks.", "Testing if the software uses secure passwords", "A test performed by security guards"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'fuzz testing' (fuzzing)?",
+    "options": ["Testing software with fuzzy, unclear requirements", "A software testing technique that involves providing invalid, unexpected, or random data as input to a program to discover vulnerabilities, crashes, or unhandled errors. Often used for security testing.", "Testing applications with soft, fuzzy user interfaces", "A very gentle and superficial form of software testing"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'static analysis' in software testing?",
+    "options": ["Analyzing software that is not currently running (static state)", "The analysis of computer software that is performed without actually executing programs, typically by using automated tools (linters, static analyzers) to examine source code or compiled code for potential errors, vulnerabilities, or style violations.", "Analyzing only the static parts of a software system", "Testing software that has a static user interface"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'dynamic analysis' in software testing?",
+    "options": ["Analyzing software that changes dynamically over time", "The analysis of computer software that is performed by executing programs on a real or virtual processor. It involves observing the system's behavior, performance, memory usage, code coverage, and other runtime characteristics. Debugging and profiling are forms of dynamic analysis.", "Analyzing only the dynamic parts of a software system", "Testing software that has a very dynamic user interface"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'code smell'?",
+    "options": ["A piece of code that physically smells bad", "A surface indication in the source code of a program that usually corresponds to a deeper problem or design flaw. Examples include long methods, large classes, duplicated code, feature envy. It suggests refactoring might be needed.", "A type of bug that is hard to detect (like a bad smell)", "A comment in the code indicating a problem"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Big Design Up Front' (BDUF)?",
+    "options": ["Designing software with very large user interfaces", "An approach to software development where the design of the system is completed in detail before any implementation begins. This is characteristic of Waterfall models and contrasts with the iterative design favored by Agile methodologies.", "A design that is too big to be implemented", "Using very large fonts in design documents"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Domain-Driven Design' (DDD)?",
+    "options": ["Designing software based on internet domain names", "An approach to software development that focuses on modeling the software to match a domain (the subject area or business context) according to input from domain experts. It emphasizes a common ubiquitous language, bounded contexts, aggregates, entities, value objects, etc.", "Designing software for a specific customer domain only", "A way to drive a project by focusing on database domain constraints"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'ubiquitous language' in Domain-Driven Design?",
+    "options": ["A programming language that is used everywhere", "A common, rigorous language shared by developers, domain experts, and other stakeholders, used in all communications related to the software project, including code, documentation, and discussions, to ensure clarity and reduce misunderstandings about the domain model.", "A language that is easy for everyone to understand", "A language that is automatically translated for different users"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'bounded context' in Domain-Driven Design?",
+    "options": ["A context that has strict memory boundaries", "A specific responsibility area within a larger domain, with its own explicit boundaries, ubiquitous language, and model. Different bounded contexts might model the same concept differently based on their specific needs.", "A context that is limited by security permissions", "The context of a function call with bounded parameters"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Test-Driven Development' (TDD)?",
+    "options": ["Developing software primarily by performing manual tests", "A software development process where developers write automated tests for a new feature or functionality *before* writing the actual code to implement it. The cycle is typically: write a failing test (Red), write the minimal code to make the test pass (Green), then refactor the code (Refactor).", "Driving the development process with user feedback from tests", "A methodology where tests are written by a dedicated QA team before development starts"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Behavior-Driven Development' (BDD)?",
+    "options": ["Developing software based on predicted user behavior from analytics", "A software development process that encourages collaboration between developers, QA, and non-technical participants by defining software behavior in a natural language format (e.g., using Gherkin syntax: Given-When-Then). These specifications can then be automated as tests, focusing on the desired behavior of the system from a user's perspective.", "A way to drive software development by analyzing application logs for user behavior", "A methodology for predicting future software behavior based on current trends"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'API-first design'?",
+    "options": ["Designing the API documentation before anything else", "An approach to software development where the Application Programming Interface (API) is treated as a first-class citizen and is designed and developed before the applications or UIs that will consume it. This promotes modularity, reusability, and allows parallel development of client and server components.", "Designing applications that only use APIs from other services", "A design where the API is the only user interface"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Graceful Degradation'?",
+    "options": ["A system that degrades very quickly to save resources", "The ability of a computer, machine, electronic system or network to maintain limited functionality even when a large portion of it has been destroyed or rendered inoperative. The purpose is to prevent catastrophic failure.", "A design that looks elegant even when it's old or failing", "Degrading system performance gradually to notify users of impending failure"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Progressive Enhancement'?",
+    "options": ["Enhancing software by adding progressively more complex features over time", "A web design strategy that emphasizes loading core webpage content first, then progressively adding more nuanced and technically rigorous layers of presentation and features on top of the content as the user's browser/internet connection allows. This ensures basic functionality for all users.", "A way to enhance software by progressively increasing its performance", "A methodology for developing Progressive Web Apps only"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'Software Bill of Materials' (SBOM)?",
+    "options": ["A bill for purchasing software materials", "A formal, machine-readable inventory of software components, libraries, and dependencies that make up a software application, including their versions and license information. SBOMs are increasingly important for security and compliance.", "A list of materials needed to build a software product (like a recipe)", "A bill of lading for shipping software"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Chaos Engineering'?",
+    "options": ["Intentionally introducing chaos into the development team's workflow to build resilience", "The discipline of experimenting on a distributed system in production (or a production-like environment) in order to build confidence in the system's capability to withstand turbulent and unexpected conditions. This involves proactively injecting controlled failures (e.g., server outages, network latency, CPU spikes).", "A way to engineer chaotic user interfaces for testing user patience and adaptability", "A software tool for simulating chaotic weather patterns that might affect data centers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "The CAP theorem (Consistency, Availability, Partition tolerance) states that a distributed data store can simultaneously provide at most two of these three guarantees. Which one is often sacrificed or relaxed in highly available and scalable systems?",
+    "options": ["Availability", "Partition tolerance (this is usually a must-have for distributed systems)", "Strong Consistency (often relaxed in favor of eventual consistency)", "None, all three can be fully achieved"],
+    "answer": 2,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Eventual Consistency'?",
+    "options": ["A consistency model where data will eventually become corrupted if not updated", "A consistency model used in distributed systems where, if no new updates are made to a given data item, all accesses to that item will eventually return the last updated value. There might be a temporary period where different nodes return different (stale) values.", "A guarantee that data is always immediately consistent across all nodes", "A system that eventually becomes consistent only after a full system reboot"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Strong Consistency'?",
+    "options": ["A consistency model that is very difficult to implement", "A consistency model where all accesses to a data item see the effects of all previous writes to that item in a globally agreed-upon order, typically meaning that after an update, any subsequent access will return the updated value immediately, regardless of which node is accessed.", "A consistency model that uses strong encryption", "A system that is consistently strong in performance"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Sharding' in database architecture?",
+    "options": ["Breaking database tables into small, sharp pieces", "A type of database partitioning where data (rows or documents) is horizontally split across multiple database servers (shards). Each shard holds a subset of the data, and queries can be directed to the appropriate shard. This allows for improved scalability (handling more data and traffic) and performance for very large datasets.", "A technique for encrypting database shards for security", "Creating backups of individual database shards only"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Database Replication'?",
+    "options": ["Replicating database errors across multiple servers", "The process of copying and maintaining database objects (e.g., tables, entire databases) in multiple locations (on different servers) to improve availability (fault tolerance, disaster recovery), read performance (by distributing read queries), or for data distribution.", "Creating identical database schemas without data", "Repeating database queries multiple times for consistency checks"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'master-slave' (or primary-replica) database replication setup?",
+    "options": ["A setup where one database server controls another with a whip", "A common replication topology where one database server (the master/primary) handles all write operations, and these changes are then replicated to one or more other database servers (slaves/replicas), which can typically handle read queries.", "A database setup where slaves can also write to the master", "A system where all databases are equal masters"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'ACID' in the context of database transactions?",
+    "options": ["A type of corrosive substance used to clean databases", "An acronym for Atomicity, Consistency, Isolation, Durability, a set of properties that guarantee database transactions are processed reliably.", "All Code Is Documented", "Automated Consistency In Databases"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "Atomicity in ACID transactions means:",
+    "options": ["Transactions are very small in size", "All operations within a transaction are treated as a single, indivisible unit; either all of them complete successfully, or none of them do (if one fails, the entire transaction is rolled back).", "Data is stored at the atomic level within the database", "Transactions are isolated from each other to prevent atomic clashes"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "Consistency in ACID transactions means:",
+    "options": ["Data values are always consistent across all user views", "A transaction brings the database from one valid (consistent) state to another, ensuring that all defined rules, constraints, and invariants of the database are maintained.", "The database schema remains consistent and unchanged during a transaction", "Users experience consistent performance during transactions"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "Isolation in ACID transactions means:",
+    "options": ["The database server is completely isolated from the network during a transaction", "Concurrent transactions execute in a way that their effects are isolated from each other, as if they were executed serially (one after another). This prevents interference between transactions, and different isolation levels offer varying degrees of this.", "Each user session is isolated from other user sessions", "Data affected by a transaction is stored in an isolated, temporary location"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "Durability in ACID transactions means:",
+    "options": ["The database software itself is durable and has a long lifespan", "Once a transaction has been successfully committed, its changes are permanent and will survive any subsequent system failures (e.g., power outages, crashes). This typically involves writing changes to persistent storage.", "Data is stored in a very durable physical format (e.g., on stone tablets)", "The database can endure very high transaction loads without failing"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'vendor lock-in'?",
+    "options": ["When a vendor locks their office and developers cannot get in", "A situation where a customer using a specific vendor's product or service finds it difficult or costly to switch to a competitor's offering, due to factors like proprietary technologies, incompatible data formats, significant retraining costs, or contractual obligations.", "A security feature where only authorized vendors can access a system", "Locking software to a specific hardware vendor's platform by choice"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'observability' in software systems (often referring to logs, metrics, traces)?",
+    "options": ["The ability of users to observe all internal system data", "The ability to understand the internal state or condition of a complex system based on the external outputs it generates (e.g., logs for detailed events, metrics for aggregated performance/health indicators, distributed traces for request flows across services). This helps in debugging, monitoring, and improving system reliability.", "Making the system's source code publicly observable for transparency", "A security feature to observe and log all unauthorized access attempts"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What are 'Service Level Objectives' (SLOs)?",
+    "options": ["Objectives for slowing down service delivery to improve quality", "Specific, measurable targets for a service's performance or reliability, agreed upon internally or as part of a Service Level Agreement (SLA). Examples include 99.9% uptime, average API response time < 100ms, or error rate < 0.1%.", "A list of objectives for designing service-oriented architectures", "Software License Objectives defining service usage terms"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What are 'Service Level Agreements' (SLAs)?",
+    "options": ["Agreements for software licensing and support", "A contract between a service provider and a customer that defines the expected level of service, including specific metrics (often based on SLOs), responsibilities, and remedies or penalties if the agreed-upon service levels are not met.", "Secure Layer Agreements for network communication", "System Load Agreements defining maximum permissible load"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Recovery Point Objective' (RPO)?",
+    "options": ["The objective for recovering all project documentation", "The maximum acceptable amount of data loss (measured in time) that a business can tolerate following a disaster or disruption. It defines how up-to-date the recovered data must be (e.g., RPO of 1 hour means data loss should not exceed 1 hour's worth).", "Optimization of the data recovery process", "The objective for achieving real-time performance after recovery"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Recovery Time Objective' (RTO)?",
+    "options": ["The objective for recovering user time lost due to an outage", "The maximum acceptable amount of time that a system, application, or business process can be unavailable after a disaster or disruption before it must be restored to normal operation.", "The objective for achieving real-time operational status immediately after a failure", "The objective for remote transaction recovery speed"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'postmortem' or 'incident review' in software operations?",
+    "options": ["An autopsy performed on a failed server by a medical examiner", "A structured process conducted after a significant incident (e.g., an outage, security breach, major bug) to analyze what happened, the timeline, the impact, the root cause(s), what went well during the response, what could have been done better, and what actions can be taken to prevent similar incidents or improve future responses. It is ideally blameless.", "A review of a software project after it has been officially terminated and all developers have left", "A medical examination of software code to find 'diseases' (bugs)"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'feature flag' (or feature toggle)?",
+    "options": ["A flag in the code indicating a feature is fully complete and tested", "A technique in software development that allows turning specific features of an application on or off at runtime (or build time), without deploying new code. This enables practices like A/B testing, canary releases, gradual rollouts, and decoupling deployment from release.", "A physical flag on a server indicating which features are enabled", "A flag used in the user interface to highlight new or experimental features"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'A/B testing'?",
+    "options": ["Testing if version A of software is always better than version B", "A method of comparing two versions (A and B) of a webpage, app feature, email, or other component by showing the two variants to similar groups of users simultaneously and then evaluating which version performs better against a predefined target metric (e.g., conversion rate, click-through rate, engagement).", "Testing software with only 'A' grade and 'B' grade quality levels", "A way to test both the frontend (A) and backend (B) of an application simultaneously"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'dogfooding' in software development?",
+    "options": ["Developing software specifically for pet food companies and their dogs", "The practice of a company using its own products or services internally before releasing them to the public (i.e., 'eating your own dog food'). This helps test the product in a real-world environment and identify issues or areas for improvement from an internal user perspective.", "A type of stress testing where software is subjected to chaotic 'dog-like' input", "A process of feeding bug reports to a 'watchdog' system"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'technical SEO' primarily concerned with?",
+    "options": ["Writing highly technical content for SEO purposes", "Optimizing the technical aspects of a website to help search engines crawl and index its content more effectively, and to improve user experience related to performance and accessibility. This includes site architecture, mobile-friendliness, page speed, structured data, XML sitemaps, robots.txt, etc.", "SEO techniques that require deep technical knowledge of search engine algorithms", "Using specific SEO software tools"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Time to First Byte' (TTFB)?",
+    "options": ["The time it takes for the user to type the first byte of input on a page", "A metric that measures the responsiveness of a web server. It's the time between the browser making an HTTP request and receiving the first byte of the response from the server. It includes DNS lookup, connection setup (TCP handshake), SSL handshake (if HTTPS), and server processing time.", "The time it takes to download the first byte of a large file from the server", "A measure of the size of the first byte of data received from the server"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What are 'Core Web Vitals' (LCP, FID/INP, CLS)?",
+    "options": ["Vital signs of a web server's hardware health", "A set of specific, user-centric metrics defined by Google to measure key aspects of user experience on the web: loading performance (Largest Contentful Paint - LCP), interactivity (First Input Delay - FID, or Interaction to Next Paint - INP), and visual stability (Cumulative Layout Shift - CLS).", "A list of essential web technologies and standards", "A set of vitamins recommended for web developers for optimal performance"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Interaction to Next Paint' (INP)?",
+    "options": ["The time it takes to paint the next interactive UI element", "A Core Web Vital metric that assesses a page’s overall responsiveness to user interactions (clicks, taps, key presses) by measuring the latency from the user interaction until the next visual update (paint) on the screen. It aims to capture the entire interaction duration.", "The interaction required by the user to trigger the next paint event on the page", "A measure of how many user interactions occur before the browser paints the next frame"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Software Configuration Management' (SCM)?",
+    "options": ["Managing the configuration of software licenses", "The task of tracking and controlling changes in the software, part of the larger cross-disciplinary field of configuration management. SCM practices include version control, build management, and change management.", "Configuring software settings for optimal performance", "A tool for managing user configurations in an application"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'build automation' tool (e.g., Make, Ant, Maven, Gradle, Webpack)?",
+    "options": ["A tool for physically building software development offices", "Software that automates the process of creating an executable application from source code. This can include compiling source code, linking object files, packaging binary files, running automated tests, and deploying the application.", "A tool for building user interfaces with drag-and-drop components", "A hardware tool for assembling software components"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'static code analysis'?",
+    "options": ["Analyzing software that is currently running in a static environment", "The analysis of computer software that is performed without actually executing the program. It's typically done by automated tools (linters, static analyzers) to find potential errors, vulnerabilities, coding style violations, or adherence to best practices in the source code or compiled code.", "Analyzing only the static (unchanging) parts of a software system", "Testing software that has a static, non-interactive user interface"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'dynamic code analysis'?",
+    "options": ["Analyzing software that changes its code dynamically at runtime", "The analysis of computer software that is performed by executing the program on a real or virtual processor. It involves observing the system's behavior, performance, memory usage, code coverage, and other runtime characteristics. Debugging, profiling, and some forms of testing are examples.", "Analyzing only the dynamic (changing) parts of a software system's code", "Testing software that has a very dynamic and interactive user interface"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'fuzz testing' (or fuzzing)?",
+    "options": ["Testing software with unclear or 'fuzzy' requirements", "A software testing technique that involves providing invalid, unexpected, or random data as input to a program to discover vulnerabilities (e.g., crashes, assertion failures, memory leaks, security flaws) that might not be found by traditional testing methods.", "Testing applications with soft, fuzzy-looking user interfaces", "A very gentle and superficial form of software testing"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Big Design Up Front' (BDUF)?",
+    "options": ["Designing software with very large and detailed user interfaces first", "An approach to software development where the design of the system is completed in as much detail as possible before any implementation (coding) begins. This is characteristic of traditional Waterfall models and contrasts with the iterative design favored by Agile methodologies.", "A design that is too big and complex to be successfully implemented", "Using very large font sizes in all design documents and diagrams"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Domain-Driven Design' (DDD)?",
+    "options": ["Designing software based on the domain names of target websites", "An approach to software development that focuses on modeling the software to match a domain (the subject area or business context) according to input from domain experts. It emphasizes creating a rich, expressive domain model with a common ubiquitous language, and uses concepts like bounded contexts, aggregates, entities, value objects, repositories, and domain services.", "Designing software for a specific customer's domain or industry only", "A way to drive a software project by focusing primarily on database domain constraints and normalization"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'ubiquitous language' in Domain-Driven Design?",
+    "options": ["A programming language that is used by everyone in the world", "A common, rigorous language shared by all members of a software development team (developers, domain experts, product owners, testers, etc.). This language is used in all communications related to the project, including discussions, documentation, and the code itself (e.g., class names, method names, variable names), to ensure clarity, reduce misunderstandings, and accurately reflect the domain model.", "A language that is very easy for everyone to understand without prior knowledge", "A language that is automatically translated into different languages for global teams"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'bounded context' in Domain-Driven Design?",
+    "options": ["A software context that has strict memory allocation boundaries", "A specific responsibility area within a larger domain, which has its own explicit boundaries, ubiquitous language, and domain model. Different bounded contexts might model the same real-world concept differently based on their specific needs and perspectives. This helps manage complexity in large systems.", "A context that is limited by user security permissions or access rights", "The context of a function call that has a bounded (fixed) number of parameters"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is an 'Aggregate' in Domain-Driven Design?",
+    "options": ["A function that aggregates data from multiple sources", "A cluster of associated domain objects (entities and value objects) that are treated as a single unit for data changes. Each aggregate has a root entity (the aggregate root), which is the only member of the aggregate that external objects are allowed to hold references to. The aggregate root enforces consistency rules (invariants) for the entire aggregate.", "A database table that aggregates data from other tables", "A way to group multiple UI components into an aggregate view"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'event sourcing' as an architectural pattern?",
+    "options": ["Sourcing events from user interface interactions only", "A pattern where all changes to application state are stored as a sequence of immutable events, rather than directly modifying the current state. The current state of an entity or the entire application can be reconstructed by replaying these events. This provides a strong audit log, enables temporal queries, and can simplify debugging.", "A way to trigger application events based on external data sources", "A pattern for handling only event-driven user interface architectures"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'CQRS' (Command Query Responsibility Segregation)?",
+    "options": ["A query language specifically designed for complex relational schemas", "An architectural pattern that separates read (query) operations from update (write/command) operations for a data store. This allows optimizing the read model (e.g., denormalized views) for queries and the command model for updates and business logic, potentially using different data stores or technologies for each.", "A security principle for segregating user responsibilities based on command and query access", "A way to segregate application code into command-line interface modules and query-based reporting modules"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'Saga' pattern in distributed systems (often with microservices)?",
+    "options": ["A very long, epic story detailing a distributed system's failure and recovery", "A way to manage data consistency across multiple microservices in a distributed transaction scenario without using traditional two-phase commit (2PC). It involves a sequence of local transactions, where each local transaction updates data within a single service and then publishes an event or message that triggers the next local transaction in the saga. Compensating transactions are used to roll back changes if any step in the saga fails.", "A design pattern for logging long sequences of user activities (sagas)", "A specific type of message queue optimized for handling long-running sagas or workflows"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'circuit breaker' pattern in distributed systems?",
+    "options": ["A physical circuit breaker installed in server racks to prevent electrical overload", "A design pattern used to detect failures when calling remote services and prevent an application from repeatedly trying to execute an operation that is likely to fail. After a certain number of failures, the circuit breaker 'trips' (opens), and subsequent calls to the service are immediately failed or redirected (e.g., to a fallback), without attempting to contact the failing service. After a timeout period, it may allow a limited number of test requests (half-open state) to see if the service has recovered.", "A pattern for breaking infinite loops in electrical circuit simulations", "A security pattern to break unauthorized network connections or circuits"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'idempotency key' often used for in APIs, especially for operations like payments or order creation?",
+    "options": ["A cryptographic key that identifies an idempotent user or session", "A unique key provided by the client with a request (typically for state-changing operations like POST). The server can use this key to detect and safely handle retried requests (e.g., due to network issues) for the same operation, ensuring that the operation is performed only once, even if multiple identical requests are received.", "A key used for locking resources to ensure idempotent access", "A primary key in a database table that stores idempotent operation logs"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'Twelve-Factor App' methodology?",
+    "options": ["A methodology for building applications that have exactly twelve core features", "A set of twelve best practices for building software-as-a-service (SaaS) applications that are designed for scalability, maintainability, and portability, especially in cloud environments. Factors include codebase, dependencies, config, backing services, build/release/run stages, processes, port binding, concurrency, disposability, dev/prod parity, logs, and admin processes.", "A 12-step program for recovering from bad application design", "A set of user interface design principles based on twelve factors of usability"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What does 'disposability' mean in the Twelve-Factor App methodology?",
+    "options": ["The application can be easily disposed of (deleted) when no longer needed", "Processes should be disposable, meaning they can be started or stopped gracefully at a moment's notice. This facilitates fast elastic scaling, rapid deployment of code or config changes, and robustness to unexpected shutdowns. State should be externalized.", "The application uses only disposable (single-use) resources", "The application's user interface is designed to be easily disposable and replaceable"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What does 'dev/prod parity' mean in the Twelve-Factor App methodology?",
+    "options": ["Developers and production staff should have equal pay", "Keeping development, staging, and production environments as similar as possible to minimize discrepancies and make continuous delivery more reliable. This includes using the same operating systems, backing services, and dependencies.", "Ensuring that the parity bits in development and production data are the same", "A way to pair developers with production systems for better understanding"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'service mesh' (e.g., Istio, Linkerd, Consul Connect)?",
+    "options": ["A physical mesh network topology used for connecting backend services", "A dedicated infrastructure layer for handling service-to-service communication within a microservices architecture. It provides features like traffic management (routing, load balancing), security (authentication, authorization, encryption), observability (metrics, tracing, logging), and reliability (retries, circuit breaking) often through a set of network proxies (sidecars) deployed alongside each service instance.", "A software tool for designing service APIs using a mesh-like interface", "A mesh data structure for storing service metadata"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Platform Engineering' emerging as a discipline within DevOps?",
+    "options": ["Engineering physical platforms for cloud providers", "The discipline of designing, building, and maintaining self-service internal developer platforms (IDPs) that provide tools, services, and automated workflows to enable application development teams to build, deploy, and operate their software with greater speed, autonomy, and reduced cognitive load, abstracting away underlying infrastructure complexity.", "Engineering software specifically for cross-platform compatibility (e.g., Windows, macOS, Linux)", "A type of civil engineering focused on building stable platforms for data centers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'Software Bill of Materials' (SBOM) and why is it increasingly important for DevOps and security?",
+    "options": ["A bill for purchasing all software components and materials used in a project", "A formal, machine-readable inventory of software components, libraries, and dependencies (both direct and transitive) that make up a software application, including their versions, licenses, and origins. SBOMs are crucial for vulnerability management, license compliance, and supply chain security in DevOps.", "A list of all raw materials needed to manufacture a software product (like a recipe for a physical good)", "A bill of lading document for shipping and delivering software packages to customers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Security as Code'?",
+    "options": ["Writing security policies in a specific programming language called 'SecurityCode'", "The practice of codifying and automating security policies, controls, tests, and configurations as part of the software development and deployment pipeline, often using Infrastructure as Code principles and tools. This integrates security into DevOps workflows (DevSecOps).", "Embedding all security logic directly within the application's source code", "A way to generate secure code automatically using AI tools"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Policy as Code'?",
+    "options": ["Writing company HR policies in a programming language", "The practice of defining and managing policies (e.g., security, compliance, governance, operational policies) as code, using machine-readable definition files and automating their enforcement and auditing. This allows policies to be version-controlled, tested, and applied consistently across systems.", "A specific policy that all code must follow", "Embedding policy decisions directly into application logic using if-else statements"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "Tools like Open Policy Agent (OPA) are used for implementing which concept?",
+    "options": ["Open API documentation standards", "Policy as Code, by providing a unified, declarative language (Rego) and engine for enforcing policies across different parts of the software stack (e.g., Kubernetes, microservices, CI/CD pipelines).", "Open source policy agreements for software licensing", "Managing access policies for open data initiatives"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'FinOps' (Cloud Financial Operations)?",
+    "options": ["A financial operations department specifically for cloud software companies", "A cultural practice and operational discipline that brings financial accountability to the variable spend model of cloud computing. It enables organizations to get maximum business value by helping engineering, finance, technology, and business teams to collaborate on data-driven spending decisions, cost optimization, and budget forecasting for cloud resources.", "A specific type of financial software designed for cloud-based accounting operations", "A role for IT operators who are solely responsible for managing the financial aspects of cloud infrastructure"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'DataOps'?",
+    "options": ["The IT operations team specifically responsible for managing databases", "A collaborative data management practice focused on improving the communication, integration, quality, and automation of data flows between data managers (e.g., data engineers, DBAs) and data consumers (e.g., data scientists, analysts, applications) across an organization. It applies Agile and DevOps principles (e.g., CI/CD, automation, monitoring) to data analytics and data engineering pipelines.", "A specific type of database operation for managing large datasets", "A role for IT operators who are solely responsible for data center physical operations"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'MLOps' (Machine Learning Operations)?",
+    "options": ["The set of operations performed by machine learning models during their execution", "A set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently. It combines ML principles, DevOps practices (CI/CD, automation, monitoring), and Data Engineering to streamline the entire ML lifecycle, from data collection and model training to deployment, monitoring, and retraining.", "A specific type of machine learning algorithm designed for optimizing IT operations", "A role for IT operators who are responsible for managing the hardware infrastructure for ML training"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Value Stream Mapping' (VSM) and how is it applied in DevOps?",
+    "options": ["Mapping the monetary value or profit generated by each software feature or stream", "A Lean management technique used to analyze, visualize, and improve the entire flow of work (the 'value stream') required to deliver a product or service from its conception (e.g., customer request or business idea) to its delivery to the end customer. In DevOps, VSM helps identify waste, bottlenecks, delays, and handoffs in the software development and delivery pipeline (e.g., from idea to code, build, test, deploy, operate), and to design a more efficient future state.", "Creating a geographical map of all valuable data streams within a distributed system", "A way to assign a specific financial value or ROI to different software development teams or streams of work"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'dark launch' (or 'dark deployment')?",
+    "options": ["Deploying software only at night when it's dark", "A technique where new features or code changes are deployed to a production environment but are not made visible or accessible to most users. The new code runs 'darkly' alongside the existing version, allowing for testing its performance, stability, and impact in a real production setting with live traffic (or a subset of it, or synthetic traffic) without affecting the user experience. Feature flags are often used to control visibility.", "A deployment that fails and causes a system 'blackout'", "Deploying software to a secret, hidden server environment"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'AIOps' (Artificial Intelligence for IT Operations)?",
+    "options": ["Using AI to write all IT operations code and scripts automatically", "The application of artificial intelligence (AI), machine learning (ML), big data analytics, and other advanced analytical techniques to automate and enhance IT operations. This includes tasks like proactive anomaly detection in logs/metrics, predictive analytics for capacity planning or failure prediction, intelligent alert correlation, root cause analysis, and automated remediation of incidents.", "A specific AI model or platform designed exclusively for IT support chatbots and helpdesks", "A set of Artificial Intelligence and Operations Principles for ethical AI development"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Chaos Monkey' (popularized by Netflix)?",
+    "options": ["A monkey trained to randomly unplug server cables in a data center", "A tool that is part of Chaos Engineering practices. Chaos Monkey randomly terminates virtual machine instances and containers that run inside a production environment to ensure that services are resilient to instance failures and can automatically recover without significant impact on users.", "A software bug that behaves chaotically and is hard to reproduce", "A security tool that simulates monkey-in-the-middle attacks"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "Explain the concept of 'declarative' vs. 'imperative' approaches in tools like Terraform (declarative) and Ansible (can be both, but often more imperative for tasks).",
+    "options": [
+      "Declarative tools require you to declare all variables; imperative tools infer them.",
+      "Declarative: You define the desired *end state* of the system (e.g., 'I want 3 servers with this configuration'). The tool figures out *how* to achieve that state from the current state. (Terraform, Kubernetes manifests). Imperative: You specify a sequence of *commands or steps* to be executed to reach the end state. (Shell scripts, Ansible tasks often are). Declarative is often better for idempotence and managing complex state.",
+      "Imperative tools are always more efficient as they directly execute commands.",
+      "Declarative means describing in natural language; imperative means using code."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'GitOps' and how does it leverage Git as a single source of truth for both application and infrastructure configuration and deployment?",
+    "options": [
+      "GitOps means using Git exclusively for IT operations tasks, replacing all other tools like ticketing systems or monitoring dashboards.",
+      "GitOps is an operational framework that uses Git as the central repository (single source of truth) for declarative definitions of both applications and infrastructure. Changes to the desired state are made via Git commits and pull requests (enabling review, audit trails). Automated agents (e.g., FluxCD, ArgoCD) continuously monitor the Git repository and reconcile the live system state with the declared state in Git, automatically deploying or configuring as needed.",
+      "GitOps is simply a set of best practices for organizing Git repositories and branching strategies specifically for operations teams, without any automation.",
+      "It is a version of Git software specifically optimized for managing operational scripts and configuration files, with built-in deployment features."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What are the key differences between 'monitoring' and 'observability' in the context of complex distributed systems?",
+    "options": [
+      "Monitoring is proactive, observability is reactive.",
+      "Monitoring is often about collecting predefined metrics and alerting on known failure modes (e.g., CPU > 90%, disk full). Observability is about being able to ask arbitrary questions about a system's internal state and behavior based on the data it emits (logs, metrics, traces), enabling understanding of unknown-unknowns and complex emergent behaviors. Observability provides the tools/data to understand *why* something is happening, not just *that* it's happening.",
+      "Observability uses only logs; monitoring uses metrics and traces.",
+      "Monitoring is for hardware, observability for software."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the concept of 'error budgets' in Site Reliability Engineering (SRE). How are they defined based on SLOs, and how do they influence development velocity vs. reliability focus?",
+    "options": [
+      "Error budgets are financial reserves for compensating users during outages.",
+      "An error budget is derived from a Service Level Objective (SLO), representing the acceptable level of unreliability or downtime for a service over a period (e.g., if SLO is 99.9% uptime, error budget is 0.1% downtime). If the service operates within its error budget, teams can prioritize feature development. If the error budget is consumed (service is too unreliable), development velocity slows, and focus shifts to improving reliability and stability until the budget is replenished.",
+      "Error budgets are determined by the number of bugs fixed per sprint.",
+      "Exceeding an error budget automatically triggers financial penalties for the SRE team."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Canary Analysis' in a progressive delivery pipeline? What kind of metrics and automated decision-making processes are involved?",
+    "options": [
+      "Analyzing the health of canary birds in the data center.",
+      "Canary Analysis involves deploying a new software version to a small subset of users/traffic (the canary) and comparing its performance and error metrics against the stable (baseline) version in real-time. Metrics monitored: error rates, latency, resource usage, business KPIs. Automated decision-making: If canary metrics are within acceptable thresholds compared to baseline, gradually increase traffic to canary. If metrics degrade significantly, automatically roll back the canary deployment.",
+      "It's a manual process of developers analyzing canary logs after deployment.",
+      "Canary analysis focuses only on CPU and memory usage of the canary instance."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Discuss the challenges and best practices for managing secrets (e.g., API keys, database passwords, certificates) in a DevOps environment, especially with containerized and cloud-native applications.",
+    "options": [
+      "Store all secrets directly in Git repositories for version control.",
+      "Challenges: Secure storage, distribution, rotation, access control, auditability. Best practices: Avoid hardcoding secrets in code/config files. Use dedicated secret management tools (e.g., HashiCorp Vault, AWS Secrets Manager, Kubernetes Secrets). Encrypt secrets at rest and in transit. Implement least privilege access to secrets. Automate secret rotation. Audit access and usage. Integrate with CI/CD pipelines securely.",
+      "Secrets should be shared via email or chat for quick access by developers.",
+      "Using environment variables for all secrets is the most secure method in containers."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'compliance as code' and how does it fit into DevSecOps practices?",
+    "options": [
+      "Writing code that is compliant with all company HR policies.",
+      "Compliance as Code involves defining compliance requirements, security policies, and audit controls as machine-readable code (e.g., using tools like Open Policy Agent, Chef InSpec, or custom scripts). This allows for automated validation of infrastructure and applications against these policies throughout the CI/CD pipeline and in production, integrating compliance checks directly into DevOps workflows (DevSecOps) and providing continuous compliance.",
+      "A legal document that defines software compliance in code format.",
+      "Manually checking code for compliance after each deployment."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the concept of 'immutable deployments' and how they contribute to system stability and rollback capabilities.",
+    "options": [
+      "Deployments that can never be changed or updated after initial release.",
+      "Immutable deployments mean that instead of updating existing servers/containers in-place, a new version of the application is deployed on a completely new set of instances built from a consistent, versioned image. Traffic is then shifted to the new instances. If issues arise, rollback is achieved by simply shifting traffic back to the old, still-running instances. This avoids configuration drift, simplifies rollbacks, and improves deployment predictability.",
+      "Deploying software to immutable storage devices like CD-ROMs.",
+      "A deployment strategy where only the database is immutable."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'progressive delivery' and how does it differ from traditional release strategies? Include techniques like feature flagging, canary releases, and A/B testing.",
+    "options": [
+      "Delivering software progressively slower to ensure quality.",
+      "Progressive delivery is a set of practices for releasing software updates to users gradually and with more control, reducing risk. Unlike traditional 'big bang' releases, it uses techniques like: Feature flags (toggle features on/off for subsets of users), Canary releases (roll out to small user group first), A/B testing (compare different versions with different user segments). This allows for gathering feedback, detecting issues early, and mitigating impact of failures.",
+      "Progressive delivery means releasing all features progressively over many years.",
+      "It's a strategy where only progressive web apps are delivered."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe the principles of 'FinOps' (Cloud Financial Operations/Management). How does it help organizations optimize cloud spend and achieve financial accountability in a DevOps culture?",
+    "options": [
+      "FinOps is about developing financial software for cloud operations.",
+      "FinOps is a cultural practice and operational discipline that brings financial accountability to the variable spend model of cloud. It involves collaboration between engineering, finance, and business teams to make data-driven spending decisions. Principles: visibility into cloud costs, cost allocation/chargeback, optimization (right-sizing, reservations, spot instances), forecasting, and governance. Helps optimize cloud spend while enabling DevOps agility.",
+      "FinOps teams are responsible for approving all cloud purchases.",
+      "It's a set of financial tools for cloud providers only."
+    ],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "What are the three core pillars of Observability in DevOps?",
+    "options": ["Monitoring, Alerting, Reporting", "Logs, Metrics, Traces", "Availability, Performance, Security", "Automation, Collaboration, Measurement"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the primary goal of a 'Definition of Done' (DoD) in an Agile/Scrum team?",
+    "options": ["To define when a developer's work day is done", "To create a shared understanding within the team about the quality and completeness required for a product backlog item or increment to be considered complete and potentially shippable.", "To list all tasks that are done in a sprint", "A document signed by the Product Owner when a feature is done"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Value Stream Mapping' (VSM) used for in a DevOps context?",
+    "options": ["To map the financial value of different DevOps tools", "To visualize and analyze the end-to-end flow of work (e.g., from idea to production) required to deliver value to the customer, identifying bottlenecks, waste, and delays in the development and delivery pipeline.", "A tool for mapping data streams between microservices", "To create a visual map of all valuable assets in an organization"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Mean Time To Detection' (MTTD) and why is it an important DevOps metric?",
+    "options": ["The average time it takes to detect a new feature request", "The average time elapsed from when an incident or failure occurs until it is detected by monitoring systems or reported. A lower MTTD is desirable as it allows for faster response and resolution.", "The time spent detecting duplicate code", "The average time to detect security vulnerabilities during code review"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'Deployment Pipeline' in CI/CD?",
+    "options": ["A physical pipe for deploying network cables", "An automated manifestation of the process for getting software from version control into the hands of users. It typically includes stages like build, unit tests, integration tests, acceptance tests, and deployment to various environments (staging, production).", "A pipeline diagram showing deployment timelines", "A sequence of manual steps for software deployment"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'Shift Right' in testing and monitoring?",
+    "options": ["Moving all testing activities to the end of the development cycle", "The practice of continuing testing and monitoring in production environments (shifting focus 'right' on the timeline) to gather real-world performance data, user behavior insights, and detect issues that might not be found in pre-production environments. Includes A/B testing, canary releases, chaos engineering, and production monitoring.", "Using the right shift key for specific testing shortcuts", "Focusing testing on right-handed users only"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Infrastructure as Data' as an extension of IaC?",
+    "options": ["Storing all application data within infrastructure code", "Treating not just the infrastructure configuration, but also operational data, policies, and state related to infrastructure as version-controlled, machine-readable data that can be managed and audited like code.", "Using a database to store infrastructure code", "Representing infrastructure components as data structures in memory"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'Build Artifact Repository' (e.g., Artifactory, Nexus)?",
+    "options": ["A museum for historical build tools", "A centralized storage system for managing and distributing binary software artifacts (e.g., compiled code, libraries, Docker images, package files) generated by the build process. It helps in versioning, caching, and ensuring consistent use of artifacts across different stages and environments.", "A repository for storing source code of build scripts", "A collection of artifacts from ancient software builds"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What are 'YAML Anchors and Aliases' used for in configuration files?",
+    "options": ["To anchor YAML files to specific servers", "A feature in YAML that allows defining a reusable block of configuration (an anchor, e.g., `&myblock`) and then referencing it elsewhere in the document (an alias, e.g., `*myblock`) to avoid repetition and maintain consistency (DRY principle).", "To create hyperlinks (anchors) within YAML documents", "To define aliases for YAML file names"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the 'cattle vs. pets' analogy in infrastructure management?",
+    "options": ["Managing servers that behave like cattle or pets", "Pets: Servers that are unique, manually configured, and lovingly cared for. If one gets sick, you nurse it back to health. Cattle: Servers that are identical, created from a common image, and managed by automation. If one gets sick, you 'shoot' it (terminate it) and replace it with a new, healthy one. DevOps and cloud native often favor the 'cattle' model.", "A way to categorize different types of server hardware", "An analogy for user types: pets are loyal, cattle are numerous"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'pull-based' deployment model (e.g., as used by FluxCD or ArgoCD)?",
+    "options": ["Developers pull deployment requests from a queue", "A model where an agent running in the target environment (e.g., Kubernetes cluster) periodically pulls the desired state configuration from a central repository (e.g., Git) and automatically applies any detected changes to reconcile the live state with the desired state.", "A deployment that is triggered by a git pull command manually run on servers", "Users pull software updates from a central server"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'push-based' deployment model (e.g., traditional Jenkins pipeline deploying to servers)?",
+    "options": ["Developers push code directly to production servers", "A model where the CI/CD server (e.g., Jenkins) actively pushes configuration changes or new application versions to the target environment(s) after a build and test cycle is complete.", "A deployment that is triggered by a git push to the main branch", "Users push requests for software updates"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Git LFS' (Large File Storage)?",
+    "options": ["A Git feature for storing very long file names", "An open-source Git extension for versioning large files (e.g., audio, video, datasets, binaries) with Git. It replaces large files in your Git repository with small text pointers, while storing the actual file contents on a remote LFS server. This keeps the main Git repository small and fast.", "A way to lock large files in Git to prevent changes", "A special Git command for listing large files"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'monorepo'?",
+    "options": ["A repository that uses a monospaced font for all code", "A version control repository that holds the source code for many different projects, libraries, and applications, often within a single organization. This contrasts with a polyrepo approach where each project has its own repository.", "A repository that can only be accessed by one user at a time", "A repository that stores only monolithic applications"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What are some advantages of using a monorepo?",
+    "options": ["Simpler build process for individual projects, smaller repository size", "Easier code sharing and refactoring across projects, atomic commits for cross-project changes, simplified dependency management (for internal dependencies), better visibility and collaboration across teams.", "Faster git clone times for all projects", "Stronger isolation between different projects"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What are some challenges of using a monorepo?",
+    "options": ["Difficult code sharing, complex cross-project refactoring", "Potential for very large repository size and history, longer clone/fetch times, build/test tooling complexity (need to build/test only affected parts), access control granularity, and managing a large number of CI pipelines.", "Harder to manage internal dependencies", "Reduced visibility across projects"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Platform as a Product' in the context of Platform Engineering?",
+    "options": ["Selling the internal developer platform as a commercial product", "Treating the internal developer platform (IDP) itself as a product, with its users (application developers) as customers. This involves understanding user needs, defining a product roadmap, providing good documentation and support, and continuously improving the platform based on feedback.", "A platform that only supports product-based companies", "Using a commercial PaaS offering as the internal platform"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Threat Modeling' in DevSecOps?",
+    "options": ["Modeling threats from competing companies", "A structured process for identifying potential security threats and vulnerabilities in a software system or application *during the design and development phases*. It involves understanding the system, identifying assets, decomposing the application, identifying threats (e.g., using STRIDE), and determining mitigations.", "Creating 3D models of security incidents for training", "A way to model the behavior of attackers after an incident has occurred"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What does 'STRIDE' stand for in threat modeling?",
+    "options": ["Secure, Test, Review, Implement, Deploy, Enhance", "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege - a mnemonic for categorizing types of security threats.", "System Threat Recognition and Incident Defense Engine", "Standard Threat Response and Investigation DEvelopment"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'SAST' (Static Application Security Testing)?",
+    "options": ["Testing static web pages for security issues", "A type of security testing that analyzes an application's source code, bytecode, or binary code for security vulnerabilities *without executing the program*. It helps identify flaws like SQL injection, buffer overflows, or insecure coding patterns early in the SDLC.", "Security testing performed by static (unchanging) automated tools", "A test for ensuring application state remains static and secure"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'DAST' (Dynamic Application Security Testing)?",
+    "options": ["Testing dynamic user interfaces for security flaws", "A type of security testing that analyzes an application for vulnerabilities *while it is running*. DAST tools interact with the application like an attacker would, sending various inputs and observing responses to find issues like XSS, SQL injection, or authentication bypass.", "Security testing performed by dynamic, constantly changing automated tools", "A test for ensuring application data remains dynamic and uncompromised"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'IAST' (Interactive Application Security Testing)?",
+    "options": ["Security testing that requires constant user interaction", "A type of security testing that combines elements of SAST and DAST. It typically uses agents or instrumentation within the running application to monitor its execution, data flow, and configuration, identifying vulnerabilities as the application is used (e.g., during automated or manual testing).", "Interactive tutorials for application security testing", "A tool for testing the security of interactive UI components"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'RASP' (Runtime Application Self-Protection)?",
+    "options": ["A tool for protecting applications from raspberries", "A security technology that is built or linked into an application or application runtime environment, capable of controlling application execution, detecting, and preventing real-time attacks by monitoring application behavior and context.", "Runtime analysis of secure programming practices", "A way to make applications self-destruct if attacked"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'secrets management' tool (e.g., HashiCorp Vault, AWS Secrets Manager)?",
+    "options": ["A tool for managing secret handshakes within a team", "A system designed to securely store, manage, and control access to secrets like API keys, passwords, certificates, and encryption keys. It provides features like centralized storage, access control policies, auditing, and often secret rotation.", "A tool for discovering hidden features (secrets) in software", "A way to keep project plans secret from competitors"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the 'Principle of Least Privilege' (POLP)?",
+    "options": ["Giving users the least number of privileges that makes them slightly annoyed but still functional", "An information security concept where a user, program, or process is granted only the minimum levels of access – or permissions – necessary to perform its job functions or tasks. This helps limit the potential damage from accidents, errors, or malicious attacks.", "A principle that privileges older, more experienced users over newer ones", "Assigning privileges based on the user's least favorite or most challenging tasks"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Defense in Depth' as a security strategy?",
+    "options": ["Building very deep physical defensive walls around data centers and servers", "A security strategy that involves layering multiple, redundant defensive measures and controls throughout a system, network, or application, so that if one security layer is breached, other layers are still in place to protect sensitive assets. It assumes no single defense is impenetrable and aims to provide multiple opportunities to detect and respond to an attack.", "Focusing all defensive security efforts on the deepest, most critical layers of the system", "A military strategy adapted for software security, involving deep packet inspection and trench warfare tactics"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'compliance as code'?",
+    "options": ["Writing code that is compliant with all company HR and dress code policies", "The practice of defining, managing, and automating compliance requirements, security policies, and audit controls as machine-readable code (e.g., using tools like Open Policy Agent, Chef InSpec, or custom scripts). This allows for automated validation of infrastructure and applications against these policies throughout the CI/CD pipeline and in production, integrating compliance checks directly into DevOps workflows and providing continuous compliance.", "A legal document or contract that defines software compliance requirements in a code-like format", "Manually checking application source code for compliance with legal and regulatory standards after each deployment"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Open Policy Agent' (OPA)?",
+    "options": ["An open-source API for managing government policies", "An open-source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire software stack. Policies are written in a declarative language called Rego. OPA decouples policy decision-making from policy enforcement.", "A tool for creating open access policies for software repositories", "An agent that monitors open network ports for policy violations"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Cloud Custodian'?",
+    "options": ["A janitorial service for cloud data centers", "An open-source, rules-based engine for managing public cloud accounts and resources. It allows users to define policies to ensure security, compliance, and cost optimization, and can automate remediation actions.", "A security guard for cloud infrastructure", "A tool for cleaning up unused cloud resources manually"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Server-Side Request Forgery' (SSRF)?",
+    "options": ["When a server forges requests to itself for testing", "A web security vulnerability that allows an attacker to induce a server-side application to make HTTP requests to an arbitrary domain of the attacker's choosing. This can be used to access internal systems, scan internal networks, or interact with services accessible from the server.", "Forging SSL certificates on the server-side", "A type of CSRF attack that targets server-side scripts"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'Web Application Firewall' (WAF)?",
+    "options": ["A firewall that only protects web servers from network layer attacks", "A security solution that sits in front of web applications to monitor, filter, and block malicious HTTP/S traffic. It helps protect against common web exploits like SQL injection, XSS, and CSRF by inspecting traffic against a set of rules.", "A firewall built using web technologies like HTML and JavaScript", "A firewall that only allows access to web applications, blocking all other ports"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'eBPF' (extended Berkeley Packet Filter) and its significance for DevOps?",
+    "options": ["An extended version of the BPF coffee filter for DevOps teams", "A technology that allows safe, efficient, and JIT-compiled programs to be executed directly in the Linux kernel space in response to various events. For DevOps, it's significant for advanced observability (tracing, profiling), networking (custom packet processing, load balancing), and security (sandboxing, intrusion detection) without modifying kernel source or loading kernel modules in the traditional sense.", "A packet filter specifically for email attachments in DevOps pipelines", "An electronic Berkeley physics forum for DevOps discussions"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What are 'golden signals' for monitoring services (often associated with SRE)?",
+    "options": ["Latency, Traffic, Errors, Saturation", "CPU, Memory, Disk, Network", "Availability, Durability, Reliability, Scalability", "Requests, Responses, Logs, Alerts"],
+    "answer": 0,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "Explain 'Saturation' as one of the golden signals.",
+    "options": ["How saturated the market is with a service", "A measure of how 'full' a service or resource is, emphasizing the fraction of the resource that is most constrained (e.g., CPU utilization, memory usage, disk I/O capacity, network bandwidth). High saturation can predict impending performance degradation or outages.", "The color saturation of monitoring dashboards", "How saturated users are with notifications from a service"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'control loop' in the context of automation or Kubernetes controllers?",
+    "options": ["A loop in the source code that controls program flow", "A non-terminating loop that regulates the state of a system. In Kubernetes, controllers watch the desired state (e.g., from API objects) and the current state of the cluster, and take actions to make the current state match the desired state.", "A physical loop of control cables", "A loop for iterating through user control inputs"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Prometheus' in the context of monitoring?",
+    "options": ["A Greek titan who stole fire for monitoring systems", "An open-source systems monitoring and alerting toolkit. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays results, and can trigger alerts if some condition is observed to be true.", "A proprietary monitoring solution from Google", "A tool for promoting an application to production"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'Grafana' often used with Prometheus for?",
+    "options": ["To store Prometheus metrics long-term", "An open-source analytics and interactive visualization web application. It allows you to query, visualize, alert on, and explore metrics from various data sources, including Prometheus, creating dashboards.", "To generate PromQL queries automatically", "A command-line interface for Prometheus"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'PromQL'?",
+    "options": ["A query language for PostgreSQL databases", "Prometheus Query Language - a powerful functional query language used to select and aggregate time series data stored in Prometheus.", "A SQL-like language for promoting code changes", "A programming language for writing Prometheus exporters"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is an 'SLI' (Service Level Indicator)?",
+    "options": ["A specific indicator light on a server", "A quantitative measure of some aspect of the level of service that is provided, such as request latency, error rate, or system uptime. SLOs are defined based on SLIs.", "Software License Indicator", "System Load Index"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between 'imperative' and 'declarative' approaches to IaC/CM?",
+    "options": ["Imperative defines 'what', declarative defines 'how'", "Imperative approach: You specify the exact sequence of commands or steps to execute to achieve the desired state (e.g., shell scripts, some Ansible playbooks). Declarative approach: You define the desired end state of the system, and the tool figures out how to reach that state from the current state (e.g., Terraform, Kubernetes manifests, Puppet resources).", "Declarative is always faster than imperative", "Imperative uses YAML, declarative uses JSON"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'rolling back' a deployment?",
+    "options": ["Physically rolling servers back to a previous location", "The process of reverting a system or application to a previously deployed, stable version after a new deployment has failed or caused critical issues.", "Undoing changes in a Git commit before pushing", "Rolling back user access permissions to a previous state"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'Helm Chart' in Kubernetes?",
+    "options": ["A nautical chart for navigating Kubernetes clusters", "A package of pre-configured Kubernetes resources that can be deployed as a unit. Charts define, install, and upgrade even complex Kubernetes applications, managing their dependencies and configurations.", "A chart showing the health of Helm releases", "A graphical representation of a Kubernetes Helm (steering wheel)"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'sidecar container' pattern in Kubernetes?",
+    "options": ["A container that runs alongside a motorcycle", "A pattern where an auxiliary container (the sidecar) is deployed in the same Pod as the main application container. The sidecar enhances or extends the functionality of the main container, often for tasks like logging, monitoring, proxying, or configuration management, while being tightly coupled and sharing resources like network and storage.", "A container that is smaller than the main application container", "A backup container that takes over if the main one fails"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Kustomize' in the context of Kubernetes configuration management?",
+    "options": ["A tool for creating custom Kubernetes distributions", "A standalone tool (also built into `kubectl`) for customizing Kubernetes object configurations using a template-free approach. It allows managing application configuration by overlaying patches and modifications on base YAML files.", "A way to customize the Kubernetes user interface", "A library of custom Kubernetes controllers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Tekton'?",
+    "options": ["A brand of tectonic plate monitoring software", "An open-source, Kubernetes-native framework for creating CI/CD systems. It allows defining and running CI/CD pipelines as Kubernetes Custom Resources (CRDs), making them portable and scalable.", "A type of geological survey tool", "A programming language for writing CI/CD scripts"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Spinnaker'?",
+    "options": ["A tool for navigating sailboats", "An open-source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. It supports various deployment strategies and integrates with tools like Jenkins, Kubernetes, and cloud providers.", "A type of sail used in DevOps", "A user interface for Spinnaker (a type of sea creature) management"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Chaos Mesh'?",
+    "options": ["A tool for creating visually chaotic mesh networks", "An open-source cloud-native chaos engineering platform for Kubernetes. It allows injecting various types of faults (e.g., pod failures, network latency, I/O errors) into Kubernetes applications to test system resilience.", "A type of fishing net for catching chaos", "A mesh network that is inherently chaotic and unreliable"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'OpenTelemetry' (OTel)?",
+    "options": ["A telemetry system for open-source projects only", "An open-source observability framework (a collection of APIs, SDKs, and tools) for generating, collecting, processing, and exporting telemetry data (traces, metrics, logs) from applications and infrastructure. It aims to standardize telemetry data formats and instrumentation.", "A tool for remote control of telescopes using telemetry", "A secure protocol for transmitting telemetry data"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'CNCF' (Cloud Native Computing Foundation)?",
+    "options": ["A company that sells cloud native hardware", "An open-source software foundation, part of the Linux Foundation, that hosts and promotes cloud native projects like Kubernetes, Prometheus, Envoy, Containerd, etc. It aims to make cloud native computing ubiquitous and sustainable.", "A certification for cloud native developers", "A conference for cloud native technologies"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the '12-Factor App' methodology relevant to DevOps?",
+    "options": ["A methodology for apps with 12 specific features", "A set of principles for building software-as-a-service applications that are designed for scalability, resilience, and maintainability in cloud environments. Factors include codebase, dependencies, config, backing services, build/release/run, processes, port binding, concurrency, disposability, dev/prod parity, logs, admin processes. Aligns well with DevOps practices.", "A 12-step program for app developers to follow", "UI design principles based on 12 factors"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What does 'disposability' mean in the 12-Factor App methodology?",
+    "options": ["The app can be easily thrown away by users", "Processes are disposable, meaning they can be started or stopped gracefully at a moment's notice. This facilitates fast elastic scaling, rapid deployment of code or config changes, and robustness to unexpected shutdowns. State should be externalized.", "The app uses only disposable (single-use) hardware", "The app's UI is designed to be easily disposed of and replaced"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What does 'dev/prod parity' mean in the 12-Factor App methodology?",
+    "options": ["Developers and production support staff should have equal pay and benefits", "Keeping development, staging, and production environments as similar as possible in terms of operating system, dependencies, backing services, and configuration. This minimizes discrepancies, makes continuous delivery more reliable, and reduces the chances of bugs appearing only in production.", "Ensuring that the parity bits used in data storage are the same in development and production environments", "A way to pair developers directly with production systems for better understanding and faster debugging"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'service discovery' mechanism (e.g., Consul, etcd, Zookeeper, Kubernetes DNS) in a microservices architecture?",
+    "options": ["A way for users to discover new services offered by a company", "A system that allows services to register themselves and dynamically discover the network locations (IP addresses and ports) of other services they need to communicate with, without hardcoding these locations. This is crucial in dynamic environments where service instances can be scaled up/down or moved.", "A tool for discovering security vulnerabilities in services", "A search engine for finding microservice documentation"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Canary Deployment' strategy?",
+    "options": ["Deploying software to servers located in the Canary Islands", "A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users or servers before rolling it out to the entire infrastructure and making it available to everybody.", "Using canary birds to test if a new deployment is safe", "A deployment that is yellow like a canary"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Infrastructure Drift'?",
+    "options": ["When physical servers drift out of position in a data center", "The phenomenon where the configuration of infrastructure (servers, networks, etc.) diverges over time from its intended or documented state, often due to manual changes, ad-hoc fixes, or inconsistent application of configurations. IaC helps prevent this.", "A gradual decrease in infrastructure performance over time", "When infrastructure components become incompatible with each other due to drifting standards"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Gitflow Workflow'?",
+    "options": ["A workflow for managing flowers in a Git repository", "A Git branching model that defines a strict branching structure with specific roles for branches like `master` (production releases), `develop` (integration of features), `feature/*` (for new features), `release/*` (for preparing releases), and `hotfix/*` (for urgent production fixes).", "A tool that automates Git command workflows", "A visual representation of data flow in a Git repository"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'ChatOps' and how does it facilitate collaboration in DevOps?",
+    "options": ["Using chatbots for all IT operations tasks, replacing human operators", "A collaboration model that integrates development and operations tools, processes, and automation into a chat platform (e.g., Slack, Microsoft Teams). Commands can be run, notifications received, and discussions held within the chat interface, improving transparency, communication, and speed of response.", "A set of strict rules for chatting during DevOps meetings", "A security operation to monitor and control all chat applications within an organization"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'Policy as Code' tool like Open Policy Agent (OPA)?",
+    "options": ["A tool for writing HR policies in a programming language", "A tool that allows defining and enforcing policies (e.g., security, compliance, operational best practices) as code (e.g., using OPA's Rego language). This enables policies to be version-controlled, tested, and applied consistently and automatically across different parts of the software stack (e.g., Kubernetes admission control, CI/CD pipelines, microservice authorization).", "A code library that contains predefined security policies for various applications", "A linter that checks application code for compliance with company policies"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'BuildKit' in the context of Docker?",
+    "options": ["A toolkit for building physical Docker containers", "A next-generation build engine for Docker that provides improved performance, caching, and new features for building Docker images, such as parallel build stages and better support for build secrets.", "A Lego-like kit for assembling Docker components", "A user interface for designing Dockerfiles"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'CNI' (Container Network Interface) plugin in Kubernetes?",
+    "options": ["A plugin for connecting containers to non-IP networks", "A specification and set of libraries for configuring network interfaces for Linux containers in a Kubernetes Pod. CNI plugins (e.g., Calico, Flannel, Weave Net) are responsible for IP address management and network connectivity for Pods.", "A user interface for configuring container networks", "A plugin for encrypting network traffic between containers"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'CSI' (Container Storage Interface) plugin in Kubernetes?",
+    "options": ["A plugin for investigating crime scenes in containers", "A standard interface for exposing block and file storage systems to containerized workloads on Kubernetes. CSI drivers allow Kubernetes to provision, attach, and mount storage volumes from various storage providers without needing to integrate specific storage logic into the core Kubernetes code.", "A user interface for managing container storage", "A plugin for compressing data stored in container volumes"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Knative'?",
+    "options": ["A native programming language for Kubernetes", "An open-source, Kubernetes-based platform for building, deploying, and managing modern serverless workloads. It provides components for event-driven architectures (Knative Eventing) and request-driven compute with scale-to-zero capabilities (Knative Serving).", "A tool for navigating Kubernetes clusters", "A set of best practices for native Kubernetes development"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Linkerd'?",
+    "options": ["A tool for linking different Docker containers", "An open-source, ultralight service mesh for Kubernetes and other environments. It provides features like observability (metrics, tracing), reliability (retries, timeouts), and security (mTLS) for microservice communication, without requiring changes to application code.", "A linker for D programming language applications", "A network hardware device for creating mesh topologies"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Istio'?",
+    "options": ["A historical region in the Adriatic Sea", "An open-source service mesh platform that provides a way to control how microservices share data with one another. It offers features like traffic management (load balancing, routing, circuit breaking), security (authentication, authorization, mTLS), and observability (metrics, tracing, logging) for distributed applications, typically using an Envoy proxy sidecar.", "A brand of Italian server hardware", "A programming language for creating service-oriented architectures"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Envoy Proxy'?",
+    "options": ["A proxy server for sending diplomatic envoys", "A high-performance, open-source edge and service proxy designed for cloud-native applications. It's often used as the data plane component (sidecar proxy) in service meshes like Istio and App Mesh, handling network traffic, applying policies, and collecting telemetry.", "A special type of HTTP proxy for environment variables", "A proxy that only works with Envoy-branded network hardware"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'CloudEvents' specification?",
+    "options": ["A specification for predicting weather events in the cloud", "A specification for describing event data in a common way, aiming to simplify event declaration and delivery across services, platforms, and beyond. It provides a set of metadata attributes for events to enhance interoperability in event-driven architectures.", "A calendar of cloud computing industry events", "A protocol for securely transmitting event logs to the cloud"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "question": "What are 'DORA metrics' (DevOps Research and Assessment)?",
+    "options": ["Metrics for Dora the Explorer's adventures", "A set of four key metrics identified by the DORA research program as indicators of high-performing DevOps teams: Deployment Frequency, Lead Time for Changes, Mean Time to Restore (MTTR), and Change Failure Rate.", "Metrics specific to Oracle database performance (DORAcle)", "A set of metrics for measuring developer productivity based on door access logs"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What does 'Deployment Frequency' DORA metric measure?",
+    "options": ["How frequently users access the deployed application", "How often an organization successfully releases to production.", "The frequency of deployment failures", "How often new features are requested by users"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What does 'Lead Time for Changes' DORA metric measure?",
+    "options": ["The time it takes for a lead developer to approve changes", "The amount of time it takes for a code change (commit) to get into production.", "The time spent leading change management initiatives", "The delay in communication between development and operations teams"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What does 'Change Failure Rate' DORA metric measure?",
+    "options": ["The rate at which users fail to adapt to changes in the application", "The percentage of deployments or releases to production that result in a failure requiring remediation (e.g., a hotfix, rollback, or patch).", "The rate at which change requests are rejected by management", "The frequency of hardware failures after a software change"],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Platform Engineering' and how does it aim to improve developer experience (DevEx)?",
+    "options": ["Engineering physical server platforms for better performance.", "Platform Engineering designs and builds toolchains and workflows that enable self-service capabilities for software engineering organizations. It aims to create an Internal Developer Platform (IDP) that provides a golden path for developers, abstracting infrastructure complexity, reducing cognitive load, and improving developer productivity and experience (DevEx) by providing standardized, automated, and easy-to-use tools and processes.", "Engineering software for specific hardware platforms like ARM or x86.", "A discipline focused on building user interface platforms for web applications."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the concept of 'Golden Paths' in the context of an Internal Developer Platform (IDP).",
+    "options": ["Paths paved with gold leading to the data center.", "Golden Paths are well-defined, supported, and opinionated ways for development teams to build, deploy, and operate their applications using the IDP. They represent the 'happy path' or recommended best practices, providing pre-configured tools, templates, and automation that simplify common tasks and ensure consistency, security, and compliance, while still allowing flexibility for teams that need to deviate.", "The most optimal network routes for application traffic within the IDP.", "A set of career paths for platform engineers to achieve 'golden' status."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Shift Left on Security' and what are practical ways to implement it in a DevOps pipeline?",
+    "options": ["Moving all security personnel to the left side of the office building.", "'Shift Left on Security' means integrating security practices and considerations earlier in the software development lifecycle (SDLC), rather than treating security as an afterthought or a final gate before release. Practical implementations: static application security testing (SAST) in CI, dynamic application security testing (DAST) in CI/CD, dependency scanning, infrastructure as code security scanning, threat modeling during design, security training for developers, and using pre-approved secure base images/libraries.", "Using the left shift key (on the keyboard) more frequently during secure coding.", "Focusing security efforts exclusively on the initial phases of a project and neglecting later stages."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe the 'Software Supply Chain Security' challenges and common mitigation strategies (e.g., SBOM, SLSA, signed attestations).",
+    "options": ["Securing the physical supply chain of server hardware components.", "Challenges: vulnerabilities in third-party dependencies, compromised build tools, malicious code injection into software artifacts. Mitigations: SBOM (Software Bill of Materials) to inventory components. SLSA (Supply-chain Levels for Software Artifacts) framework to define security posture levels. Signed attestations (e.g., via Sigstore) to verify authenticity and integrity of artifacts. Secure build pipelines, vulnerability scanning, provenance tracking, and using trusted artifact repositories.", "Software supply chain security only concerns the distribution of open-source software.", "SLSA is a tool for scanning software licenses; SBOM is for build system security."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Progressive Delivery'? How do techniques like canary releases, blue-green deployments, and feature flags contribute to it, and what are the benefits over traditional release models?",
+    "options": ["Delivering software updates progressively slower to ensure higher quality with each release.", "Progressive Delivery is an umbrella term for practices that allow releasing software updates to users gradually and with more control, reducing risk and enabling faster feedback loops. Techniques: Feature flags (toggle features for subsets of users). Canary releases (roll out to a small user group first, monitor, then expand). A/B testing (compare versions with different segments). Blue-green deployments (switch traffic to a new, fully deployed environment). Benefits over traditional 'big bang' releases: reduced risk of widespread outages, faster feedback, ability to test in production safely, and decoupling deployment from release.", "Progressive delivery means releasing all features of an application progressively over many years, one by one.", "It's a software release strategy where only progressive web applications (PWAs) are delivered to users."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain 'Observability-Driven Development' (ODD). How does it differ from traditional monitoring-focused approaches?",
+    "options": ["Developing software that is visually observable and transparent in its design.", "ODD is an approach where observability (the ability to understand a system's internal state from its external outputs: logs, metrics, traces) is considered a primary requirement and is built into the software from the very beginning of the development process, rather than being an afterthought. It emphasizes instrumenting code to emit rich telemetry that allows developers to ask arbitrary questions about system behavior, debug complex issues, and understand performance in production. Differs from traditional monitoring which often focuses on predefined dashboards and alerts for known failure modes.", "ODD focuses on observing user behavior to drive development priorities.", "It means developing monitoring tools first, then the application."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Test Data Management' (TDM) in the context of CI/CD and automated testing? What are the challenges and common solutions?",
+    "options": ["Managing data about test cases and test results.", "TDM is the process of providing appropriate, high-quality, and secure test data for automated testing throughout the CI/CD pipeline. Challenges: generating realistic and representative data, ensuring data privacy and compliance (e.g., masking PII), managing data volume and refresh cycles, providing data for specific test scenarios, and ensuring data consistency across test environments. Solutions: data subsetting, data masking/anonymization, synthetic data generation, test data virtualization, on-demand test data provisioning.", "TDM is about managing the database used for storing test automation scripts.", "It refers to the management of data collected during user acceptance testing."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe the concept of 'GitOps'. What are its core principles, and how do tools like FluxCD or ArgoCD facilitate this operational model for Kubernetes?",
+    "options": ["GitOps means using Git for all IT operations, replacing tools like Jira or ServiceNow for ticketing and incident management.", "GitOps is an operational framework that uses Git as the single source of truth for declarative infrastructure and applications. Core principles: 1. System described declaratively (e.g., Kubernetes YAML, Terraform HCL). 2. Desired state versioned in Git. 3. Approved changes to desired state automatically applied to the system. 4. Software agents ensure correctness and alert on divergence. FluxCD/ArgoCD are Kubernetes operators that continuously monitor Git repositories and automatically synchronize the cluster state with the configurations defined in Git.", "GitOps is simply a set of best practices for organizing Git repositories and defining branching strategies specifically for operations teams, without any automation.", "It is a proprietary version of Git software developed by operations tool vendors, optimized for managing configuration files and deployment scripts."],
+    "answer": 1,
+    "category": "DevOps",
+    "difficulty": 4
+  }
+]

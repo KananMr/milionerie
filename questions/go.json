@@ -1,0 +1,674 @@
+[
+  {
+    "question": "What keyword is used to define a function in Go?",
+    "options": ["def", "function", "fn", "func"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you write a single-line comment in Go?",
+    "options": ["# This is a comment", "/* This is a comment */", "// This is a comment", "<!-- This is a comment -->"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the entry point function for a Go executable program?",
+    "options": ["Start()", "Main()", "main() (in package main)", "Execute()"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which data type is typically used to store whole numbers in Go?",
+    "options": ["float32", "double", "int (or int32, int64)", "string"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you print output to the console in Go using the `fmt` package?",
+    "options": ["console.log()", "System.out.println()", "printf()", "fmt.Println() (or fmt.Printf)"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used to assign a value to a variable in Go?",
+    "options": ["==", ":=", "=", "=>"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the short variable declaration operator in Go?",
+    "options": ["=", "let", "var", ":="],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to declare a variable explicitly with its type in Go?",
+    "options": ["let", "const", "var", "type"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the file extension for a Go source file?",
+    "options": [".go", ".gosrc", ".g", ".golang"],
+    "answer": 0,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which loop structure is primarily used in Go (Go has only one looping construct)?",
+    "options": ["while", "foreach", "do-while", "for"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a slice in Go?",
+    "options": ["A fixed-size array", "A dynamically-sized, flexible view into the elements of an underlying array", "A type of string", "A way to cut data"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "If a function in Go is intended to return no value, what is specified for its return type?",
+    "options": ["void", "null", "nothing", "Nothing is specified (return type is omitted)"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you declare an integer variable named `count` and initialize it to 10 using short declaration?",
+    "options": ["var count = 10;", "int count := 10;", "count := 10", "let count = 10;"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the boolean type in Go?",
+    "options": ["Boolean", "boolean", "bool", "flag"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used for logical AND in Go?",
+    "options": ["and", "&", "AND", "&&"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used for logical OR in Go?",
+    "options": ["or", "|", "OR", "||"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the string concatenation operator in Go?",
+    "options": ["&", ".", "+", "concat()"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to define a constant variable whose value cannot be changed?",
+    "options": ["static", "readonly", "final", "const"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the length of a string `s` in Go?",
+    "options": ["s.length", "s.Length()", "len(s)", "s.size()"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a `package` in Go used for?",
+    "options": ["To define a region of memory", "To organize Go source code into reusable units and manage dependencies", "To declare variables with global scope", "To specify character encoding"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you access the first element of a slice `slc` in Go?",
+    "options": ["slc(0)", "slc.first()", "slc[0]", "slc.get(0)"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which statement is used for conditional execution of code blocks?",
+    "options": ["switch", "for", "if", "select"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How are members (fields, methods) made public (exported) from a Go package?",
+    "options": ["Using the `public` keyword", "By starting their names with an uppercase letter", "By defining them in a `.pub` file", "All members are public by default"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the equality comparison operator in Go?",
+    "options": ["=", "===", "equals", "=="],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Strings in Go are immutable.",
+    "options": ["True", "False", "Sometimes", "Only for literals"],
+    "answer": 0,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you declare an array of 5 integers named `numbers` in Go?",
+    "options": ["int numbers(5);", "var numbers [5]int", "int[] numbers = new int[5];", "array<int> numbers(5);"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the zero value for a pointer type in Go?",
+    "options": ["0", "undefined", "nil", "An empty pointer struct"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `break` statement do in a loop or switch/select statement?",
+    "options": ["Skips the current iteration", "Exits the innermost loop or switch/select statement immediately", "Pauses execution", "Restarts the loop"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `continue` statement do in a loop?",
+    "options": ["Exits the loop immediately", "Skips the rest of the current iteration and proceeds to the next iteration's post statement (if any) or condition check", "Restarts the entire loop", "Halts the program"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which Go keyword is used to define an interface type?",
+    "options": ["Interface", "protocol", "type ... interface", "contract"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "A type implicitly implements an interface in Go if:",
+    "options": ["It explicitly declares `implements MyInterface`", "It has methods with the exact same names and signatures as all methods defined in the interface", "It inherits from a class that implements the interface", "It is registered with the interface"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Go supports traditional class-based inheritance like Java or C++.",
+    "options": ["True", "False (Go uses composition and interfaces, not classical inheritance)", "Only for built-in types", "Using a special `extends` keyword"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a struct in Go?",
+    "options": ["A function used to structure data", "A user-defined composite type that groups together zero or more named values (fields) of arbitrary types", "A way to define program structure", "A static data block"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How can methods be associated with a user-defined type (like a struct) in Go?",
+    "options": ["By defining them inside the struct block", "By defining a function with a special receiver argument (e.g., `func (s MyStruct) MyMethod() {}`)", "Using the `method` keyword", "They cannot be directly associated; helper functions are used"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a pointer in Go?",
+    "options": ["A UI element for mouse interaction", "A variable that stores the memory address of another variable", "A static configuration value", "A special type of array index"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used to get the memory address of a variable in Go?",
+    "options": ["*", "->", "&", "@"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used to dereference a pointer (access the value at the address it holds) in Go?",
+    "options": ["&", "->", "*", "valueof"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `make()` in Go typically used for?",
+    "options": ["To create makefiles", "To allocate and initialize objects of type slice, map, and channel", "To make variables constant", "To manufacture Go programs"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `new()` in Go typically used for?",
+    "options": ["To create new files", "To allocate memory for a new item of a specified type, initializes it to its zero value, and returns a pointer to it", "To define a new package", "To start a new goroutine"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a map in Go?",
+    "options": ["A geographical map data structure", "An unordered collection of key-value pairs, where keys are unique and of a comparable type", "A bitmask for memory mapping", "A tool for mapping network drives"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What does a range-based for loop look like in Go when iterating over a slice or map (e.g., `for index, value := range mySlice`)?",
+    "options": ["`for (value in mySlice)`", "`foreach (value of mySlice)`", "`for index, value := range mySlice` (or `for key, value := range myMap`)", "`for each value from mySlice`"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `defer` statement in Go used for?",
+    "options": ["To delay the execution of a function call until a later time specified by a timer", "To schedule a function call (the deferred function) to be executed just before the surrounding function returns, regardless of how it returns (e.g., normal return, panic)", "To defer compilation of a code block", "To make a variable's initialization deferred"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a goroutine in Go?",
+    "options": ["A routine for managing goats", "A lightweight, concurrently executing function managed by the Go runtime", "A special type of function that always runs in the background", "A routine that guarantees ordered execution"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to start a new goroutine?",
+    "options": ["thread", "async", "goroutine", "go"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What are channels in Go (`chan` type) primarily used for?",
+    "options": ["TV channels for Go programs", "Communication and synchronization between goroutines, allowing them to send and receive values", "Defining data channels for network I/O", "Managing different audio channels"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "The `select` statement in Go is used for:",
+    "options": ["Selecting a UI element", "Waiting on multiple channel operations simultaneously, executing the case for the first channel that is ready (or a default case if none are ready and default is present)", "Selecting a database record", "Choosing a specific goroutine to run"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Go has explicit exception handling with `try-catch-finally` blocks like Java or C#.",
+    "options": ["True", "False (Go uses error values and `panic`/`recover` for exceptional situations)", "Only for built-in errors", "Using a special `handle` keyword"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How are errors typically handled and propagated in Go?",
+    "options": ["By throwing exceptions that are caught by `try-catch` blocks", "Functions that can fail often return an additional `error` value as their last return value; callers check if this error is `nil` or not", "Using global error flags", "By terminating the program immediately with a `panic`"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `panic` function in Go used for?",
+    "options": ["To display a user-friendly panic message", "To signal a run-time error condition that the program cannot recover from gracefully in the current goroutine. It stops normal execution, runs deferred functions, and may terminate the program if not recovered.", "To create a controlled program crash for testing", "To trigger a security alert"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `recover` function in Go used for?",
+    "options": ["To recover deleted files", "To regain control of a panicking goroutine. It is only useful inside deferred functions. If the current goroutine is panicking, a call to `recover` captures the value given to `panic` and resumes normal execution.", "To recover from network connection errors", "To restore a previous program state"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "The `iota` keyword in Go is used within `const` declarations for:",
+    "options": ["Defining floating-point constants", "Creating a sequence of related integer constants (an incrementing counter, often reset per const block or by assignment)", "Importing I/O utility archives", "Defining Internet of Things applications"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the capacity of a slice `slc` in Go?",
+    "options": ["slc.capacity", "slc.Capacity()", "len(slc) (this is length, not capacity)", "cap(slc)"],
+    "answer": 3,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "The `append()` built-in function in Go is used with slices to:",
+    "options": ["Append one slice to another by reference", "Add elements to the end of a slice, returning a new slice (which might have a new underlying array if capacity is exceeded)", "Prepend elements to a slice", "Append data to a file"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `rune` type in Go an alias for?",
+    "options": ["`byte`", "`string`", "`int32` (representing a Unicode code point)", "`char`"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "Go supports function overloading (same function name with different parameter types).",
+    "options": ["True", "False (Functions are distinguished by name and package; parameters must match for a given name)", "Only within the same package", "Only for methods"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a common way to manage dependencies in modern Go projects?",
+    "options": ["Manually copying vendor folders", "Using Go Modules (with `go.mod` and `go.sum` files)", "Using `GOPATH` and `go get` without versioning (older method)", "Using a third-party package manager like npm"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `Context` package (`context`) in Go often used for?",
+    "options": ["Managing UI context", "Carrying deadlines, cancellation signals, and other request-scoped values across API boundaries and between goroutines, especially useful for server-side applications and concurrent operations", "Defining the execution context of the main function", "Storing global application context"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `sync.WaitGroup` in Go used for?",
+    "options": ["A group of UI elements that are synchronized", "Waiting for a collection of goroutines to finish their execution", "Synchronizing access to a group of variables", "A tool for managing group permissions in Go"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a `sync.Mutex` in Go used for?",
+    "options": ["A mutable X-value in expressions", "A mutual exclusion lock used to protect shared data from being simultaneously accessed by multiple goroutines", "A way to mute audio output from goroutines", "A class for managing complex data mutations in a synchronized way"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a `sync.RWMutex` (Read-Write Mutex) in Go?",
+    "options": ["A mutex that can only be used for read/write operations on files", "A lock that allows multiple readers to access a shared resource concurrently, but requires exclusive access for writers (only one writer at a time, and no readers while a writer holds the lock)", "A mutex that logs read and write operations", "A read-only mutex for specific scenarios"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of build tags (e.g., `//go:build linux`) in Go source files?",
+    "options": ["To tag builds with version numbers", "To control which source files are included in a package compilation based on conditions like operating system, architecture, or custom tags", "To add metadata tags to compiled binaries", "To tag specific lines of code for the debugger"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `go generate` command used for?",
+    "options": ["Generating random Go code", "Automating the running of tools that generate Go source code (or other assets) before compilation, often triggered by special comments like `//go:generate command args`", "Generating Go documentation", "Creating new Go project templates"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `cgo` in Go?",
+    "options": ["A Go compiler for C code", "A facility that enables the creation of Go packages that call C code, allowing Go programs to interface with existing C libraries", "A command to 'go' to a C function", "A Go version of the C standard library"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is an empty interface (`interface{}`) in Go?",
+    "options": ["An interface that cannot be implemented", "An interface type that specifies no methods; any type implements the empty interface, so it can hold values of any type. Often used for generic programming before Go generics.", "An interface that is always nil", "A marker for interfaces that are under development"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a type assertion in Go (e.g., `val, ok := i.(string)`)?",
+    "options": ["Asserting that a type is correctly defined", "A mechanism to access an interface value's underlying concrete value. It checks if the interface value holds a specific concrete type and, if so, provides access to that concrete value.", "A way to assert variable types at compile time", "Asserting that all types in a program are valid"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `reflect` package in Go used for?",
+    "options": ["Reflecting images in UI applications", "Implementing runtime reflection, allowing a program to inspect and manipulate objects of arbitrary types, including their values, types, and methods", "A package for optimizing code by reflecting on its structure", "A way to reflect on Go's performance characteristics"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What are tags in Go struct fields (e.g., ``json:\"fieldName\"``)?",
+    "options": ["Comments for struct fields", "String literals attached to struct fields that provide metadata, often used by packages like `encoding/json` or ORMs to control how fields are processed (e.g., marshaling/unmarshaling, database column mapping)", "Tags for version control", "Build tags specific to struct fields"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of the `init()` function in a Go package?",
+    "options": ["It's the main entry point for the package", "A special function that is automatically executed when the package is initialized (after all imported packages are initialized and before `main` if it's the main package). Used for package-level setup.", "It initializes all variables in the package to their zero values", "It must be called explicitly to initialize a package"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "Go supports generics (type parameters) since which version?",
+    "options": ["It always had them", "Go 1.5", "Go 1.18", "Go 2.0 (not yet released)"],
+    "answer": 2,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `go test` command used for?",
+    "options": ["Testing network connectivity for Go programs", "Automating the execution of test functions (functions named `TestXxx` in `_test.go` files) within Go packages", "Testing the Go compiler itself", "Performing user acceptance testing"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `testing.T` type in Go used for?",
+    "options": ["A generic type for testing", "A type passed as an argument to test functions (`TestXxx(t *testing.T)`), providing methods for signaling test failure (e.g., `t.Error()`, `t.Fatal()`), logging, and managing subtests", "A timer for test execution", "A template for test reports"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'embedding' in Go structs?",
+    "options": ["Embedding multimedia files in Go programs", "A way to include an anonymous field of a named type (or a pointer to it) within a struct, which promotes the fields and methods of the embedded type to the embedding struct, providing a form of composition and code reuse (not inheritance).", "Encrypting data within structs", "Embedding Go code in other languages"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `fallthrough` keyword do in a Go `switch` statement?",
+    "options": ["Causes the switch statement to fail", "Transfers control to the next case clause in a `switch` statement, even if that case's condition is not met (Go `switch` cases do not fall through by default)", "Makes the switch statement fall back to a default case", "Skips all remaining cases"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between a buffered and an unbuffered channel in Go?",
+    "options": ["Buffered channels are faster", "An unbuffered channel requires both sender and receiver to be ready simultaneously for communication (synchronous). A buffered channel has a capacity, allowing senders to send values without blocking if the buffer is not full, and receivers to receive values if the buffer is not empty.", "Buffered channels can only store one type of data", "Unbuffered channels are deprecated"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "Closing a channel in Go signals that:",
+    "options": ["The channel is broken and should not be used", "No more values will be sent on that channel. Receivers can still drain remaining values and will receive zero values once the channel is empty and closed.", "The channel will be automatically reopened later", "The channel is now in read-only mode for senders"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `unsafe` package in Go used for?",
+    "options": ["Marking code as potentially unsafe for users", "Providing low-level operations that bypass Go's type safety and memory safety features, such as pointer arithmetic and direct memory manipulation. Its use is generally discouraged unless absolutely necessary for performance or interoperability.", "Handling unsafe user input", "Managing unsecure network connections"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Go 'race detector'?",
+    "options": ["A tool for optimizing racing game performance in Go", "A runtime tool (`go test -race`, `go run -race`) that can detect data races (unsynchronized concurrent access to shared memory where at least one access is a write) in Go programs", "A static analysis tool for finding race conditions", "A feature for simulating race conditions in tests"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the purpose of `//go:embed` directive (Go 1.16+)?",
+    "options": ["To embed Go code within HTML files", "To embed static files (text, binary) directly into the compiled Go executable at build time, making them accessible at runtime without needing separate file distribution", "To embed UI components within Go applications", "To mark code for embedding in a dynamic library"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a common use case for Go's `text/template` or `html/template` packages?",
+    "options": ["Defining templates for Go data structures", "Generating textual output (e.g., configuration files, code) or HTML output by combining static template text with dynamic data, often used in web applications or code generation tools", "Creating UI templates for desktop applications", "Managing templates for cloud deployments"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `runtime.Gosched()` function used for?",
+    "options": ["Scheduling a Go program to run at a specific time", "Yielding the processor, allowing other goroutines to run. It does not suspend the current goroutine, so it will resume automatically.", "Getting the current Go runtime schedule", "Setting the scheduling policy for goroutines"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the difference between `string` and `[]byte` in Go, and how are they converted?",
+    "options": ["`string` is mutable, `[]byte` is immutable. Converted using `string(myBytes)` and `bytes(myString)`.", "`string` is an immutable sequence of bytes (often UTF-8 encoded text); `[]byte` is a mutable slice of bytes. Converted using `string(myBytes)` and `[]byte(myString)`.", "`string` is for text, `[]byte` for binary, cannot be converted.", "`string` is a pointer, `[]byte` is a value type."],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `sync.Once` type in Go used for?",
+    "options": ["Executing a function only once per application instance, regardless of how many goroutines try to call it", "A counter that can only be incremented once", "A boolean flag that can only be set once", "A way to ensure a goroutine runs only once and then exits"],
+    "answer": 0,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a common pattern for graceful shutdown of concurrent services in Go using channels and `context`?",
+    "options": ["Using `os.Exit()` in all goroutines", "Passing a `context.Context` to goroutines, which can be canceled to signal shutdown, and using a `sync.WaitGroup` to wait for goroutines to finish. Channels might be used for signaling completion or errors.", "Sending a `panic` signal to all goroutines", "Closing all network connections abruptly"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Go `vet` tool used for?",
+    "options": ["Veterinary services for Go developers' pets", "A static analysis tool that examines Go source code and reports suspicious constructs, such as `Printf` calls whose arguments do not align with the format string, or methods called on `nil` receivers.", "A tool for versioning Go packages", "A visual debugger for Go programs"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `//go:linkname` directive used for (an advanced, often internal Go feature)?",
+    "options": ["To link Go packages to external websites", "To allow a Go identifier (function or variable) in one package to be an alias for an identifier in another package, even if it's unexported. It's a low-level feature typically used by the runtime or for special interop scenarios.", "To create symbolic links in the file system during build", "To link Go documentation to specific code sections"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the Go scheduler responsible for in the context of goroutines?",
+    "options": ["Scheduling Go programs to run on the OS", "Multiplexing M goroutines onto N OS threads (M:N scheduling), managing their execution, pausing, and resuming them efficiently, allowing a large number of concurrent goroutines with a smaller number of OS threads.", "Scheduling build tasks for Go projects", "Managing the schedule for Go conferences"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'work-stealing' scheduler, as implemented in Go's runtime?",
+    "options": ["A scheduler that steals CPU cycles from other processes", "A scheduling strategy where idle processors (or threads) 'steal' tasks (goroutines) from the run queues of other busy processors, helping to balance load and improve parallelism.", "A scheduler that prioritizes tasks based on how much work they have done", "A security vulnerability related to task scheduling"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `mmap` system call, and how might it relate to Go's file I/O or memory management (conceptually or via `syscall` package)?",
+    "options": ["A Go package for creating mind maps", "A system call that maps files or devices into memory, allowing them to be accessed like an array in memory. Go's runtime or specific packages might use it (or similar mechanisms) for efficient file I/O or managing large memory regions.", "A way to map Go types to database tables", "A command for managing Go module maps"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the 'escape analysis' performed by the Go compiler?",
+    "options": ["Analyzing code for security escape vulnerabilities", "A compile-time analysis that determines whether a variable allocated in a function can 'escape' that function's scope (e.g., by being returned, stored in a global variable, or passed to another goroutine). If it doesn't escape, it can be allocated on the stack instead of the heap, improving performance.", "A tool for analyzing escape sequences in strings", "A way to help Go developers escape from difficult coding problems"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `go tool pprof` used for?",
+    "options": ["Pretty-printing Go source code", "Analyzing performance profiles (CPU, memory, blocking, mutex) of Go programs to identify bottlenecks and areas for optimization. Profiles can be generated by the `runtime/pprof` package or `net/http/pprof`.", "A tool for managing professional Go developers", "Protecting Go programs from unauthorized profiling"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the typical memory layout of a Go slice header?",
+    "options": ["Pointer to data, length, capacity, type information", "It consists of three fields: a pointer to the underlying array, an integer for the length of the slice, and an integer for the capacity of the slice.", "Length, capacity, start index, end index", "A single pointer to a struct containing length and capacity"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "How does Go's garbage collector (GC) typically work (e.g., concurrent mark-and-sweep)?",
+    "options": ["It requires manual calls to `runtime.GC()` for every object", "Go uses a concurrent, tri-color mark-and-sweep garbage collector. It aims to minimize stop-the-world (STW) pauses by performing most of its work concurrently with the application goroutines, with short STW phases for specific synchronization points.", "It uses reference counting primarily", "It only collects garbage when the program exits"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the purpose of a write barrier in a concurrent garbage collector like Go's?",
+    "options": ["A barrier to prevent writing to specific memory regions", "A mechanism used by the GC to keep track of pointer modifications made by the application (mutator) while the GC is concurrently marking live objects. When the mutator writes a pointer to a heap location, the write barrier ensures the GC is aware of this change to maintain correctness.", "A physical barrier in the CPU for write operations", "A software firewall for write requests"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'stack split' or 'stack growth' mechanism in Go's runtime?",
+    "options": ["A way to split a goroutine's stack into multiple files", "Goroutines in Go start with small stacks that can grow (and shrink) dynamically as needed, by allocating new, larger stack segments and copying the existing stack data. This avoids pre-allocating large fixed-size stacks for every goroutine.", "A technique for dividing call stacks for debugging", "A feature to split the program's main stack"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What are finalizers in Go (`runtime.SetFinalizer`) used for, and what are their caveats?",
+    "options": ["To finalize financial transactions in Go", "To register a function to be called when an object is about to be garbage collected. They are used for releasing external resources not managed by Go's GC. Caveats include no guarantee of when or if they run, they can resurrect objects, and they can complicate GC.", "To define the final state of a Go program", "A way to ensure all deferred functions are finalized"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `GOMAXPROCS` environment variable (or `runtime.GOMAXPROCS` function) used for?",
+    "options": ["Setting the maximum number of processes a Go program can spawn", "Setting the maximum number of OS threads that can execute Go code simultaneously (P - processors in the M:N scheduler). Defaults to the number of CPU cores.", "Limiting the maximum number of goroutines", "Defining the maximum processor speed for Go programs"],
+    "answer": 1,
+    "category": "Go",
+    "difficulty": 4
+  }
+]

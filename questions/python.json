@@ -1,0 +1,2081 @@
+[
+  {
+    "question": "What is the keyword used to define a function in Python?",
+    "options": ["fun", "define", "def", "function"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following is used to create a single-line comment in Python?",
+    "options": ["//", "/* */", "#", "<!-- -->"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What will be the output of `print(type(10))`?",
+    "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'integer'>"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": ["^", "**", "%", "//"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the length of a list named `my_list`?",
+    "options": ["my_list.length()", "len(my_list)", "size(my_list)", "my_list.size"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What keyword is used to create a loop that iterates over a sequence?",
+    "options": ["loop", "while", "iterate", "for"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following data types is immutable in Python?",
+    "options": ["list", "dictionary", "set", "tuple"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you access the first element of a list `L`?",
+    "options": ["L(0)", "L[0]", "L.first()", "L.get(0)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `input()` function in Python do?",
+    "options": ["Prints data to the console", "Reads a line of text from the user", "Executes a Python script", "Imports a module"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following is a boolean operator in Python?",
+    "options": ["AND", "&&", "and", "&"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `3 // 2` in Python?",
+    "options": ["1.5", "1", "2", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you add an element `x` to the end of a list `my_list`?",
+    "options": ["my_list.add(x)", "my_list.push(x)", "my_list.append(x)", "my_list.insert_end(x)"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What keyword is used to check if a value is present in a list?",
+    "options": ["has", "contains", "in", "exists"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which function converts a string to an integer in Python?",
+    "options": ["integer()", "str_to_int()", "int()", "to_int()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `print(\"Hello\" + \"World\")`?",
+    "options": ["Hello World", "HelloWorld", "Hello + World", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which statement is used to make decisions in Python?",
+    "options": ["decide", "if", "switch", "when"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the default value returned by a function that doesn't have a `return` statement?",
+    "options": ["0", "None", "False", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you start a multi-line comment in Python?",
+    "options": ["/*", "''' or \"\"\"", "//", "<!--"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the Python data type for storing a sequence of characters?",
+    "options": ["char_array", "string", "str", "text"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which built-in function can be used to get the unique elements from a list?",
+    "options": ["unique()", "set()", "distinct()", "filter_unique()"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `bool(0)`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you create an empty list in Python?",
+    "options": ["list()", "[]", "new List()", "Both A and B"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to bring a module's functions into your current script?",
+    "options": ["include", "use", "import", "load"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the comparison operator for 'not equal to'?",
+    "options": ["<>", "!=", "=/=", "not =="],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "If `a = [1, 2, 3]`, what is `a[-1]`?",
+    "options": ["1", "2", "3", "Error"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which loop continues as long as its condition is true?",
+    "options": ["for", "if", "while", "until"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you create a dictionary in Python?",
+    "options": ["dict(key=value)", "{'key': value}", "new Dictionary()", "Both A and B"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which method is used to remove an element from a list by its value?",
+    "options": ["pop()", "delete()", "remove()", "discard()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `range(3)` produce?",
+    "options": ["[0, 1, 2]", "[1, 2, 3]", "[0, 1, 2, 3]", "An iterable sequence 0, 1, 2"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `elif` keyword is short for?",
+    "options": ["else if", "end if", "else if then", "error if"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `\"Python\"[1:4]`?",
+    "options": ["Pyt", "yth", "ytho", "Pyth"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these is NOT a Python keyword?",
+    "options": ["def", "class", "int", "return"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you check the data type of a variable `x`?",
+    "options": ["datatype(x)", "type(x)", "x.type()", "typeof(x)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What character is used to access values in a dictionary by key?",
+    "options": ["()", "[]", "{}", ".key()"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which statement is used to stop the execution of a loop prematurely?",
+    "options": ["stop", "exit", "break", "halt"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the primary purpose of the `pass` statement?",
+    "options": ["To pause execution", "To skip an iteration", "To act as a placeholder where code is syntactically required but no action is needed", "To pass a value to a function"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "In Python, variable names are case-sensitive.",
+    "options": ["True", "False", "Sometimes", "Only for global variables"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How can you get the current working directory in Python?",
+    "options": ["os.cwd()", "os.getcwd()", "path.current()", "system.pwd()"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `5 % 2`?",
+    "options": ["2.5", "2", "1", "0"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following creates a tuple?",
+    "options": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}", "tuple(1, 2, 3)"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `None` keyword in Python represents:",
+    "options": ["An empty string", "The integer zero", "The absence of a value or a null value", "A boolean false"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `'py' * 3`?",
+    "options": ["py3", "pypypy", "Error", "py py py"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which function is used to print output to the console?",
+    "options": ["display()", "write()", "print()", "output()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you define a class in Python?",
+    "options": ["def class MyClass:", "class MyClass:", "MyClass class:", "new class MyClass:"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the typical file extension for a Python source file?",
+    "options": [".pyt", ".python", ".px", ".py"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `list(range(1, 4))`?",
+    "options": ["[1, 2, 3, 4]", "[0, 1, 2, 3]", "[1, 2, 3]", "[1, 4]"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to handle potential errors in a block of code?",
+    "options": ["catch", "error", "try", "except_if"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "If `s = \"hello\"`, what is `s.upper()`?",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `len()` function return when applied to a string?",
+    "options": ["The number of words", "The number of characters", "The memory size", "The number of lines"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following is a mutable data type?",
+    "options": ["str", "tuple", "int", "list"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How to check if a key 'name' exists in a dictionary `d`?",
+    "options": ["'name' in d", "d.has_key('name')", "d.exists('name')", "d['name'] != None (this can raise error)"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `True and False`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `True or False`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the last element from a list `my_list` if you don't know its length?",
+    "options": ["my_list[last]", "my_list.last()", "my_list[-1]", "my_list.get_last()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `split()` method on a string, without arguments, splits the string by default on what?",
+    "options": ["Commas", "Spaces", "Newlines", "Any whitespace"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `math.sqrt(16)`?",
+    "options": ["4", "4.0", "8", "Error (if math not imported)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which data structure stores items in an unordered manner and does not allow duplicates?",
+    "options": ["list", "tuple", "dictionary", "set"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you define an empty set?",
+    "options": ["{}", "set()", "[]", "Both A and B (A creates empty dict)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the purpose of the `__init__` method in a Python class?",
+    "options": ["To initialize the class attributes when an object is created", "To destroy an object", "To be called before any other method", "To return a string representation of the object"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following will correctly open a file named `data.txt` for reading?",
+    "options": ["file = open('data.txt', 'r')", "file = open('data.txt', 'read')", "file = read('data.txt')", "file.open('data.txt', 'r')"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `continue` statement do in a loop?",
+    "options": ["Exits the loop entirely", "Skips the rest of the current iteration and moves to the next", "Pauses the loop", "Restarts the loop from the beginning"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "If `x = 5`, what is the value of `x += 2`?",
+    "options": ["5", "2", "7", "Error"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `not True`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you convert a float `f` to a string?",
+    "options": ["string(f)", "str(f)", "f.to_string()", "convert_to_string(f)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `'apple'.find('p')`?",
+    "options": ["0", "1", "2", "-1 (if not found)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "A `for` loop in Python iterates over:",
+    "options": ["A range of numbers only", "Any sequence or iterable object", "Only lists and tuples", "Only strings"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to define a block that will always be executed after a `try` block, regardless of whether an exception occurred?",
+    "options": ["ensure", "finally", "always", "execute_after"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following is a valid way to assign multiple values to multiple variables in one line?",
+    "options": ["a = 1, b = 2, c = 3", "a, b, c = 1, 2, 3", "a=1; b=2; c=3", "set a=1, b=2, c=3"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `format()` method for strings typically do?",
+    "options": ["Converts the string to a specific file format", "Formats the string for printing with placeholders for variables", "Changes the font and style of the string", "Checks if the string format is valid"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `round(3.14159, 2)`?",
+    "options": ["3.14", "3.1", "3.00", "3.1416"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "In Python, indentation is used to define blocks of code.",
+    "options": ["True", "False", "Optional", "Only for functions"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which method removes the last element from a list and returns it?",
+    "options": ["delete_last()", "remove_last()", "pop()", "extract()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The expression `x == y` checks for:",
+    "options": ["Assignment", "Value equality", "Identity (same object)", "Type equality"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The expression `x is y` checks for:",
+    "options": ["Assignment", "Value equality", "Identity (same object)", "Type equality"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `\"hello\".capitalize()`?",
+    "options": ["hello", "HELLO", "Hello", "hELLO"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which module provides access to mathematical functions like `sin`, `cos`, `sqrt`?",
+    "options": ["maths", "numeric", "algebra", "math"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `del` keyword do when used with a list element (e.g., `del my_list[0]`)?",
+    "options": ["Sets the element to None", "Removes the element from the list", "Deletes the entire list", "Returns the element and removes it"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which is the correct way to check if a list `my_list` is empty?",
+    "options": ["if my_list == []:", "if len(my_list) == 0:", "if not my_list:", "All of the above"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `\"   hello   \".strip()` return?",
+    "options": ["\"   hello   \"", "\"hello\"", "\"hello   \"", "\"   hello\""],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the boolean value of an empty list `[]`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these is used to get all keys from a dictionary `d`?",
+    "options": ["d.keys()", "keys(d)", "d.get_keys()", "list(d) (also works for keys)"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these is used to get all values from a dictionary `d`?",
+    "options": ["d.values()", "values(d)", "d.get_values()", "[d[k] for k in d]"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "A string in Python can be modified after it is created (it is mutable).",
+    "options": ["True", "False", "Only if it contains numbers", "Only using special methods"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `\"world\".replace('o', 'a')`?",
+    "options": ["warld", "worlda", "wrld", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you create a variable `name` and assign the string \"Python\" to it?",
+    "options": ["var name = \"Python\"", "name = \"Python\"", "string name = \"Python\"", "let name = \"Python\""],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `input()` function returns data of what type by default?",
+    "options": ["int", "float", "str", "bool"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `print(10 > 5)`?",
+    "options": ["10", "5", "True", "False"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "If `my_tuple = (1, 2, 3)`, can you change `my_tuple[0]` to `4`?",
+    "options": ["Yes, using my_tuple[0] = 4", "No, tuples are immutable", "Yes, using my_tuple.set(0, 4)", "Only if it's a tuple of integers"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What keyword is used to end the definition of a function, class, or control flow block in some other languages, but is not explicitly used in Python for this purpose (Python uses indentation)?",
+    "options": ["end", "finish", "stop", "None of the above (Python uses indentation)"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "To use the `random.randint(a, b)` function, you typically first need to:",
+    "options": ["define random", "import random", "load random", "No special action needed"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `abs(-5)`?",
+    "options": ["-5", "5", "5.0", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `items()` method of a dictionary return?",
+    "options": ["A list of keys", "A list of values", "A view object that displays a list of a dictionary's key-value tuple pairs", "A list of items in insertion order"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which function would you use to get the highest value from a list of numbers `nums`?",
+    "options": ["maximum(nums)", "high(nums)", "max(nums)", "nums.get_max()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which function would you use to get the sum of numbers in a list `nums`?",
+    "options": ["sum(nums)", "total(nums)", "add_all(nums)", "nums.calculate_sum()"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `self` parameter in a class method refers to:",
+    "options": ["The class itself", "The instance of the class", "A global variable named self", "The parent class"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `bool(\"False\")`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How can you make a string that spans multiple lines?",
+    "options": ["Using triple quotes (''' or \"\"\")", "Using \\n at the end of each line", "Using the `multiline` keyword", "Both A and B"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which method can be used to join elements of a list into a single string?",
+    "options": ["concat()", "join()", "merge()", "combine()"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the typical way to close a file object `f` after you are done with it?",
+    "options": ["f.close()", "close(f)", "del f", "f.end()"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the value of `x` after: `x = 10; x -= 3`?",
+    "options": ["10", "3", "7", "13"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "To check if a string `s` starts with the substring `pre`, you use:",
+    "options": ["s.beginswith(pre)", "s.starts_with(pre)", "s.startswith(pre)", "pre in s.start()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "To check if a string `s` ends with the substring `suf`, you use:",
+    "options": ["s.endswith(suf)", "s.ends_with(suf)", "s.finisheswith(suf)", "suf in s.end()"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Python is an interpreted language.",
+    "options": ["True", "False", "It's compiled only", "It's both compiled and interpreted in a way"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `2**3`?",
+    "options": ["6", "5", "8", "9"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which method adds an element to a set?",
+    "options": ["append()", "insert()", "add()", "put()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a f-string in Python (Python 3.6+)?",
+    "options": ["A string that is always false", "A formatted string literal, prefixed with 'f', allowing embedded expressions", "A string that is fixed and cannot be changed", "A string used for file operations"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the number of elements in a dictionary `d`?",
+    "options": ["d.count()", "len(d)", "d.size()", "count(d)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `float(5)`?",
+    "options": ["5", "5.0", "Error", "0.5"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these is NOT a standard Python data type?",
+    "options": ["list", "dictionary", "character", "float"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the name of the Python package installer?",
+    "options": ["install", "pyget", "pip", "package-manager"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "In Python, an `if` statement must be followed by an `else` statement.",
+    "options": ["True", "False", "Only if there's also an `elif`", "Depends on the condition"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `pow(x, y)` function equivalent to?",
+    "options": ["x * y", "x / y", "x ** y", "x + y"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which method returns a shallow copy of a list?",
+    "options": ["list.clone()", "list.copy()", "list.duplicate()", "copy(list)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you define a global variable inside a function if you want to modify it?",
+    "options": ["global variable_name", "var global variable_name", "globalize variable_name", "Just assign to it, it becomes global"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `[1, 2, 3] + [4, 5]`?",
+    "options": ["[1, 2, 3, 4, 5]", "Error", "[5, 7]", "[[1,2,3], [4,5]]"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `isinstance(obj, classinfo)` function checks:",
+    "options": ["If obj is an instance of classinfo or an instance of a subclass thereof", "If obj has the same value as an instance of classinfo", "If obj and classinfo are identical objects", "If classinfo is a superclass of obj"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `'hello'.count('l')` return?",
+    "options": ["1", "2", "3", "0"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which statement is used to raise an exception?",
+    "options": ["throw", "error", "raise", "exception"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the value of `bool([])`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the value of `bool([1])`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `sys.argv`?",
+    "options": ["The Python version", "A list of command-line arguments passed to a Python script", "A list of available system modules", "The path to the Python interpreter"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the index of the first occurrence of a value in a list?",
+    "options": ["list.find(value)", "list.search(value)", "list.index(value)", "list.locate(value)"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `' '.join(['Python', 'is', 'fun'])`?",
+    "options": ["Pythonisfun", "Python is fun", "['Python', 'is', 'fun']", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `else` block in a `try-except` statement is executed if:",
+    "options": ["An exception occurs in the `try` block", "No exception occurs in the `try` block", "Always after the `try` block", "Only if a specific exception occurs"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used for floor division?",
+    "options": ["/", "%", "//", "\\"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the common convention for naming the first parameter of an instance method in a class?",
+    "options": ["this", "instance", "self", "object"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which method is used to insert an element at a specific index in a list?",
+    "options": ["add(index, value)", "put(index, value)", "insert(index, value)", "place(index, value)"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "A Python set can contain duplicate values.",
+    "options": ["True", "False", "Only if they are different types", "Only for numeric values"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `sorted()` function do?",
+    "options": ["Sorts a list in-place and returns None", "Returns a new sorted list from the items in an iterable", "Checks if a list is sorted", "Reverses the order of a list"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `list.sort()` method do?",
+    "options": ["Sorts the list in-place and returns None", "Returns a new sorted list", "Checks if the list is sorted", "Reverses the order of the list"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the value of `ord('A')`?",
+    "options": ["A", "Error", "65 (or its Unicode code point)", "1"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the value of `chr(65)`?",
+    "options": ["65", "Error", "'A' (the character for that Unicode code point)", "1.0"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `\"python\".islower()`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `\"Python\".isupper()`?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `with` statement is often used when working with files because:",
+    "options": ["It makes the code shorter", "It automatically handles file closing, even if errors occur", "It opens files in a special secure mode", "It allows multiple files to be opened at once"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get a value from a dictionary `d` for key `k`, returning a default value `val` if `k` is not present?",
+    "options": ["d.get(k, val)", "d.fetch(k, val)", "d[k] or val", "d.find(k, val)"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which logical operator has the highest precedence?",
+    "options": ["and", "or", "not", "They all have the same precedence"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `set([1, 2, 2, 3, 3, 3])`?",
+    "options": ["[1, 2, 3]", "{1, 2, 2, 3, 3, 3}", "{1, 2, 3}", "(1, 2, 3)"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Variables in Python must be declared with a type before use.",
+    "options": ["True", "False", "Only for global variables", "Only for complex data types"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `range(0, 10, 2)`?",
+    "options": ["0, 2, 4, 6, 8", "0, 2, 4, 6, 8, 10", "2, 4, 6, 8", "An iterable sequence 0, 2, 4, 6, 8"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `\"abc\".isalpha()` return?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `\"123\".isdigit()` return?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `str(123)`?",
+    "options": ["123", "\"123\"", "Error", "OneTwoThree"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "If `s = \"-\"`, what is `s.join([\"a\", \"b\", \"c\"])`?",
+    "options": ["-a-b-c-", "a-b-c", "[\"a\"-\"b\"-\"c\"]", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following is the correct syntax for a list comprehension?",
+    "options": ["{x for x in range(5)}", "[x for x in range(5)]", "(x for x in range(5))", "list(x for x in range(5))"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `5 == 5.0`?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `5 is 5.0`?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the purpose of an f-string like `f\"My name is {name}\"`?",
+    "options": ["To create a fixed string", "To format strings by embedding expressions inside string literals", "To create a function string", "To find a string in a file"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "The `enumerate()` function, when used with a list in a `for` loop, provides:",
+    "options": ["Only the elements", "Only the indices", "Both the index and the element", "The length of the list"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you remove a key-value pair from a dictionary `d` using key `k`?",
+    "options": ["d.remove(k)", "del d[k]", "d.pop_key(k)", "d.discard(k)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `\"Python\".lower()`?",
+    "options": ["python", "Python", "PYTHON", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Python uses garbage collection for memory management.",
+    "options": ["True", "False", "Only for certain objects", "It's a manual process"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What keyword is used to create an anonymous function (lambda function)?",
+    "options": ["anon", "func", "def", "lambda"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these will raise a `TypeError`?",
+    "options": ["`'apple' + 'pie'`", "`3 + 4.5`", "`'Age: ' + 25`", "`[1,2] + [3,4]`"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you check if a string `s` contains only whitespace characters?",
+    "options": ["s.isspace()", "s.iswhite()", "s.isblank()", "s.whitespace()"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `list(\"abc\")`?",
+    "options": ["[\"abc\"]", "('a', 'b', 'c')", "['a', 'b', 'c']", "Error"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "If a function does not have a `return` statement, what does it return by default?",
+    "options": ["0", "False", "None", "An empty string"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these data types is ordered and mutable?",
+    "options": ["tuple", "set", "str", "list"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these data types is ordered and immutable?",
+    "options": ["list", "tuple", "set", "dictionary"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these data types is unordered and mutable, and stores key-value pairs?",
+    "options": ["list", "tuple", "set", "dictionary"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of these data types is unordered and mutable, and stores unique elements?",
+    "options": ["list", "tuple", "set", "dictionary"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `int(True)`?",
+    "options": ["0", "1", "True", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `int(False)`?",
+    "options": ["0", "1", "False", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `\"1,2,3\".split(',')`?",
+    "options": ["[\"1,2,3\"]", "[\"1\", \"2\", \"3\"]", "(\"1\", \"2\", \"3\")", "123"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which module would you import to work with regular expressions?",
+    "options": ["regex", "re", "regexp", "string_match"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the primary use of the `help()` function in Python?",
+    "options": ["To get help from online forums", "To display documentation for modules, functions, classes, etc.", "To debug code", "To format help messages"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `dict.fromkeys(['a', 'b'], 0)`?",
+    "options": ["{'a': 0, 'b': 0}", "[('a', 0), ('b', 0)]", "{'ab': 0}", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which character indicates the start of a dictionary literal?",
+    "options": ["[", "(", "{", "<"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which character indicates the start of a list literal?",
+    "options": ["[", "(", "{", "<"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which character indicates the start of a tuple literal (for non-empty tuples)?",
+    "options": ["[", "(", "{", "<"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `3 * (1 + 2)`?",
+    "options": ["5", "6", "7", "9"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the purpose of the `global` keyword in a function?",
+    "options": ["To declare a variable that can be accessed by any module", "To indicate that an assignment to a variable should affect the global variable with that name, not create a new local one", "To make a function globally available", "To import global settings"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `\"Hello\"[0]` return?",
+    "options": ["H", "e", "o", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `max([1, 5, 2, 8, 3])`?",
+    "options": ["1", "3", "5", "8"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `min(\"python\")` based on character codes?",
+    "options": ["p", "y", "h", "n"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following is NOT a valid variable name in Python?",
+    "options": ["_my_var", "myVar", "2myVar", "my_var2"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you create a complex number `3 + 4j` in Python?",
+    "options": ["complex(3, 4)", "3 + 4j", "3 + 4i", "Both A and B"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `round(x)` function do if `x` is `3.7`?",
+    "options": ["3", "4", "3.0", "4.0"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `round(x)` function do if `x` is `3.2`?",
+    "options": ["3", "4", "3.0", "4.0"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `(1, 2, 3) == (1, 2, 3)`?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `[1, 2, 3] == [1, 2, 3]`?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `[1, 2, 3] is [1, 2, 3]`?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the purpose of `*args` in a function definition?",
+    "options": ["To pass a fixed number of arguments", "To pass a variable number of keyword arguments as a dictionary", "To pass a variable number of positional arguments as a tuple", "To indicate all arguments are strings"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of `**kwargs` in a function definition?",
+    "options": ["To pass a variable number of positional arguments as a tuple", "To pass a variable number of keyword arguments as a dictionary", "To indicate all arguments must be keywords", "To restrict arguments to key-value pairs only"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "Which statement is used to open a file and ensure it's closed automatically, even if an error occurs?",
+    "options": ["try...finally with open() and close()", "with open(...) as f:", "open(...).auto_close()", "file = open_secure(...)"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does a list comprehension `[x*x for x in range(5)]` produce?",
+    "options": ["[0, 1, 2, 3, 4]", "[0, 1, 4, 9, 16]", "[1, 4, 9, 16, 25]", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "How can you get the value associated with a key in a dictionary, providing a default if the key is not found, without modifying the dictionary?",
+    "options": ["my_dict.get(key, default_value)", "my_dict[key] or default_value", "my_dict.setdefault(key, default_value)", "try: my_dict[key] except: default_value"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a lambda function in Python?",
+    "options": ["A function defined with the `def` keyword inside another function", "A small, anonymous function defined with the `lambda` keyword", "A function that can only be called once", "A pre-compiled function for speed"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "If `s = \"Python programming\"`, what is `s.split()`?",
+    "options": ["['P', 'y', 't', 'h', 'o', 'n', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g']", "['Python', 'programming']", "Error", "('Python', 'programming')"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between a list and a tuple in Python?",
+    "options": ["Lists are mutable, tuples are immutable", "Tuples are mutable, lists are immutable", "Lists can store mixed data types, tuples cannot", "There is no significant difference"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `yield` keyword do in a Python function?",
+    "options": ["Returns a value and terminates the function", "Makes the function a generator, allowing it to produce a sequence of values over time", "Pauses the function indefinitely", "Yields control to another thread"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "How do you inherit from a class `ParentClass` in a new class `ChildClass`?",
+    "options": ["class ChildClass(ParentClass):", "class ChildClass inherits ParentClass:", "class ChildClass extends ParentClass:", "class ChildClass : ParentClass"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `super()` function used for in Python OOP?",
+    "options": ["To call the constructor of the current class", "To access members of a super (parent) class", "To define a superclass", "To make a method exceptionally powerful"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "Which of these is a correct way to open a file `log.txt` in append mode?",
+    "options": ["open('log.txt', 'append')", "open('log.txt', 'a')", "open('log.txt', 'w+') (this truncates first)", "open('log.txt', 'p')"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `json.dumps()` function do?",
+    "options": ["Loads JSON data from a file", "Parses a JSON string into a Python dictionary", "Serializes a Python object (e.g., dict, list) into a JSON formatted string", "Dumps Python objects to a binary file"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `json.loads()` function do?",
+    "options": ["Serializes a Python object into a JSON string", "Loads JSON data from a Python string into a Python object (e.g., dict, list)", "Saves Python objects to a JSON file", "Lists all JSON files in a directory"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "Which of the following creates a set?",
+    "options": ["{1, 2, 3}", "set([1, 2, 3])", "[1, 2, 3]", "Both A and B"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the output of `set([1,2,3]) & set([2,3,4])`? (set intersection)",
+    "options": ["{1, 2, 3, 4}", "{2, 3}", "{1, 4}", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the output of `set([1,2,3]) | set([2,3,4])`? (set union)",
+    "options": ["{1, 2, 3, 4}", "{2, 3}", "{1, 2, 3, 2, 3, 4}", "Error"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `collections.defaultdict` used for?",
+    "options": ["A dictionary that has a default value for all keys", "A dictionary that calls a factory function to supply missing values", "A dictionary that can only store default Python types", "A read-only dictionary with default entries"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "How can you create a shallow copy of a list `my_list`?",
+    "options": ["`new_list = my_list`", "`new_list = my_list[:]`", "`new_list = my_list.copy()`", "Both B and C"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the primary difference between `sort()` method and `sorted()` function?",
+    "options": ["`sort()` is for lists, `sorted()` is for tuples", "`sort()` modifies the list in-place, `sorted()` returns a new sorted list", "`sorted()` is faster than `sort()`", "There is no difference"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `os.path.join()` function do?",
+    "options": ["Joins two strings together", "Joins path components intelligently using the correct path separator for the OS", "Creates a symbolic link", "Checks if a path exists"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What will `my_dict.pop('key_non_existent', 'default_val')` return if 'key_non_existent' is not in `my_dict`?",
+    "options": ["Raises a KeyError", "'default_val'", "None", "Error"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "The `datetime` module in Python is used for:",
+    "options": ["Timing code execution", "Working with dates and times", "Generating random date sequences", "Formatting time for display in GUIs"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "How do you define a function that accepts an arbitrary number of positional arguments?",
+    "options": ["def func(args*):", "def func(*args):", "def func(...args):", "def func(args[]):"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "How do you define a function that accepts an arbitrary number of keyword arguments?",
+    "options": ["def func(kwargs**):", "def func(**kwargs):", "def func(...kwargs):", "def func(kwargs{}):"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `sys.exit()` used for?",
+    "options": ["To exit the current loop", "To terminate the Python script", "To close all open files", "To return from a function"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a decorator in Python?",
+    "options": ["A way to visually enhance text output", "A function that takes another function and extends its behavior without explicitly modifying it", "A special type of comment", "A built-in data structure for decoration"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "Which method is used to read the entire content of a file into a single string?",
+    "options": ["file.readall()", "file.get_content()", "file.read()", "file.readlines_to_string()"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `file.readlines()` return?",
+    "options": ["A single string with all lines", "A list of strings, where each string is a line from the file", "An iterator over the lines of the file", "The number of lines in the file"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the LEGB rule in Python scope resolution?",
+    "options": ["Local, Enclosing, Global, Built-in", "List, Element, Group, Block", "Low, Equal, Greater, Boolean", "Let, Evaluate, Get, Bind"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a common use case for the `enumerate()` function?",
+    "options": ["To count the occurrences of items in a list", "To get both the index and value of items in an iterable during looping", "To convert a list of numbers to a list of strings", "To create an empty list with a predefined size"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "If `a = {1, 2, 3}` and `b = {3, 4, 5}`, what is `a.difference(b)`?",
+    "options": ["{1, 2}", "{3}", "{4, 5}", "{1, 2, 3, 4, 5}"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is duck typing?",
+    "options": ["A Python feature for creating animal simulations", "A programming concept where an object's suitability is determined by the presence of certain methods and properties, rather than its explicit type", "A way to make Python code quack", "A method for type casting"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "How do you raise a custom exception in Python?",
+    "options": ["`error MyException(\"message\")`", "`throw MyException(\"message\")`", "`raise MyException(\"message\")`", "`exception MyException(\"message\")`"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of the `__str__` dunder method in a class?",
+    "options": ["To convert the object to a string for `str()` and `print()`", "To define the string type of the class", "To store a string attribute", "To compare the object with a string"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of the `__repr__` dunder method in a class?",
+    "options": ["To provide an official, unambiguous string representation of an object, often used for debugging", "To represent the object in reports", "To restrict string conversions", "To return a repeated string"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "Which of the following is true about Python's `map()` function?",
+    "options": ["It modifies a list in-place", "It applies a function to all items in an input list (or other iterable) and returns an iterator", "It maps keys to values in a dictionary", "It is used for geographical mapping"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "Which of the following is true about Python's `filter()` function?",
+    "options": ["It filters out unwanted characters from a string", "It constructs an iterator from elements of an iterable for which a function returns true", "It filters files in a directory based on criteria", "It is used for image filtering"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a virtual environment in Python used for?",
+    "options": ["To simulate different operating systems", "To create isolated Python environments with their own set of packages and dependencies", "To run Python code in a virtual machine", "To create a secure sandbox for Python scripts"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `collections.Counter` class useful for?",
+    "options": ["Counting down to an event", "A dictionary subclass for counting hashable objects (how many times each item appears)", "Creating UI counter widgets", "A simple integer counter"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `slice(start, stop, step)` object represent?",
+    "options": ["A specific slice of a pizza", "An object that can be used to slice sequences (e.g., `my_list[s]`)", "A function to cut strings", "A way to divide numbers"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "In `my_list[1:5]`, the element at index 5 is included.",
+    "options": ["True", "False", "Only if the list is long enough", "Depends on the step value"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of `__slots__` in a Python class definition?",
+    "options": ["To define specific time slots for method execution", "To provide a more memory-efficient way of defining instance attributes by pre-allocating space for them, instead of using a `__dict__`", "To create slot machine game logic", "To define GUI slots for signals"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `zip()` function used for?",
+    "options": ["To compress files", "To iterate over several iterables in parallel, producing tuples with an item from each", "To create a ZIP archive", "To fasten code execution"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `isinstance(obj, (list, tuple))` check?",
+    "options": ["If `obj` is both a list and a tuple", "If `obj` is an instance of either `list` or `tuple`", "If `obj` contains lists and tuples", "If `obj` can be converted to a list or tuple"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `any()` function used for with an iterable?",
+    "options": ["To check if any element is of a specific type", "To return True if at least one element of an iterable is true (or the iterable is empty), False otherwise", "To select any random element", "To check if any element is None"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `all()` function used for with an iterable?",
+    "options": ["To check if all elements are of the same type", "To return True if all elements of an iterable are true (or if the iterable is empty), False otherwise", "To select all elements", "To verify all elements are not None"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "How does a dictionary comprehension `{k: v for k, v in an_iterable}` work?",
+    "options": ["It creates a dictionary from a list of keys and a list of values separately", "It creates a new dictionary by iterating over an iterable of key-value pairs (or items that can be unpacked into k, v) and applying expressions", "It converts a list into a dictionary with default values", "It is not valid Python syntax"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `functools.partial` function used for?",
+    "options": ["To create partial class instances", "To create new functions with some arguments of an existing function pre-filled", "To perform partial differentiation", "To partially execute a function"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is method overriding in Python OOP?",
+    "options": ["A subclass defining a method with the same name as a method in its superclass, thus providing its own implementation", "Calling a method multiple times with different arguments", "Hiding a superclass method completely", "Making a method optional to implement"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a static method in a Python class (defined with `@staticmethod`)?",
+    "options": ["A method that cannot be changed", "A method that belongs to the class rather than an instance of the class, and does not receive an implicit first argument (`self` or `cls`)", "A method that can only be called from static contexts", "A method that is automatically called when the class is defined"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a class method in a Python class (defined with `@classmethod`)?",
+    "options": ["A method that can only be called by other methods of the same class", "A method that is bound to the class and receives the class itself as the implicit first argument (conventionally named `cls`)", "A method that classifies objects", "A method that is part of the Python standard library for classes"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the main difference between reading a file with `r` mode and `rb` mode?",
+    "options": ["`r` is for reading, `rb` is for reading and writing backwards", "`r` reads as text (decoding bytes), `rb` reads as raw bytes", "`r` is faster, `rb` is more reliable", "There is no `rb` mode, only `r` and `b` separately"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `shutil` module typically provide utilities for?",
+    "options": ["Shell command execution", "High-level file operations (e.g., copying, moving, removing files and directories)", "User interface development for shells", "Managing Python's interactive shell history"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the walrus operator `:=` (assignment expression, Python 3.8+) allow?",
+    "options": ["To assign values to variables as part of a larger expression", "A new way to compare objects", "To create named tuples more easily", "To define asynchronous assignment"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a context manager in Python, typically used with the `with` statement?",
+    "options": ["An object that manages the context of a variable's scope", "An object that defines the methods `__enter__()` and `__exit__()` for managing resources or setup/teardown operations", "A tool for managing application context in web frameworks", "A way to switch between different Python interpreters"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Global Interpreter Lock (GIL) in CPython?",
+    "options": ["A lock that prevents multiple Python threads from executing Python bytecode at the same exact moment in a single process", "A mechanism to globally lock variables for thread safety", "A tool for debugging global variables", "A lock on the Python interpreter to prevent unauthorized access"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the primary purpose of the `async` and `await` keywords in Python (Python 3.5+)?",
+    "options": ["To make functions execute synchronously", "To define and manage coroutines for asynchronous programming, allowing non-blocking I/O operations", "To automatically synchronize thread access", "To create functions that await user input"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a generator expression, e.g., `(x*x for x in range(10))`?",
+    "options": ["A syntax for creating list comprehensions", "A compact way to create a generator object, which computes values on demand (lazily)", "An expression that generates random numbers", "A way to express mathematical generators"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What does a Python decorator with arguments (e.g., `@my_decorator(arg1, arg2)`) typically involve?",
+    "options": ["A decorator that can only be applied to functions with specific arguments", "A function that returns a decorator, where the outer function takes the arguments", "A decorator that modifies the arguments of the decorated function", "This syntax is not valid for decorators"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `itertools` module in Python primarily used for?",
+    "options": ["Creating interactive user interfaces", "Functions creating iterators for efficient looping (e.g., permutations, combinations, infinite iterators)", "Tools for internationalization", "Iterating over tool-specific configurations"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `functools.reduce()` function used for?",
+    "options": ["To reduce the complexity of a function", "To apply a rolling computation to sequential pairs of values in an iterable, accumulating a single result", "To filter an iterable down to a smaller size", "To reduce memory usage of a function"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a metaclass in Python?",
+    "options": ["A class for storing metadata about other classes", "The class of a class; it defines how classes are created and behave", "A superclass that is meta-programmed", "A template for creating classes"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What does the `pickle` module do in Python?",
+    "options": ["Manages pickled food recipes", "Serializes Python objects into a byte stream and deserializes byte streams back into Python objects", "Encrypts Python code", "Compresses Python scripts"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the purpose of type hints in Python (e.g., `def greet(name: str) -> str:`)?",
+    "options": ["To enforce strict type checking at runtime", "To provide optional static type information for linters, type checkers (like Mypy), and developer understanding", "To automatically convert arguments to the hinted types", "To generate documentation automatically"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a descriptor in Python?",
+    "options": ["A textual description of a class", "An object attribute with “binding behavior”, whose attribute access has been overridden by methods in the descriptor protocol (`__get__`, `__set__`, `__delete__`)", "A tool for describing Python's syntax", "A variable that describes another variable's type"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the main difference between threads and processes created by the `threading` and `multiprocessing` modules respectively?",
+    "options": ["Threads share memory space, processes have separate memory spaces", "Processes are lighter than threads", "Threads can run on multiple CPU cores, processes cannot (due to GIL)", "There is no significant difference in Python"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What does `__name__ == \"__main__\"` check for in a Python script?",
+    "options": ["If the script's name is 'main.py'", "If the script is being run directly (not imported as a module)", "If the main function is defined", "If the script is the main entry point of a package"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the purpose of a `property` decorator (`@property`) in a class?",
+    "options": ["To define a class attribute that is constant", "To create managed attributes (getters, setters, deleters) for a class, allowing method-like behavior with attribute-like access", "To specify properties for serialization", "To mark a method as a property of the system environment"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What does `*` do when used in a function call, like `my_func(*my_list)`?",
+    "options": ["Multiplies the list by a factor", "Unpacks the list `my_list` into individual positional arguments for `my_func`", "Passes the list as a pointer", "Indicates the list contains string arguments"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What does `**` do when used in a function call, like `my_func(**my_dict)`?",
+    "options": ["Raises the dictionary to a power", "Unpacks the dictionary `my_dict` into individual keyword arguments for `my_func`", "Passes the dictionary as a reference to a reference", "Indicates the dictionary contains exponent values"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `sys.path` in Python?",
+    "options": ["The path to the Python executable", "A list of strings that specifies the search path for modules", "The current working directory's path", "A list of paths to system libraries"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a common way to handle CSV (Comma Separated Values) files in Python?",
+    "options": ["Using the built-in `csv` module", "Manually splitting strings by commas", "Using the `pandas` library", "Both A and C are common approaches"],
+    "answer": 3,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is an example of a built-in exception that is commonly caught for file operations?",
+    "options": ["`FileError`", "`IOError` (or `OSError` in Python 3.3+)", "`DiskFullException`", "`ReadWriteError`"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the purpose of `__init__.py` files in Python packages?",
+    "options": ["To initialize all variables in the package", "To mark a directory as a Python package and can optionally execute initialization code for the package", "To store the main executable script of the package", "To list all modules within the package"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What does the `argparse` module help with?",
+    "options": ["Parsing arguments passed to a function", "Parsing command-line arguments when running a Python script", "Parsing XML and HTML files", "Parsing dates and times from strings"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a set comprehension, e.g., `{x for x in 'abracadabra' if x not in 'abc'}`?",
+    "options": ["A way to create sets with specific conditions applied to elements from an iterable", "A method to understand set theory", "A syntax for defining set operations", "A way to define a fixed set of characters"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is monkey patching in Python?",
+    "options": ["A technique for training monkeys to write Python code", "Dynamically modifying or extending classes or modules at runtime", "A debugging tool for finding 'monkey business' in code", "A security measure to prevent unauthorized patching"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `weakref` module used for?",
+    "options": ["Creating references that are easily broken", "Creating weak references to objects, which do not prevent the object from being garbage collected", "Referring to weak data types", "Checking the strength of passwords"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `logging` module in Python's standard library for?",
+    "options": ["Logging into websites", "Providing a flexible event logging system for applications and libraries", "Creating log files for mathematical operations", "Analyzing user login patterns"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the primary difference between `==` and `is` for custom objects if `__eq__` is implemented but the objects are distinct instances?",
+    "options": ["`==` checks identity, `is` checks value based on `__eq__`", "`==` checks value based on `__eq__`, `is` checks identity (memory location)", "Both check identity", "Both check value based on `__eq__`"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `dis` module used for?",
+    "options": ["Disabling parts of Python code", "Disassembling Python bytecode to inspect it", "Displaying error messages", "Discovering modules on the system"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the purpose of the `finally` clause in a `try...except...finally` block?",
+    "options": ["It is executed only if an exception occurs", "It is executed only if no exception occurs", "It is always executed after the `try` and any `except` or `else` blocks, regardless of whether an exception occurred or was handled", "It marks the final exception to be handled"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a Python `bytes` object?",
+    "options": ["A mutable sequence of integers in the range 0-255", "An immutable sequence of integers in the range 0-255 (representing raw binary data)", "A string encoded in UTF-8 by default", "A list of byte-sized characters"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a Python `bytearray` object?",
+    "options": ["An immutable sequence of bytes", "A mutable sequence of integers in the range 0-255", "An array of boolean values", "A string representing binary data"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 3
+  },
+  {
+    "question": "What does a `Future` object in `concurrent.futures` represent?",
+    "options": ["A value that will be available in a future Python version", "The result of an asynchronous computation that may not have completed yet", "A placeholder for a function to be defined later", "A scheduled task in a cron job"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the primary role of a metaclass in Python?",
+    "options": ["To define the structure of metadata for classes", "To act as a 'class factory', controlling the creation and behavior of classes themselves", "To create instances of classes with meta-attributes", "To manage class inheritance hierarchies at a meta-level"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "How does Python's `asyncio` module achieve concurrency?",
+    "options": ["By using multiple OS processes", "By using multiple OS threads for each coroutine", "By using a single-threaded event loop to manage and switch between multiple coroutines (cooperative multitasking)", "By offloading tasks to the GPU"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a Python descriptor protocol?",
+    "options": ["A protocol for describing network packets", "A set of methods (`__get__`, `__set__`, `__delete__`) that an object can implement to customize attribute access on an owner class", "A way to define data transfer protocols", "A standardized format for Python documentation strings"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the primary benefit of using `__slots__` in a Python class?",
+    "options": ["It allows dynamic addition of attributes at runtime", "It can significantly reduce memory footprint for objects by preventing the creation of `__dict__` for each instance", "It enforces type checking for attributes", "It makes attributes read-only by default"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "In the context of `asyncio`, what is an event loop?",
+    "options": ["A loop that waits for user interface events", "A central component that runs asynchronous tasks and callbacks, manages network I/O, and schedules coroutines", "A loop that iterates through all possible events in a system", "A debugging tool for tracking event sequences"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the purpose of the `ctypes` module in Python?",
+    "options": ["To define custom data types with C-like precision", "To provide tools for creating and manipulating C data types in Python and calling functions in C-compiled shared libraries (DLLs/SOs)", "To enforce C-style type checking in Python", "To convert Python code to C code"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What does it mean for a Python coroutine to be 'awaitable'?",
+    "options": ["It means the coroutine must wait for a specific duration", "It means the coroutine can be used with the `await` keyword, indicating it's an operation that might suspend execution until it completes", "It means the coroutine is waiting for external input", "It means the coroutine has a high priority and should be awaited by others"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the 'Actor Model' in concurrent programming, and how might it relate to some Python libraries?",
+    "options": ["A model where actors are primitive data types", "A conceptual model where 'actors' are independent computational entities that communicate via asynchronous messages; libraries like Akka.py or Thespian implement this", "A model for GUI actors and scenes", "A model describing how actors in a play interact, applied to software"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the primary challenge the Global Interpreter Lock (GIL) poses for CPU-bound multi-threaded Python programs?",
+    "options": ["It causes memory leaks", "It prevents true parallelism on multi-core processors because only one thread can hold the GIL and execute Python bytecode at any given time", "It makes threads slower than single-threaded execution", "It limits the number of threads that can be created"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "How can the `multiprocessing` module overcome the GIL limitation for CPU-bound tasks?",
+    "options": ["It disables the GIL for its processes", "It uses a more efficient interpreter without a GIL", "It creates separate processes, each with its own Python interpreter and memory space, thus bypassing the GIL of a single process", "It uses a special type of thread not affected by the GIL"],
+    "answer": 2,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'memory view' (`memoryview`) in Python?",
+    "options": ["A tool for viewing Python's memory usage statistics", "An object that provides a view of an object's internal data buffer (e.g., bytes, bytearray, array.array) without copying, allowing efficient access to slices or reinterpretation of the data", "A read-only copy of an object's memory", "A way to create shared memory segments"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the purpose of a `__call__` method in a Python class?",
+    "options": ["It is called when the class itself is called during instantiation", "It allows an instance of the class to be called as if it were a function", "It is a callback method for asynchronous operations", "It is used to call methods of the superclass"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is Cython primarily used for?",
+    "options": ["To write Python code in a more cyclical manner", "To write C extensions for Python and to compile Python-like code into C, often for performance optimization or interfacing with C libraries", "A Python-based scientific computing environment", "A tool for managing Python versions"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the 'Abstract Base Class' (ABC) concept, often used with the `abc` module?",
+    "options": ["A class that is too abstract to be useful", "A way to define formal interfaces in Python, specifying methods that concrete subclasses must implement, without providing implementations themselves (or providing default ones)", "A base class for all alphabetic characters", "A class that cannot be inherited from"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the difference between `copy.copy()` (shallow copy) and `copy.deepcopy()` for a list containing mutable objects (e.g., other lists)?",
+    "options": ["There is no difference for lists", "`copy()` creates a new list but populates it with references to the original inner objects; `deepcopy()` creates a new list and recursively copies all inner objects", "`deepcopy()` is faster but less safe", "`copy()` copies types, `deepcopy()` copies values"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `PYTHONPATH` environment variable used for?",
+    "options": ["To specify the path to the Python interpreter", "To augment the default search path for module files, similar to `sys.path` but set externally", "To set the Python version to be used", "To define paths for Python's documentation"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is WSGI (Web Server Gateway Interface)?",
+    "options": ["A graphical user interface for web servers", "A specification that describes how a web server communicates with web applications written in Python", "A Python module for secure web communication", "A web scraping interface"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is ASGI (Asynchronous Server Gateway Interface)?",
+    "options": ["A successor to WSGI, designed to handle asynchronous Python web applications and protocols beyond HTTP (like WebSockets)", "A tool for inspecting asynchronous tasks", "An interface for secure gateway connections", "A specification for server-side graphics rendering"],
+    "answer": 0,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the purpose of `pyproject.toml` in modern Python packaging?",
+    "options": ["It's a project to-do list file", "A configuration file specifying build system requirements and project metadata, replacing or augmenting `setup.py` for some aspects", "A file for storing Python project templates", "A file for managing Python interpreter versions for a project"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What does the `functools.lru_cache` decorator provide?",
+    "options": ["A cache for recently used lambda functions", "A memoization utility that caches the results of function calls with specific arguments, to speed up repeated calls with the same inputs (Least Recently Used cache)", "A tool for caching local runtime units", "A cache for large resource files"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'named tuple' from the `collections` module?",
+    "options": ["A tuple where each element must have a name", "A factory function for creating tuple subclasses with named fields, allowing access by name as well as index", "A tuple that is stored in a named variable", "A tuple used for naming conventions in Python"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the primary benefit of using a `deque` (double-ended queue) from `collections` over a standard list for append/pop operations at both ends?",
+    "options": ["`deque` is immutable", "`deque` provides O(1) time complexity for appends and pops from both ends, while list appends/pops from the left are O(n)", "`deque` uses less memory", "`deque` can store more elements"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `struct` module in Python used for?",
+    "options": ["Defining data structures like linked lists and trees", "Packing and unpacking binary data between Python values and C structs represented as Python bytes objects", "Creating structured reports", "Analyzing the structure of Python code"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a Python 'wheel' (`.whl`) file?",
+    "options": ["A file containing the source code of a Python package", "A built-package format for Python that is a ZIP archive containing compiled code and metadata, ready for installation", "A configuration file for Python's package manager", "A circular dependency file"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'pickling' and 'unpickling' in Python?",
+    "options": ["A process of preserving food items using Python scripts", "The process of serializing a Python object hierarchy into a byte stream (pickling), and the inverse process of reconstructing the object hierarchy from a byte stream (unpickling)", "Encrypting and decrypting Python data", "Compressing and decompressing Python files"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'type alias' in Python type hinting (e.g., `Vector = list[float]`)?",
+    "options": ["A way to rename built-in types", "Assigning a new name to a type, which can be used to annotate variables, parameters, and return values for clarity or simplification", "A function that converts one type to another", "A special comment indicating the type"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `pdb` module in Python?",
+    "options": ["A module for managing project databases", "The Python Debugger, providing an interactive source code debugger for Python programs", "A module for printing documents in PDF format", "A performance database for Python scripts"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'context variable' (`contextvars` module, Python 3.7+)?",
+    "options": ["A variable that stores the current application context in web frameworks", "A mechanism to manage context-local state that is properly handled in concurrent code, especially with `asyncio`", "A global variable that is specific to a certain context", "A variable used for internationalization context"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'duck punching' a synonym for in Python?",
+    "options": ["A type of martial art practiced by Python developers", "Monkey patching", "A specific debugging technique", "A code obfuscation method"],
+    "answer": 1,
+    "category": "Python",
+    "difficulty": 4
+  }
+]

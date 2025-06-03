@@ -1,0 +1,2077 @@
+[
+  {
+    "question": "What does TCP stand for?",
+    "options": ["Transmission Control Protocol", "Transfer Control Protocol", "Transport Connection Protocol", "Telecommunication Control Protocol"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What does IP stand for in the context of TCP/IP?",
+    "options": ["Internet Process", "Internal Protocol", "Internet Protocol", "Instruction Pointer"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for routing packets between networks?",
+    "options": ["Physical Layer", "Data Link Layer", "Network Layer", "Transport Layer"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for reliable, end-to-end data transmission (e.g., using TCP)?",
+    "options": ["Network Layer", "Transport Layer", "Session Layer", "Presentation Layer"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Which layer of the OSI model deals with physical transmission of bits over a medium (e.g., cables, radio waves)?",
+    "options": ["Physical Layer", "Data Link Layer", "Network Layer", "Application Layer"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for framing, MAC addressing, and error detection on a local network segment?",
+    "options": ["Physical Layer", "Data Link Layer", "Network Layer", "Transport Layer"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "HTTP (Hypertext Transfer Protocol) primarily operates at which layer of the OSI model?",
+    "options": ["Transport Layer", "Network Layer", "Session Layer", "Application Layer"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a MAC (Media Access Control) address?",
+    "options": ["A logical address assigned by the network administrator", "A physical hardware address unique to a network interface card (NIC)", "An address used for routing between different networks", "A type of IP address"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "An IP address is primarily used for:",
+    "options": ["Identifying a device on a local network segment only", "Identifying a device on a network and enabling routing across different networks", "Authenticating a user", "Encrypting data"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the standard port number for HTTP?",
+    "options": ["21", "25", "80", "443"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the standard port number for HTTPS?",
+    "options": ["80", "110", "143", "443"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "DNS (Domain Name System) is used to:",
+    "options": ["Assign IP addresses to devices", "Translate human-readable domain names (e.g., www.example.com) into IP addresses", "Encrypt network traffic", "Manage network bandwidth"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Which protocol is connectionless and operates at the Transport Layer, often used for applications like streaming or online gaming where speed is preferred over reliability?",
+    "options": ["TCP", "HTTP", "UDP (User Datagram Protocol)", "FTP"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "TCP is a connection-oriented protocol, meaning:",
+    "options": ["It sends data without establishing a connection first", "It establishes a connection (three-way handshake) before data transfer, ensures reliable delivery, and closes the connection afterwards", "It only works with wired connections", "It connects directly to the internet backbone"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a router primarily used for in a network?",
+    "options": ["Connecting devices within the same local network segment", "Connecting different networks together and directing traffic between them based on IP addresses", "Amplifying network signals", "Storing frequently accessed web pages"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a switch primarily used for in a network?",
+    "options": ["Connecting different IP networks", "Connecting devices within the same local area network (LAN) segment, forwarding frames based on MAC addresses", "Translating domain names to IP addresses", "Providing wireless access"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a hub (older technology) primarily used for in a network?",
+    "options": ["Intelligent frame forwarding based on MAC addresses", "Broadcasting incoming data packets to all connected devices on a network segment", "Routing traffic between different networks", "Encrypting data"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A subnet mask is used to:",
+    "options": ["Hide a network from the internet", "Divide an IP address into a network portion and a host portion", "Encrypt IP addresses", "Assign dynamic IP addresses"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "DHCP (Dynamic Host Configuration Protocol) is used to:",
+    "options": ["Translate domain names to IP addresses", "Automatically assign IP addresses and other network configuration parameters (like subnet mask, default gateway, DNS server) to devices on a network", "Secure web communication", "Transfer files between hosts"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "NAT (Network Address Translation) is a technique used to:",
+    "options": ["Translate MAC addresses to IP addresses", "Allow multiple devices on a private network to share a single public IP address for internet access", "Encrypt network addresses", "Assign static IP addresses"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A firewall is a network security system that:",
+    "options": ["Prevents physical fires in server rooms", "Monitors and controls incoming and outgoing network traffic based on predefined security rules", "Encrypts all network data", "Boosts network signal strength"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "FTP (File Transfer Protocol) is used for:",
+    "options": ["Sending email", "Browsing websites", "Transferring files between a client and a server on a computer network", "Secure shell access"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "SMTP (Simple Mail Transfer Protocol) is primarily used for:",
+    "options": ["Retrieving emails from a mail server", "Sending emails between mail servers and from email clients to mail servers", "Browsing secure websites", "Managing network time"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "POP3 (Post Office Protocol version 3) is primarily used for:",
+    "options": ["Sending emails", "Retrieving emails from a mail server to an email client (typically downloading and deleting from server)", "Synchronizing emails across multiple devices", "Securing email transmission"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "IMAP (Internet Message Access Protocol) is primarily used for:",
+    "options": ["Sending emails", "Retrieving and managing emails on a mail server, allowing synchronization across multiple clients (emails typically remain on the server)", "Instant messaging", "IP address mapping"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What does LAN stand for?",
+    "options": ["Large Area Network", "Local Access Network", "Local Area Network", "Longitudinal Area Network"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What does WAN stand for?",
+    "options": ["Wireless Access Network", "Wide Area Network", "World Area Network", "Wired Access Node"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Which command-line utility is commonly used to test network connectivity to a host by sending ICMP echo requests?",
+    "options": ["ipconfig (or ifconfig)", "tracert (or traceroute)", "ping", "netstat"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "IPv4 addresses are typically how many bits long?",
+    "options": ["16 bits", "32 bits", "64 bits", "128 bits"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "IPv6 addresses are typically how many bits long?",
+    "options": ["32 bits", "48 bits", "64 bits", "128 bits"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The loopback IP address (usually `127.0.0.1` for IPv4) refers to:",
+    "options": ["The default gateway", "The local machine itself", "The DNS server", "A broadcast address"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A default gateway in a TCP/IP network configuration is:",
+    "options": ["The primary DNS server", "A router that devices on a local network use to send traffic to destinations outside their own network", "The MAC address of the local switch", "A security firewall"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Bandwidth in networking refers to:",
+    "options": ["The physical width of a network cable", "The maximum rate of data transfer across a given path, typically measured in bits per second (bps)", "The delay in network communication", "The number of devices connected to a network"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Latency in networking refers to:",
+    "options": ["The data transfer rate", "The delay in communication over a network, often measured as the time it takes for a packet to travel from source to destination (one-way) or round-trip time (RTT)", "The width of the network spectrum", "The number of hops between two hosts"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'socket' in network programming is typically:",
+    "options": ["A physical port on a network device", "An endpoint for communication, often represented by an IP address and a port number, used by applications to send and receive data", "A type of network cable connector", "A software for managing network sockets"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Ethernet is a common technology for which type of network?",
+    "options": ["WAN (Wide Area Network)", "MAN (Metropolitan Area Network)", "LAN (Local Area Network)", "PAN (Personal Area Network)"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Wi-Fi is a technology that allows electronic devices to connect to a wireless LAN (WLAN) network, primarily using which type of waves?",
+    "options": ["Infrared waves", "Radio waves (e.g., 2.4 GHz or 5 GHz bands)", "Microwaves", "Sound waves"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A VPN (Virtual Private Network) is used to:",
+    "options": ["Increase internet speed", "Create a secure, encrypted connection over a less secure network (like the public internet), often to access private network resources remotely or enhance privacy", "Provide public Wi-Fi access", "Manage virtual machines on a network"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a common use of SSH (Secure Shell)?",
+    "options": ["Secure web browsing (HTTPS)", "Secure remote login and command execution over an unsecured network", "Secure file transfer only (like SFTP)", "Secure email transmission"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "SSL/TLS (Secure Sockets Layer / Transport Layer Security) is primarily used to:",
+    "options": ["Encrypt files stored on a server", "Provide secure communication over a computer network, commonly used for encrypting web traffic (HTTPS), email, and other applications", "Manage network sockets securely", "Authenticate users to a local network"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A proxy server acts as:",
+    "options": ["A primary DNS server", "An intermediary for requests from clients seeking resources from other servers. It can be used for caching, filtering, anonymity, etc.", "A backup mail server", "A device to boost Wi-Fi signals"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The OSI model has how many layers?",
+    "options": ["4", "5", "7", "8"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The TCP/IP model (DoD model) typically has how many layers (conceptual, can vary slightly)?",
+    "options": ["3", "4 (e.g., Application, Transport, Internet, Network Access/Link)", "5", "7"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Which OSI layer is responsible for data formatting, encryption, and compression (e.g., character encoding translation)?",
+    "options": ["Application Layer", "Session Layer", "Presentation Layer", "Transport Layer"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Which OSI layer is responsible for establishing, managing, and terminating sessions (dialogues) between applications?",
+    "options": ["Transport Layer", "Presentation Layer", "Session Layer", "Application Layer"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The three-way handshake (SYN, SYN-ACK, ACK) is associated with establishing a connection in which protocol?",
+    "options": ["UDP", "IP", "HTTP", "TCP"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "ARP (Address Resolution Protocol) is used to:",
+    "options": ["Resolve IP addresses to MAC addresses on a local network", "Resolve MAC addresses to IP addresses", "Route packets between networks", "Assign IP addresses dynamically"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "RARP (Reverse Address Resolution Protocol) is used to (less common now):",
+    "options": ["Resolve IP addresses to MAC addresses", "Allow a host to discover its IP address when it only knows its MAC address", "Reverse the order of bytes in an IP address", "Resolve domain names in reverse"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "ICMP (Internet Control Message Protocol) is used by network devices, like routers, to:",
+    "options": ["Transfer large data files", "Send error messages and operational information (e.g., destination network unreachable, echo request/reply used by ping)", "Manage user sessions", "Encrypt control messages"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'port number' in TCP and UDP is used to:",
+    "options": ["Identify a physical port on a switch", "Identify a specific process or application running on a host to which data should be delivered", "Specify the network interface to use", "Indicate the priority of a packet"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Well-known port numbers range from:",
+    "options": ["0 to 1023", "1024 to 49151", "49152 to 65535", "0 to 255"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Registered port numbers range from:",
+    "options": ["0 to 1023", "1024 to 49151", "49152 to 65535", "256 to 1023"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Dynamic/Private/Ephemeral port numbers range from:",
+    "options": ["0 to 1023", "1024 to 49151", "49152 to 65535", "65536 and above"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "CSMA/CD (Carrier Sense Multiple Access with Collision Detection) is an access method used in which type of network?",
+    "options": ["Token Ring", "Wi-Fi (uses CSMA/CA)", "Traditional Ethernet (shared medium, half-duplex)", "FDDI"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) is an access method primarily used in:",
+    "options": ["Wired Ethernet", "Wireless networks (e.g., Wi-Fi IEEE 802.11)", "Token Ring networks", "Fiber Optic networks"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'collision domain' in an Ethernet network is a segment where:",
+    "options": ["All devices share the same IP address range", "If two devices transmit simultaneously, their frames can collide and interfere with each other (common with hubs, less so with switches)", "Data collisions are intentionally created for testing", "Only one device can be active at any time"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'broadcast domain' in a network is a logical area where:",
+    "options": ["Only broadcast messages are allowed", "Any device transmitting a broadcast frame will have that frame received by all other devices in the same domain (routers typically separate broadcast domains)", "All devices must use the same broadcast frequency", "Broadcasts are encrypted by default"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Switches help reduce collision domains compared to hubs because:",
+    "options": ["Switches operate at a higher frequency", "Each port on a switch is typically its own collision domain (in full-duplex mode)", "Switches use CSMA/CA", "Switches broadcast all traffic"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A VLAN (Virtual Local Area Network) allows you to:",
+    "options": ["Create a virtual network interface on a computer", "Logically segment a physical LAN into multiple broadcast domains, as if they were separate physical networks, on the same physical infrastructure (e.g., switches)", "Increase the physical range of a LAN", "Virtually connect to any LAN in the world"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The 'Time to Live' (TTL) field in an IP packet header is used to:",
+    "options": ["Specify how long the packet should be stored in a cache", "Prevent packets from circulating indefinitely in a network by decrementing at each router hop; the packet is discarded if TTL reaches zero", "Indicate the creation time of the packet", "Set a timer for the packet's retransmission"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Flow control in TCP is a mechanism to:",
+    "options": ["Control the direction of data flow", "Prevent a fast sender from overwhelming a slow receiver with too much data, by using a sliding window mechanism", "Manage traffic flow through routers", "Control access to network resources"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Congestion control in TCP is a mechanism to:",
+    "options": ["Prevent individual receivers from being overwhelmed", "Prevent the network itself from becoming overloaded with too much traffic, by adjusting the sending rate based on perceived network congestion (e.g., packet loss, increased RTT)", "Control congestion in data centers", "Manage physical network congestion (e.g., cable jams)"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The 'sliding window' protocol is used by TCP for:",
+    "options": ["Encrypting data", "Flow control and reliable data transmission, allowing multiple packets to be in transit simultaneously", "Detecting network collisions", "Predicting network congestion"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'checksum' is used in protocols like IP, TCP, and UDP for:",
+    "options": ["Authentication", "Encryption", "Error detection (to check if the data has been corrupted during transmission)", "Sequencing packets"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The `ping` utility uses which protocol to send echo requests?",
+    "options": ["TCP", "UDP", "HTTP", "ICMP"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The `traceroute` (or `tracert` on Windows) utility is used to:",
+    "options": ["Measure network bandwidth", "Display the route (path) and measure transit delays of packets across an IP network to a destination host", "Check if a host is online", "Resolve domain names"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What does 'localhost' typically resolve to as an IP address?",
+    "options": ["The public IP address of the router", "The IP address of the DNS server", "127.0.0.1 (for IPv4)", "0.0.0.0"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'socket pair' (local IP, local port, remote IP, remote port) uniquely identifies a:",
+    "options": ["Host on the internet", "TCP connection", "Network interface", "Subnet"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The term 'packet encapsulation' refers to:",
+    "options": ["Encrypting a packet", "The process where data from a higher layer protocol is wrapped with a header (and sometimes a trailer) from a lower layer protocol as it passes down the protocol stack", "Compressing a packet", "Storing a packet in a capsule"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'frame' is the PDU (Protocol Data Unit) at which OSI layer?",
+    "options": ["Physical Layer", "Data Link Layer", "Network Layer", "Transport Layer"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'packet' (or datagram) is the PDU at which OSI layer?",
+    "options": ["Data Link Layer", "Network Layer", "Transport Layer", "Application Layer"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'segment' (for TCP) or 'datagram' (for UDP) is the PDU at which OSI layer?",
+    "options": ["Network Layer", "Transport Layer", "Session Layer", "Presentation Layer"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "MTU (Maximum Transmission Unit) refers to:",
+    "options": ["The maximum number of users on a network", "The size in bytes of the largest PDU that a given layer of a communications protocol can pass onwards (e.g., for Ethernet frames)", "The maximum time a unit can be transmitted", "The minimum transmission unit"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Packet fragmentation occurs when:",
+    "options": ["A packet is too small", "An IP datagram is larger than the MTU of a network segment it needs to traverse, so it is broken into smaller pieces (fragments)", "A packet is corrupted", "A packet arrives out of order"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Routing Information Protocol (RIP) is an example of which type of routing protocol?",
+    "options": ["Link-state", "Distance-vector", "Path-vector", "Hybrid"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Open Shortest Path First (OSPF) is an example of which type of routing protocol?",
+    "options": ["Distance-vector", "Path-vector", "Link-state", "Exterior Gateway Protocol"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Border Gateway Protocol (BGP) is primarily used as an:",
+    "options": ["Interior Gateway Protocol (IGP) within an autonomous system", "Exterior Gateway Protocol (EGP) to exchange routing information between different autonomous systems (ASes) on the internet", "Link-state routing protocol", "Distance-vector protocol for small networks"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "An Autonomous System (AS) in internet routing is:",
+    "options": ["An automated routing system", "A collection of IP networks and routers under the control of one entity (or administrative domain) that presents a common routing policy to the internet", "A system that operates without human intervention", "A single, large local area network"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Which part of an HTTP URL specifies the protocol?",
+    "options": ["The domain name (e.g., www.example.com)", "The path (e.g., /path/to/resource)", "The scheme (e.g., 'http' or 'https')", "The query string (e.g., ?name=value)"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "An HTTP GET request is typically used to:",
+    "options": ["Submit form data that changes server state", "Request data from a specified resource", "Upload a file to the server", "Delete a resource on the server"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "An HTTP POST request is often used to:",
+    "options": ["Retrieve a web page without side effects", "Submit data to be processed to a specified resource (e.g., creating a new resource, submitting form data that changes server state)", "Request only the headers of a resource", "Delete a resource"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "An HTTP status code in the 2xx range (e.g., 200 OK) generally indicates:",
+    "options": ["Client error", "Server error", "Redirection", "Success"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "An HTTP status code in the 4xx range (e.g., 404 Not Found) generally indicates:",
+    "options": ["Success", "Server error", "Client error (e.g., bad request, resource not found, unauthorized)", "Informational response"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "An HTTP status code in the 5xx range (e.g., 500 Internal Server Error) generally indicates:",
+    "options": ["Client error", "Redirection", "Success", "Server error (the server failed to fulfill an apparently valid request)"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a cookie in the context of HTTP?",
+    "options": ["A small piece of food offered by a web server", "A small piece of data sent from a website and stored on the user's computer by the web browser while the user is browsing, used to remember stateful information or track browsing activity", "A type of JavaScript virus", "A server-side script for managing user sessions"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "MIME (Multipurpose Internet Mail Extensions) types are used to:",
+    "options": ["Encrypt email messages", "Specify the nature and format of a document, file, or assortment of bytes (e.g., `text/html`, `image/jpeg`), originally for email but now widely used in HTTP and other protocols", "Manage multiple email accounts", "Compress email attachments"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A Network Interface Card (NIC) is hardware that:",
+    "options": ["Stores network configuration settings", "Connects a computer to a computer network", "Manages network security", "Boosts Wi-Fi signals"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Unshielded Twisted Pair (UTP) is a common type of:",
+    "options": ["Fiber optic cable", "Wireless antenna", "Copper network cabling (e.g., for Ethernet)", "Coaxial cable"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Fiber optic cables transmit data using:",
+    "options": ["Electrical signals", "Radio waves", "Pulses of light", "Sound waves"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Full-duplex communication means:",
+    "options": ["Data can only be transmitted in one direction at a time", "Data can be transmitted in both directions, but not simultaneously", "Data can be transmitted in both directions simultaneously", "Communication is duplicated for redundancy"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Half-duplex communication means:",
+    "options": ["Data can be transmitted in both directions simultaneously", "Data can be transmitted in both directions, but only one direction at a time", "Data can only be transmitted, not received", "Communication is only partially established"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The term 'topology' in networking refers to:",
+    "options": ["The geographical location of network devices", "The physical or logical arrangement of nodes and connections in a network (e.g., bus, star, ring, mesh)", "The speed of the network", "The type of protocols used"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "In a star topology network:",
+    "options": ["All devices are connected in a circular fashion", "All devices are connected to a central hub or switch", "All devices are connected to a single common cable (bus)", "Devices are connected in a fully interconnected web"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "In a bus topology network (older Ethernet):",
+    "options": ["All devices connect to a central switch", "All devices are connected in a ring", "All devices share a single common communication line (bus)", "Each device is connected to every other device"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The concept of 'Quality of Service' (QoS) in networking refers to:",
+    "options": ["The overall quality of network hardware", "The ability of a network to provide different priorities to different applications, users, or data flows, or to guarantee a certain level of performance (e.g., bandwidth, latency, jitter)", "The quality of customer service from an ISP", "The error rate of the network"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Jitter in networking refers to:",
+    "options": ["The variation in packet arrival times (delay variation), which can affect real-time applications like VoIP or video streaming", "A type of network error", "The signal strength of a wireless network", "The physical shaking of network equipment"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'socket' in networking is an abstraction representing one end of a two-way communication link between two programs running on the network. It is typically bound to:",
+    "options": ["A MAC address only", "An IP address and a port number", "A domain name only", "A physical network interface"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The `netstat` command-line utility is often used to:",
+    "options": ["Test network connectivity like `ping`", "Display active network connections, listening ports, Ethernet statistics, the IP routing table, IPv4/IPv6 statistics, etc.", "Configure network interfaces", "Trace the route to a host"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "`ipconfig` (Windows) or `ifconfig` (Unix-like systems, older) is a command-line utility used to:",
+    "options": ["Display and configure network interface parameters (e.g., IP address, subnet mask, default gateway)", "Ping remote hosts", "Trace network routes", "Manage DNS entries"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The 'SYN flood' is a type of Denial-of-Service (DoS) attack that exploits:",
+    "options": ["The UDP protocol's lack of connection setup", "The TCP three-way handshake by sending many SYN requests but not completing the handshake, consuming server resources", "HTTP GET requests", "DNS resolution process"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "A 'Man-in-the-Middle' (MitM) attack is where:",
+    "options": ["An attacker physically places themselves in the middle of a network cable", "An attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other", "A server in the middle of a network fails", "An attacker is located in the middle of a large organization"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'phishing' attack typically involves:",
+    "options": ["Fishing for network packets", "Attempting to acquire sensitive information such as usernames, passwords, and credit card details by disguising as a trustworthy entity in an electronic communication (e.g., a fake login page)", "Using a fishing rod to tap into network cables", "Sending large amounts of unsolicited email (spam)"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'Denial-of-Service' (DoS) attack aims to:",
+    "options": ["Steal sensitive data", "Make a machine or network resource unavailable to its intended users by overwhelming it with traffic or exploiting a vulnerability", "Gain unauthorized access to a system", "Install malware"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'Distributed Denial-of-Service' (DDoS) attack is a DoS attack where:",
+    "options": ["The attack is distributed over a long period", "The incoming traffic flooding the victim originates from many different compromised computer systems (a botnet)", "The attack targets distributed database systems", "The attack is distributed among multiple victims"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Content Delivery Network (CDN) is a system of distributed servers that:",
+    "options": ["Delivers only text content", "Delivers web content and other internet content to end-users based on their geographic locations, the origin of the webpage and a content delivery server, improving speed and availability", "Is used for internal content management within an organization", "Focuses on delivering executable code"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Load balancing in networking is the process of:",
+    "options": ["Balancing the electrical load on network devices", "Distributing network traffic or computational workloads across multiple servers or resources to optimize resource use, maximize throughput, minimize response time, and avoid overload", "Ensuring all network cables have balanced signals", "Balancing the number of users on different network segments"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "IPv4 Address Classes (A, B, C, D, E - historical concept) were originally defined based on:",
+    "options": ["The geographical region of the IP address", "The first few bits of the IP address, determining the default network and host portions", "The speed of the network the IP address belonged to", "The organization type (e.g., educational, commercial)"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "CIDR (Classless Inter-Domain Routing) notation (e.g., 192.168.1.0/24) is used to:",
+    "options": ["Define IP address classes", "Specify an IP address and its associated network mask/prefix length in a more flexible way than traditional classful addressing", "Encrypt IP addresses", "Route traffic between different internet domains only"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The /24 in CIDR notation (e.g., 192.168.1.0/24) means that:",
+    "options": ["The network has 24 host addresses available", "The first 24 bits of the IP address represent the network portion, and the remaining (32-24 = 8) bits represent the host portion", "The network can support 24 subnets", "The IP address is 24 bits long"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Private IP address ranges (e.g., 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) are:",
+    "options": ["Routable on the public internet", "Reserved for use within private networks and are not routable on the public internet; they must be translated by NAT to communicate with the internet", "Assigned by ISPs for public servers", "Used for multicast addresses only"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'socket' in the Berkeley Sockets API is created using which function call (typically)?",
+    "options": ["`connect()`", "`bind()`", "`listen()`", "`socket()`"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "In the Berkeley Sockets API, the `bind()` function is used to:",
+    "options": ["Establish a connection to a remote server", "Associate a socket with a local IP address and port number", "Listen for incoming connections", "Send data over a socket"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "In the Berkeley Sockets API, the `listen()` function is used by a server to:",
+    "options": ["Accept an incoming connection", "Prepare a socket to accept incoming connection requests from clients", "Bind the socket to an address", "Send a listening signal on the network"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "In the Berkeley Sockets API, the `accept()` function is used by a server to:",
+    "options": ["Initiate a connection to a client", "Extract the first connection request on the queue of pending connections for the listening socket, create a new connected socket, and return its file descriptor", "Accept data from a client", "Check if a client is trying to connect"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "In the Berkeley Sockets API, the `connect()` function is used by a client to:",
+    "options": ["Listen for server connections", "Establish a connection to a specified remote server socket (IP address and port)", "Bind the client socket to a local address", "Accept an incoming connection from the server"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "SNMP (Simple Network Management Protocol) is used for:",
+    "options": ["Secure network messaging", "Managing and monitoring network devices (e.g., routers, switches, servers) on an IP network", "Transferring small network packets", "Name resolution"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "NTP (Network Time Protocol) is used for:",
+    "options": ["Transferring large files", "Synchronizing the clocks of computer systems over a packet-switched, variable-latency data network", "Managing network traffic priorities", "Encrypting time-sensitive data"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'Promiscuous Mode' for a network interface card (NIC)?",
+    "options": ["A mode where the NIC only accepts packets addressed to it", "A mode where the NIC passes all received traffic (all frames seen on the network segment) to the CPU, regardless of whether they are addressed to this NIC. Used for network monitoring and packet sniffing.", "A power-saving mode for the NIC", "A mode for high-speed data transfer only"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "The 'spanning tree protocol' (STP) is used in switched Ethernet networks to:",
+    "options": ["Create multiple paths between switches for increased bandwidth", "Prevent broadcast storms and bridge loops by logically disabling redundant paths, creating a tree topology of active links", "Connect switches in a tree-like physical arrangement", "Optimize spanning of data across multiple VLANs"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "A 'broadcast storm' can occur when:",
+    "options": ["Too many users try to broadcast simultaneously", "Broadcast frames are excessively propagated and re-broadcasted in a looped network topology (e.g., without STP), overwhelming the network", "A storm physically damages broadcast antennas", "The broadcast address is misconfigured"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'anycast' addressing?",
+    "options": ["Sending a packet to any random host on the network", "An addressing methodology where a single destination address is assigned to multiple devices (endpoints). Packets sent to this address are routed to the 'nearest' or 'best' endpoint as determined by the routing topology (e.g., used for DNS root servers, CDNs).", "Casting a vote for any network proposal", "A type of multicast addressing for any group size"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'multicast' addressing?",
+    "options": ["Sending a packet to multiple specific hosts simultaneously using a single multicast address; hosts interested in receiving the traffic join a multicast group", "Broadcasting a packet to all hosts on the network", "Casting a packet to multiple network segments", "A method for casting multimedia content"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "IGMP (Internet Group Management Protocol) is used by hosts and adjacent routers to:",
+    "options": ["Manage IP address assignments", "Establish and manage multicast group memberships on a local network segment", "Control internet gateway access", "Monitor group policies"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'cookie's' `HttpOnly` flag used for?",
+    "options": ["To make the cookie only accessible via HTTP, not HTTPS", "To mitigate cross-site scripting (XSS) by preventing client-side JavaScript from accessing the cookie", "To indicate the cookie is only for the HTTP header", "To make the cookie only valid for a single HTTP request"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'cookie's' `Secure` flag used for?",
+    "options": ["To encrypt the cookie's content", "To ensure the cookie is only transmitted over secure (HTTPS) connections", "To mark the cookie as secure from tampering", "To make the cookie readable only by secure scripts"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'HTTP Strict Transport Security' (HSTS)?",
+    "options": ["A stricter version of the HTTP protocol", "A web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking by telling browsers to only interact with the site using HTTPS connections", "A way to enforce strict HTML validation for HTTP responses", "A transport layer protocol stricter than TCP"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the purpose of the 'TCP window size' field in the TCP header?",
+    "options": ["To indicate the maximum size of a TCP segment", "Used for flow control; it specifies the amount of data (in bytes) that the sender of the segment is currently willing to receive", "The size of the display window for TCP data", "The time window for retransmitting lost segments"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "TCP 'sequence numbers' and 'acknowledgment numbers' are used for:",
+    "options": ["Encrypting TCP data", "Ensuring reliable, in-order delivery of data by tracking transmitted bytes and acknowledging received bytes", "Sequencing different TCP connections", "Numbering TCP options in the header"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The TCP 'FIN' flag is used to:",
+    "options": ["Indicate a final urgent piece of data", "Terminate a TCP connection gracefully from one side", "Signal a find operation for a specific sequence number", "Mark the final segment of a fragmented packet"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The TCP 'RST' (Reset) flag is used to:",
+    "options": ["Reset the sequence numbers", "Abruptly terminate a TCP connection, often in response to an error or an unexpected segment", "Restart a paused TCP transmission", "Request a reset of the remote host"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Path MTU Discovery' (PMTUD)?",
+    "options": ["Discovering all possible paths to a destination", "A technique used by TCP (and other protocols) to determine the maximum transmission unit (MTU) size on the network path between two IP hosts, to avoid IP fragmentation", "A way to discover the MTU of a local network interface", "Discovering paths that support jumbo frames only"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "A 'Network Byte Order' (Big-Endian) is a standard convention for:",
+    "options": ["The order in which bytes are processed by the CPU", "The order in which bytes of multi-byte numerical values are transmitted over a network, ensuring consistent interpretation by different systems", "The byte ordering used in network configuration files", "The physical order of bytes on a network cable"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The `htonl()`, `htons()`, `ntohl()`, `ntohs()` functions (e.g., in C sockets API) are used for:",
+    "options": ["Converting HTML to network format", "Converting multi-byte numerical values between host byte order and network byte order (which is big-endian)", "Handling network time synchronization", "Translating hostnames to network addresses"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'routing loop'?",
+    "options": ["A loop in a network cable", "A situation where packets are routed in a circular path between a set of routers, never reaching their destination, often due to misconfigured routing tables or slow convergence of routing protocols", "A loop construct in a routing algorithm", "A physical loop created by connecting two ports of the same router"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Techniques like 'split horizon' and 'poison reverse' are used in distance-vector routing protocols (like RIP) to help prevent:",
+    "options": ["Network congestion", "Routing loops and the count-to-infinity problem", "Unauthorized access to routers", "Packet fragmentation"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'stateful firewall'?",
+    "options": ["A firewall that is always in an active state", "A firewall that keeps track of the state of active network connections (e.g., TCP sessions) and makes filtering decisions based on the context of traffic within those connections, in addition to static rules", "A firewall that only inspects the state field in packet headers", "A firewall that reports its state to a central server"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'stateless firewall'?",
+    "options": ["A firewall that has no operational state", "A firewall that examines each packet in isolation, making filtering decisions based on static rules (e.g., source/destination IP, port, protocol) without considering the context of previous packets or connection state", "A firewall that does not store any configuration", "A firewall that is currently offline"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'Demilitarized Zone' (DMZ) in network security is:",
+    "options": ["A zone with no military presence", "A physical or logical subnetwork that separates an organization's internal local area network (LAN) from other untrusted networks, usually the internet. External-facing services (e.g., web servers, mail servers) are often placed in the DMZ.", "A zone where all network traffic is decrypted", "A network segment that is completely isolated from the internet"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'honeypot' in network security?",
+    "options": ["A pot filled with honey to attract network administrators", "A decoy computer system or network resource set up to attract and trap attackers, or to detect unauthorized access attempts, allowing study of attack methods and gathering of threat intelligence", "A secure storage for sensitive data", "A type of network encryption algorithm"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The 'Diffie-Hellman key exchange' algorithm is used to:",
+    "options": ["Exchange physical keys for servers", "Allow two parties that have no prior knowledge of each other to jointly establish a shared secret key over an insecure communication channel, which can then be used for symmetric encryption", "Exchange private keys for asymmetric encryption", "Verify digital signatures"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "Public Key Cryptography (Asymmetric Cryptography) uses:",
+    "options": ["A single shared secret key for both encryption and decryption", "A pair of keys: a public key (for encryption or signature verification) and a private key (for decryption or signature generation). The public key can be widely distributed, while the private key is kept secret.", "Only public keys for all operations", "Keys that are symmetric in nature"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A Digital Signature provides which security services?",
+    "options": ["Confidentiality only", "Authentication (proof of origin), data integrity (proof data hasn't been tampered with), and non-repudiation (sender cannot deny sending)", "Encryption and decryption", "Anonymity"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A Certificate Authority (CA) in a Public Key Infrastructure (PKI) is a trusted entity that:",
+    "options": ["Issues private keys to users", "Issues digital certificates, which bind a public key to a specific identity (e.g., a person, organization, or server), vouching for the authenticity of the public key", "Manages network access control lists", "Audits network security"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The OSI model's Application, Presentation, and Session layers roughly correspond to which single layer in the simplified TCP/IP model?",
+    "options": ["Network Access Layer", "Internet Layer", "Transport Layer", "Application Layer"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the primary purpose of the 'options' field in an IP header or TCP header?",
+    "options": ["To provide optional user data", "To allow for additional control information, experimental features, or special handling instructions that are not part of the fixed header fields (e.g., timestamps, window scale factor in TCP)", "To specify optional routing paths", "To select optional encryption algorithms"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'jumbo frame' in Ethernet?",
+    "options": ["A frame used by jumbo jets", "An Ethernet frame with a payload larger than the standard 1500 bytes, used in some high-performance networks to reduce overhead and increase throughput", "A very small Ethernet frame for control messages", "A frame that is guaranteed to be delivered without errors"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The 'localhost' hostname is typically resolved to an IP address found in which file on many Unix-like systems?",
+    "options": ["`/etc/resolv.conf`", "`/etc/nsswitch.conf`", "`/etc/hosts`", "`/etc/hostname`"],
+    "answer": 2,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'IP spoofing'?",
+    "options": ["Sending spoofed emails with IP addresses", "A technique where an attacker creates IP packets with a forged (spoofed) source IP address to impersonate another system or to hide the attacker's identity", "Using a proxy server to change your IP address", "A method for finding available IP addresses"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'socket descriptor' (or file descriptor for sockets on Unix-like systems) is:",
+    "options": ["A textual description of a socket", "An integer value that the operating system uses to identify an open socket (or file, or other I/O resource) within a process", "The MAC address of the socket", "A pointer to the socket's memory buffer"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'endianness conversion' (e.g., `htonl`) important for when sending multi-byte data over a network?",
+    "options": ["To ensure data is encrypted", "Because different computer architectures may store the bytes of a multi-byte word in different orders (big-endian vs. little-endian). Network protocols often specify a standard 'network byte order' (big-endian) to ensure consistent interpretation.", "To compress data for network transmission", "To convert data to a human-readable format"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'multiplexing' at the Transport Layer (e.g., TCP/UDP)?",
+    "options": ["Sending multiple copies of the same data", "The process of allowing multiple application processes on a host to use the network simultaneously by using port numbers to distinguish between different data streams destined for or originating from those applications, all sharing the same IP address of the host.", "Combining multiple network cables into one", "Splitting a single data stream into multiple paths"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'demultiplexing' at the Transport Layer?",
+    "options": ["Separating a single network cable into multiple", "The process at the receiving host where incoming segments from the Network Layer are delivered to the correct application process based on the destination port number in the segment header.", "Decompressing multiplexed data", "Splitting a TCP connection into multiple UDP streams"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The `SO_REUSEADDR` socket option is often used to:",
+    "options": ["Allow a socket to reuse a MAC address", "Allow a socket to bind to a local address (IP and port) that is in a `TIME_WAIT` state from a previous connection, or allow multiple sockets to bind to the same address if they are all configured with this option (behavior can vary by OS for multicast/broadcast).", "Reuse data buffers for a socket", "Automatically reuse closed socket descriptors"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'Nagle's algorithm' in TCP primarily designed to do?",
+    "options": ["Improve TCP encryption", "Reduce network congestion by combining a number of small outgoing messages (e.g., from interactive applications like Telnet) and sending them all at once in a single segment, when possible. This can reduce the number of small packets (and their overhead) but may introduce small delays.", "Speed up the TCP three-way handshake", "Prioritize TCP traffic over UDP"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "The `TCP_NODELAY` socket option is often used to:",
+    "options": ["Introduce artificial delays for testing TCP", "Disable Nagle's algorithm for a TCP connection, causing small segments to be sent immediately without buffering. This can reduce latency for applications sensitive to small delays, but may increase network overhead.", "Ensure TCP segments are never delayed by routers", "Set the TCP retransmission delay to zero"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'TCP keepalive'?",
+    "options": ["A mechanism to keep TCP connections alive indefinitely", "An optional TCP feature where one side of a connection can send periodic 'keepalive probes' to the other side if the connection has been idle for a while. If the other side doesn't respond, the connection is assumed to be broken and is terminated. Helps detect dead connections.", "A way to keep TCP window size constant", "A server that keeps track of all active TCP connections"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'TCP Fast Retransmit'?",
+    "options": ["A way to retransmit all TCP segments very quickly", "An enhancement to TCP's retransmission mechanism where, if a sender receives a certain number of duplicate ACKs (typically three) for the same segment, it infers that the segment following the acknowledged one was lost and retransmits it immediately, without waiting for a retransmission timeout.", "A faster version of the TCP protocol", "Retransmitting only the first part of a lost segment"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Selective Acknowledgment' (SACK) in TCP?",
+    "options": ["Acknowledging only selected users on a TCP connection", "An optional TCP feature that allows a receiver to inform the sender about specific segments that have been received correctly out of order, even if there are gaps. This helps the sender to retransmit only the actually missing segments, improving efficiency over basic cumulative ACKs when multiple segments are lost.", "A way to acknowledge only specific types of TCP data", "Selectively ignoring TCP acknowledgments"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Head-of-Line Blocking' (HOL blocking)?",
+    "options": ["Blocking access to the head of a queue", "A performance-limiting phenomenon where a line of packets is held up by the first packet in the line if it cannot be processed (e.g., in TCP, if an early segment is lost, later correctly received segments may have to wait for its retransmission before being delivered to the application). HTTP/1.1 pipelining also suffered from this.", "A type of network firewall blocking rule", "Blocking traffic from the head office of a company"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "HTTP/2 addresses some limitations of HTTP/1.1, such as Head-of-Line blocking, primarily through:",
+    "options": ["Using UDP instead of TCP", "Multiplexing multiple requests and responses over a single TCP connection, allowing streams to be interleaved and processed independently", "Increasing the number of allowed TCP connections per host", "Encrypting all traffic by default"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "HTTP/3 primarily uses which transport protocol instead of TCP?",
+    "options": ["SCTP (Stream Control Transmission Protocol)", "UDP, in conjunction with QUIC (Quick UDP Internet Connections) which provides features like multiplexing, flow control, and reliability similar to TCP but with reduced latency for connection setup and better handling of packet loss.", "A newer version of TCP (TCP/2)", "IP directly"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'API (Application Programming Interface)' in the context of web services?",
+    "options": ["A programming interface for audio applications", "A set of definitions and protocols for building and integrating application software, often used to allow different software systems to communicate with each other over a network (e.g., REST APIs, SOAP APIs).", "An interface for advanced peripheral integration", "A user interface for network applications"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "REST (Representational State Transfer) is an architectural style for designing networked applications, often using which HTTP methods for CRUD operations?",
+    "options": ["CONNECT, TRACE, OPTIONS, PATCH", "GET (Read), POST (Create), PUT (Update/Replace), DELETE (Delete)", "SEND, RECEIVE, MODIFY, ERASE", "FETCH, SUBMIT, ALTER, REMOVE"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "JSON (JavaScript Object Notation) is a lightweight data-interchange format often used with REST APIs because:",
+    "options": ["It is the only format supported by HTTP", "It is human-readable, easy for machines to parse and generate, and maps well to data structures in many programming languages", "It provides built-in encryption", "It is optimized for transferring large binary files"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "SOAP (Simple Object Access Protocol) is a protocol specification for exchanging structured information in the implementation of web services, often using which data format for its messages?",
+    "options": ["JSON", "Plain Text", "CSV", "XML"],
+    "answer": 3,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'gRPC'?",
+    "options": ["A graphical remote procedure call framework", "A modern, open-source, high-performance Remote Procedure Call (RPC) framework that can run in any environment. It typically uses HTTP/2 for transport and Protocol Buffers as the interface description language and message interchange format.", "A secure version of RPC", "A protocol for remote gaming"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "Protocol Buffers (Protobuf) are a language-neutral, platform-neutral, extensible mechanism for:",
+    "options": ["Buffering network protocols", "Serializing structured data, developed by Google. It's often used in RPC systems and for persistent storage of data.", "Defining buffer overflow protection schemes", "Managing protocol stacks"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What are WebSockets?",
+    "options": ["Physical sockets used for web servers", "A communication protocol that provides full-duplex communication channels over a single TCP connection, enabling persistent, low-latency, bidirectional communication between a client (e.g., browser) and a server.", "A type of secure web browser plugin", "A standard for embedding socket programs in web pages"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The 'traceroute' utility typically works by sending packets (e.g., UDP or ICMP) with:",
+    "options": ["Increasingly large payloads", "Increasingly small Time-To-Live (TTL) values, starting from 1. Each router along the path decrements the TTL and sends an ICMP 'Time Exceeded' message back if TTL reaches zero, allowing the source to identify the routers.", "Random TTL values", "Fixed TTL values to different destinations"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'Reverse Proxy'?",
+    "options": ["A proxy server that works in the reverse direction of traffic", "A server that sits in front of one or more web servers, intercepting requests from clients and forwarding them to the appropriate backend server. It can provide load balancing, SSL termination, caching, and security.", "A proxy that only allows outgoing traffic", "A proxy used by clients to hide their identity from servers (this is a forward proxy)"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "IPsec (Internet Protocol Security) is a suite of protocols used to:",
+    "options": ["Secure only the IP header", "Secure Internet Protocol (IP) communications by authenticating and/or encrypting each IP packet in a data stream. It can operate in transport mode or tunnel mode.", "Inspect IP packets for security threats", "Assign secure IP addresses"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "In IPsec, 'Authentication Header' (AH) provides:",
+    "options": ["Confidentiality (encryption) only", "Connectionless integrity, data origin authentication, and protection against replay attacks for IP datagrams (but not confidentiality)", "Both authentication and encryption", "Header compression"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "In IPsec, 'Encapsulating Security Payload' (ESP) provides:",
+    "options": ["Authentication only", "Confidentiality (encryption), and optionally data origin authentication, connectionless integrity, and anti-replay service for IP datagrams", "Payload compression only", "Encapsulation of IP packets within UDP"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Ethernet frame padding'?",
+    "options": ["Adding padding to the Ethernet cable", "If an Ethernet frame's data payload is smaller than the minimum required size (e.g., 46 bytes for an 802.3 frame with a 1500-byte MTU), padding bytes are added to meet this minimum size.", "Encrypting the frame with padding", "Removing padding from an Ethernet frame"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'beacon frame' in IEEE 802.11 (Wi-Fi) networks?",
+    "options": ["A frame sent by a client to find an access point", "A management frame periodically sent by an Access Point (AP) to announce its presence and provide network parameters (like SSID, supported rates) to nearby wireless stations", "A frame used for secure key exchange", "A data frame containing a beacon signal"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "SSID (Service Set Identifier) in Wi-Fi networks is:",
+    "options": ["A security key for the network", "A human-readable name (up to 32 characters) that identifies a wireless local area network (WLAN)", "The MAC address of the access point", "A type of Wi-Fi encryption"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "WPA2/WPA3 (Wi-Fi Protected Access) are security protocols used to:",
+    "options": ["Increase Wi-Fi signal range", "Secure wireless computer networks by providing encryption and authentication", "Manage Wi-Fi access points remotely", "Compress Wi-Fi data for faster transmission"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'default route' (often 0.0.0.0/0) in a routing table specifies:",
+    "options": ["The route to the local machine", "The path to take for packets whose destination network is not explicitly listed in the routing table (i.e., the route to the rest of the internet, usually via the default gateway)", "A route that is disabled by default", "The primary route for all local traffic"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'unicast' transmission?",
+    "options": ["Sending a message from one source to all possible destinations on a network", "Sending a message from one source to one specific destination", "Sending a message from one source to a selected group of destinations", "Casting a single vote in a network election"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'broadcast' transmission?",
+    "options": ["Sending a message from one source to one specific destination", "Sending a message from one source to all other hosts on the same network segment or broadcast domain", "Sending a message to a selected group of hosts", "A type of radio transmission for networks"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The 'Maximum Segment Size' (MSS) in TCP is:",
+    "options": ["The maximum size of the entire TCP segment including headers", "The largest amount of data (payload) that TCP is willing to receive in a single segment, typically derived from the path MTU minus TCP and IP header sizes", "The maximum number of segments a TCP connection can have", "The size of the TCP sliding window"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'TCP SACK-Permitted Option' used for during the TCP handshake?",
+    "options": ["To permit the use of SACK encryption", "An option exchanged during the SYN phase to indicate that both ends of the connection support Selective Acknowledgment (SACK)", "To permit TCP segments to be stored in a sack", "To grant permission for TCP fast retransmit"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "The 'TCP Window Scale Option' is used to:",
+    "options": ["Scale the TCP header size", "Allow TCP to use receive window sizes larger than the 16-bit field in the TCP header (65,535 bytes) can represent, by specifying a scale factor. Important for high-bandwidth, high-latency networks ('long fat networks').", "Visually scale the TCP window display in monitoring tools", "Adjust the scale of TCP sequence numbers"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'TIME_WAIT' state in TCP connection termination?",
+    "options": ["A state where the client is waiting for the server to initiate termination", "A state on the side that performed the active close (sent the first FIN). It waits for a period (typically 2 * MSL - Maximum Segment Lifetime) to ensure any delayed segments from the old connection are handled and don't interfere with new connections using the same socket pair.", "A state where TCP is waiting for a retransmission timer to expire", "A state indicating the connection is waiting for user input"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'canonical name' (CNAME) record in DNS?",
+    "options": ["A record that maps an IP address to a canonical hostname", "A record that creates an alias from one domain name to another canonical (true) domain name. Requests for the alias will resolve to the IP address of the canonical name.", "A record that stores cryptographic name information", "A record that lists all canonical servers for a domain"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is an 'A' record in DNS?",
+    "options": ["A record that specifies an alias for a domain name", "A record that maps a hostname (domain name) to an IPv4 address", "A record that lists authoritative name servers for a domain", "A record for IPv6 addresses"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is an 'AAAA' record (quad-A record) in DNS?",
+    "options": ["A record for IPv4 addresses", "A record that maps a hostname to an IPv6 address", "A record indicating an alternative authoritative server", "A record with four levels of authentication"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is an 'MX' (Mail Exchange) record in DNS?",
+    "options": ["A record that maps a hostname to an IP address", "A record that specifies the mail server(s) responsible for accepting email messages on behalf of a domain name, along with a preference value", "A record for storing mixed content types", "A record indicating the maximum email size allowed"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'recursive DNS query'?",
+    "options": ["A query where the DNS server queries itself repeatedly", "A query where the client asks a DNS server to perform the full resolution process on its behalf, contacting other name servers as needed, and return the final answer (or an error) to the client.", "A query that is sent to multiple DNS servers simultaneously", "A query for a domain name that contains recursive patterns"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is an 'iterative DNS query'?",
+    "options": ["A query that is performed multiple times by the client", "A query where a DNS server, if it doesn't know the answer, provides a referral to another DNS server that might be more authoritative for the queried domain. The client (or its local resolver) then makes subsequent queries to these referred servers.", "A query that iterates through all possible IP addresses for a domain", "A query that is repeated until a timeout occurs"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is DNS caching?",
+    "options": ["Storing DNS query results temporarily by DNS servers or clients to speed up subsequent lookups for the same domain name and reduce load on authoritative name servers", "Caching the entire DNS zone file on the client", "Using a cache to store domain name registrations", "A way to encrypt DNS queries using a cache"],
+    "answer": 0,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The 'root name servers' in DNS are:",
+    "options": ["The DNS servers for the '.com' top-level domain", "A set of highly critical DNS servers at the top of the DNS hierarchy that are responsible for directing queries for top-level domains (TLDs) like .com, .org, .net, and country codes", "The DNS servers maintained by your local ISP", "Servers that store the root passwords for all domains"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'DNSSEC' (Domain Name System Security Extensions)?",
+    "options": ["A protocol for secure DNS updates only", "A suite of specifications for securing certain kinds of information provided by DNS, primarily by using digital signatures to ensure data authenticity and integrity, protecting against threats like DNS spoofing or cache poisoning.", "A way to encrypt all DNS traffic", "A secure version of the DNS server software"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'API gateway' in microservices architecture?",
+    "options": ["A gateway for accessing external APIs only", "A server that acts as a single entry point for all client requests to backend microservices. It can handle tasks like request routing, composition, authentication, rate limiting, and monitoring.", "A physical gateway device for API traffic", "A protocol for secure API communication"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'idempotence' in the context of HTTP methods or API calls?",
+    "options": ["The method can only be called by an identified user", "An operation is idempotent if making multiple identical requests has the same effect as making a single request (e.g., GET, PUT, DELETE are often idempotent; POST is generally not).", "The method returns an identical response every time", "The method is part of an identity management system"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'message queue' (e.g., RabbitMQ, Kafka) often used for in distributed systems?",
+    "options": ["Storing user interface messages", "Enabling asynchronous communication between different services or components by allowing senders to publish messages to a queue without waiting for receivers to process them immediately. Receivers can then consume messages from the queue at their own pace. Helps decouple services and improve resilience.", "A queue for error messages from the network", "A physical queue of network packets"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'HTTP Keep-Alive' (or persistent connections)?",
+    "options": ["A way to keep an HTTP server alive indefinitely", "A feature where a single TCP connection can be used to send and receive multiple HTTP requests and responses, rather than opening a new connection for every request/response pair. This reduces latency and overhead.", "Keeping HTTP session data alive on the server", "A mechanism to prevent HTTP connections from timing out"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'HTTP pipelining' (largely superseded by HTTP/2 multiplexing)?",
+    "options": ["A physical pipeline for HTTP traffic", "A feature of HTTP/1.1 where a client can send multiple HTTP requests on a single persistent TCP connection without waiting for the corresponding responses. Responses must still be received in the same order as requests were sent, which can lead to HOL blocking.", "A way to compress HTTP headers", "A method for encrypting HTTP pipelines"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'TLS Handshake'?",
+    "options": ["A physical handshake between server and client for secure connection", "The process by which a client and server establish a secure TLS/SSL connection. It involves negotiating cipher suites, authenticating the server (and optionally the client) using digital certificates, and establishing a shared secret key for encrypting subsequent communication.", "A way to shake out errors in TLS implementations", "A method for quickly establishing unencrypted TLS connections"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'Cipher Suite' in TLS/SSL specifies:",
+    "options": ["A suite of tools for breaking ciphers", "A combination of cryptographic algorithms used for a secure connection, typically including a key exchange algorithm, an authentication algorithm, a bulk encryption algorithm, and a message authentication code (MAC) algorithm.", "A set of predefined encryption keys", "A software suite for managing SSL certificates"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Forward Secrecy' (or Perfect Forward Secrecy - PFS) in cryptography?",
+    "options": ["A way to securely forward messages to future recipients", "A property of key agreement protocols that ensures that if the long-term secret key of a server (e.g., its private key used for signing certificates) is compromised, past session keys established using that server cannot be compromised. This means past encrypted communications remain secure. Ephemeral Diffie-Hellman (DHE/ECDHE) contributes to this.", "A method for encrypting data to be decrypted only in the future", "A security protocol that is always looking forward for threats"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'checksum' used for in networking protocols like UDP and TCP?",
+    "options": ["To encrypt the packet header", "To detect accidental corruption of data during transmission. The sender calculates a checksum value based on the data and includes it in the packet. The receiver recalculates the checksum and compares it; a mismatch indicates an error.", "To verify the sender's identity", "To count the number of bytes in the packet"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "The Address Resolution Protocol (ARP) operates at which layer of the OSI model?",
+    "options": ["Physical Layer", "Between Data Link Layer and Network Layer (or considered part of Data Link)", "Network Layer", "Transport Layer"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'Point-to-Point Protocol' (PPP) is often used for:",
+    "options": ["Connecting multiple devices in a LAN", "Establishing a direct connection between two network nodes, commonly used for dial-up access, DSL connections, or VPN tunnels. It handles authentication, IP address assignment, and data encapsulation.", "Broadcasting data to multiple points", "Managing network printers"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Token Ring' network architecture?",
+    "options": ["A network where devices exchange security tokens", "A LAN technology (IEEE 802.5) where devices are connected in a ring, and a special frame called a 'token' circulates. A device must possess the token to transmit data. (Largely historical)", "A network that uses physical rings for cables", "A type of wireless network using token-based access"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'Frame Relay'?",
+    "options": ["A protocol for relaying Ethernet frames", "A packet-switching telecommunication service designed for cost-efficient data transmission for intermittent traffic between LANs and across WANs. It uses virtual circuits. (Largely historical or for specific legacy use cases)", "A way to relay TV frames over a network", "A method for framing data packets"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Asynchronous Transfer Mode' (ATM)?",
+    "options": ["A mode for making ATM bank machine transactions", "A telecommunications standard based on transmitting data in small, fixed-size cells (53 bytes). It was designed for high-speed networks carrying voice, video, and data. (Largely historical or for specific backbone use cases)", "A way to transfer files asynchronously", "A mode for asynchronous CPU operations"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "The 'signal-to-noise ratio' (SNR) in a communication channel is a measure of:",
+    "options": ["The speed of the signal", "The strength of the desired signal relative to the level of background noise. A higher SNR generally indicates better signal quality and lower error rates.", "The number of signals versus the number of noise sources", "The type of encoding used for the signal"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Attenuation in a communication channel refers to:",
+    "options": ["The amplification of a signal", "The loss of signal strength as it travels through a medium (e.g., cable, air)", "The distortion of a signal's shape", "The reflection of a signal"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'modulation' in communication systems?",
+    "options": ["Adjusting the volume of a signal", "The process of varying one or more properties (e.g., amplitude, frequency, phase) of a periodic waveform (the carrier wave) with a modulating signal that typically contains information to be transmitted", "Filtering out unwanted parts of a signal", "Combining multiple signals into one channel"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Amplitude Modulation (AM), Frequency Modulation (FM), and Phase Modulation (PM) are types of:",
+    "options": ["Digital encoding", "Analog modulation techniques", "Error correction codes", "Network topologies"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'sampling' in the context of converting an analog signal to a digital signal?",
+    "options": ["Taking a small sample of the signal for testing", "The process of measuring the amplitude of a continuous-time analog signal at discrete, regular intervals in time, to produce a sequence of samples", "Filtering the analog signal", "Amplifying the analog signal"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The 'Nyquist-Shannon sampling theorem' states that for perfect reconstruction of an analog signal from its samples, the sampling frequency must be:",
+    "options": ["Equal to the highest frequency component of the signal", "At least twice the highest frequency component of the signal (the Nyquist rate)", "Less than the highest frequency component", "Independent of the signal's frequency content"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'quantization' in analog-to-digital conversion?",
+    "options": ["Counting the number of samples", "The process of mapping a continuous range of input sample amplitudes to a finite set of discrete output levels (quantization levels), introducing quantization error", "Measuring the quantity of data in a signal", "Encrypting the analog signal"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A 'codec' (coder-decoder) is a device or program that:",
+    "options": ["Only encodes data", "Encodes a data stream or signal for transmission or storage, and decodes it for playback or editing. Often used for audio and video.", "Only decodes data", "Manages network code execution"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'error detection and correction' in data transmission?",
+    "options": ["Techniques to prevent errors from occurring", "Techniques used to detect errors that may have been introduced during transmission (e.g., checksums, CRCs) and, in some cases, to correct those errors (e.g., Hamming codes, Reed-Solomon codes)", "A way to ignore errors in transmission", "Methods for encrypting error messages"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "A Cyclic Redundancy Check (CRC) is a type of:",
+    "options": ["Encryption algorithm", "Error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data", "Data compression method", "Authentication protocol"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'link aggregation' (or port trunking/bonding)?",
+    "options": ["Aggregating multiple web links on a page", "Combining multiple physical network links between two devices (e.g., switches, servers) into a single logical link to increase bandwidth and/or provide redundancy", "A way to group related network services", "Aggregating user accounts on a network"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Software-Defined Networking' (SDN)?",
+    "options": ["Networking software that is well-defined", "An approach to network management that decouples the network control plane (which makes decisions about where traffic is sent) from the data plane (which forwards traffic according to those decisions), allowing for more centralized control, automation, and programmability of the network.", "A type of virtual private network defined by software", "Software for designing network diagrams"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Network Function Virtualization' (NFV)?",
+    "options": ["Virtualizing network interface cards", "An initiative to decouple network functions (like firewalls, load balancers, routers) from dedicated hardware appliances, allowing them to run as software on standard IT infrastructure (servers, storage, switches). This can increase agility and reduce costs.", "A way to create virtual network functions in programming languages", "Virtualizing the entire internet"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "The 'Internet of Things' (IoT) refers to:",
+    "options": ["A specific type of internet protocol", "The network of physical objects ('things') that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet or other communication networks.", "A search engine for physical objects", "A project to connect all things with a single cable"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "Protocols like MQTT (Message Queuing Telemetry Transport) and CoAP (Constrained Application Protocol) are often used in which domain?",
+    "options": ["High-performance computing", "Internet of Things (IoT) and machine-to-machine (M2M) communication, as they are lightweight and designed for constrained devices and networks", "Virtual reality systems", "Financial trading platforms"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "Bluetooth is a wireless technology standard used for:",
+    "options": ["Long-range communication (miles)", "Exchanging data over short distances (creating personal area networks - PANs) using short-wavelength UHF radio waves", "Connecting to satellite internet", "High-bandwidth video streaming over WANs"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "NFC (Near Field Communication) is a set of communication protocols that enables:",
+    "options": ["Communication between devices over very long distances", "Two electronic devices, one of which is usually a portable device like a smartphone, to establish communication by bringing them within about 4 cm (2 inches) of each other. Often used for contactless payments, pairing, and data transfer.", "Network function control", "High-speed fiber optic communication"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "A 'bastion host' in network security is a computer system that is:",
+    "options": ["The most vulnerable host on the network", "Specifically designed and configured to withstand attacks. It is often a specially hardened system placed on the outside of a firewall or in a DMZ, providing access to internal network resources from an untrusted network (like the internet) through a controlled point.", "A host used for storing backups", "A host that automatically blocks all incoming traffic"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "An Intrusion Detection System (IDS) is a device or software application that:",
+    "options": ["Actively blocks malicious traffic", "Monitors network or system activities for malicious activities or policy violations and produces reports or alerts. It does not typically block traffic itself (that's an IPS).", "Detects physical intrusions into a data center", "A system for detecting data corruption"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "An Intrusion Prevention System (IPS) is a network security/threat prevention technology that:",
+    "options": ["Only monitors and alerts on malicious activity", "Examines network traffic flows to detect and prevent vulnerability exploits. Unlike an IDS, an IPS is placed in-line and can actively block or prevent detected intrusions.", "Prevents users from accessing unauthorized websites", "A system for preventing physical hardware theft"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'Virtual Circuit' in packet-switched networks?",
+    "options": ["A physical circuit that is virtualized", "A communication path established between two endpoints before data transmission begins, where packets belonging to this connection follow the same path. While the path is dedicated logically for the connection, physical resources may still be shared. Frame Relay and ATM use virtual circuits.", "A circuit used for virtual reality applications", "A circuit that does not actually exist"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'Datagram' network (like the internet using IP)?",
+    "options": ["A network where all packets follow a pre-established virtual circuit", "A packet-switched network where each packet (datagram) is routed independently through the network based on its destination address. Packets may arrive out of order or be lost, and reliability is typically handled by higher-layer protocols like TCP.", "A network that only transmits diagrams", "A network that uses a single, shared datagram for all communication"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The term 'hop count' in routing refers to:",
+    "options": ["The number of times a packet has been retransmitted", "The number of routers (hops) a packet passes through on its way from source to destination", "The physical distance a packet travels", "The time taken for a packet to make one hop"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 1
+  },
+  {
+    "question": "What is 'network segmentation'?",
+    "options": ["Breaking a network cable into segments", "The practice of splitting a computer network into subnetworks (segments), each being a network segment or a subnetwork. This can improve security, performance, and manageability by isolating traffic and controlling access between segments.", "A type of TCP segment", "Dividing network users into different groups"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'tunneling' in networking (e.g., VPN tunneling, IPv6 over IPv4)?",
+    "options": ["Physically creating tunnels for network cables", "A method of encapsulating packets of one network protocol within packets of another protocol. The outer protocol's network is used as a transport medium for the inner protocol's packets.", "Digging tunnels under data centers for secure communication", "A way to bypass firewalls by creating hidden tunnels"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The 'Maximum Segment Lifetime' (MSL) in TCP is:",
+    "options": ["The maximum lifetime of a TCP connection", "The maximum time a TCP segment is assumed to exist in the network before being discarded. It's used in the TIME_WAIT state to ensure old duplicate segments don't interfere with new connections.", "The lifetime of the TCP protocol specification", "The time it takes to transmit a maximum-sized segment"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'any-source multicast' (ASM) vs 'source-specific multicast' (SSM)?",
+    "options": ["ASM allows anyone to send to the multicast group, SSM restricts senders.", "In ASM, a receiver joins a multicast group (identified by a group address) and receives traffic sent to that group from any source. In SSM, a receiver joins a channel identified by both a group address and a specific source address, only receiving traffic from that designated source to that group.", "ASM is for audio, SSM for streaming media.", "ASM is less secure than SSM."],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'Quality of Service (QoS) marking' (e.g., DSCP - Differentiated Services Code Point)?",
+    "options": ["Marking packets as high quality or low quality", "A mechanism to classify and mark packets with a priority level in their headers. Network devices (routers, switches) can then use these markings to apply different forwarding treatments (e.g., queuing, scheduling) to different traffic classes.", "A way to mark physical network cables for QoS", "Marking data that has passed a quality check"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'traffic shaping' (or packet shaping)?",
+    "options": ["Physically shaping network cables to improve traffic flow", "A bandwidth management technique that delays some or all datagrams to bring them into compliance with a desired traffic profile. It aims to regulate the rate of traffic sent into a network, often to avoid congestion or meet service level agreements.", "Shaping data packets into specific geometric forms", "A way to analyze the shape of network traffic patterns"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'traffic policing'?",
+    "options": ["Using police officers to direct network traffic", "A mechanism that monitors network traffic for compliance with a traffic contract (e.g., rate limits). Non-compliant traffic may be dropped, remarked with a lower priority, or allowed through if sufficient resources are available. Unlike shaping, policing typically doesn't buffer excess traffic.", "A security measure to police user activity on the network", "A way to ensure all traffic follows police regulations"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'serialization delay' (or transmission delay)?",
+    "options": ["The delay caused by serializing objects before network transmission", "The time it takes for a sender to place all the bits of a packet onto the transmission medium (link). It depends on the packet size and the link's bandwidth (Transmission Delay = Packet Size / Bandwidth).", "The delay in processing serial data", "A delay introduced by serial port communication"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'propagation delay'?",
+    "options": ["The delay in propagating software updates across a network", "The time it takes for the first bit of a packet to travel from the sender to the receiver across the physical medium. It depends on the distance and the propagation speed of the medium (Propagation Delay = Distance / Propagation Speed).", "The delay caused by signal interference during propagation", "A delay in the propagation of routing information"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'queuing delay'?",
+    "options": ["The delay in a printer queue", "The time a packet spends waiting in a queue (buffer) at a router or switch before it can be processed or transmitted on an outgoing link, typically due to network congestion.", "The delay caused by improperly configured queues", "A delay in processing user interface event queues"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "What is 'processing delay' at a router or host?",
+    "options": ["The delay in the CPU's processing of general tasks", "The time taken by a router to examine a packet's header, check for errors, determine its outgoing link, and move it to the appropriate output queue. Also, the time taken by a host to process an incoming/outgoing packet.", "The delay caused by slow data processing applications", "A delay in the operating system's process scheduler"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "The term 'goodput' in networking refers to:",
+    "options": ["The theoretical maximum throughput of a link", "The application-level throughput, i.e., the rate at which useful data (excluding protocol overhead, retransmissions) is delivered to the application layer at the destination.", "The amount of data that is considered 'good' by a firewall", "The speed at which a network connection is established"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'collision' in the context of hash tables (sometimes relevant to network device tables)?",
+    "options": ["A physical collision between network devices", "When two different keys produce the same hash value, leading to them being mapped to the same location in the hash table. Collision resolution techniques are needed.", "A collision between data packets on a network", "An error in the hash function itself"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'CAP theorem' (Consistency, Availability, Partition tolerance) in distributed systems?",
+    "options": ["A theorem about network capitalization", "A theorem stating that it is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees: Consistency (all nodes see the same data at the same time), Availability (every request receives a (non-error) response), and Partition tolerance (the system continues to operate despite network partitions).", "A theorem related to CPU cache capacity", "A theorem about secure API design"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 3
+  },
+  {
+    "question": "What is 'idempotence' in API design?",
+    "options": ["The API can only be accessed by identified users", "An API operation is idempotent if making multiple identical requests has the same effect on the server's state as making a single request. For example, a GET request or a DELETE request for a specific resource is typically idempotent.", "The API returns identical responses for all requests", "The API uses a consistent identity management system"],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 2
+  },
+  {
+    "question": "Explain the detailed operation of TCP's congestion control algorithms, including Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. How do they interact to manage network traffic?",
+    "options": [
+      "Slow Start rapidly increases window size, Congestion Avoidance maintains it; Fast Retransmit/Recovery are for error correction only.",
+      "Slow Start: Exponentially increases congestion window (cwnd) until a threshold (ssthresh) or loss. Congestion Avoidance: Linear (additive) increase of cwnd after ssthresh. Fast Retransmit: Retransmits lost segment after 3 duplicate ACKs without waiting for timeout. Fast Recovery: Temporarily reduces ssthresh and cwnd (multiplicative decrease, often halving cwnd) after Fast Retransmit, then enters Congestion Avoidance, avoiding a full Slow Start. They adapt sending rate to network conditions.",
+      "Fast Recovery always resets cwnd to 1 MSS.",
+      "Congestion Avoidance uses exponential increase; Slow Start is linear."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe the BGP (Border Gateway Protocol) path selection process. What attributes (e.g., AS_PATH, NEXT_HOP, LOCAL_PREF, MED) are considered and in what general order of preference?",
+    "options": [
+      "BGP selects shortest AS_PATH always; MED is most important.",
+      "BGP selects best path based on attributes: 1. Highest Weight (local to router, Cisco specific). 2. Highest LOCAL_PREF (local policy within AS). 3. Locally originated path (via network or aggregate). 4. Shortest AS_PATH (fewest AS hops). 5. Lowest Origin type (IGP < EGP < Incomplete). 6. Lowest MED (Multi-Exit Discriminator, if from same neighboring AS). 7. Prefer eBGP over iBGP paths. 8. Lowest IGP metric to NEXT_HOP. 9. Oldest path / Router ID (tie-breaking). Order can be influenced by policy.",
+      "NEXT_HOP is always the primary decision factor in BGP.",
+      "AS_PATH length is less important than MED for path selection between different ASes."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the differences between distance-vector (e.g., RIP) and link-state (e.g., OSPF, IS-IS) routing protocols, focusing on how they gather routing information, update mechanisms, convergence speed, and susceptibility to problems like routing loops and count-to-infinity.",
+    "options": [
+      "Distance-vector shares entire routing table; link-state shares link costs only. Link-state is slower to converge.",
+      "Distance-vector (Bellman-Ford): Routers share their view of the network (distance vectors - destination, distance, next hop) with neighbors periodically or on change. Prone to count-to-infinity, slow convergence. Mitigations: split horizon, poison reverse, hold-down timers. Link-state (Dijkstra): Routers flood link-state advertisements (LSAs - info about their directly connected links and neighbors) to all other routers in an area. Each router builds a complete topology map (LSDB) and computes shortest paths independently. Faster convergence, less prone to persistent loops.",
+      "Link-state protocols are more prone to routing loops than distance-vector.",
+      "RIP uses Dijkstra's algorithm; OSPF uses Bellman-Ford."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is Quality of Service (QoS) in networking? Describe common QoS mechanisms like classification, marking, queuing (e.g., FIFO, PQ, WFQ, CBWFQ), policing, and shaping. How do they help manage network performance?",
+    "options": [
+      "QoS only prioritizes voice traffic; queuing is always FIFO.",
+      "QoS provides different priority/treatment to different traffic types to manage network resources and meet performance goals. Classification: identifies traffic flows. Marking: sets DSCP/CoS values in packet headers. Queuing: Manages packet order/delay in router buffers (FIFO: first-in-first-out; PQ: strict priority for high-priority queues; WFQ: weighted fair queuing allocates bandwidth proportionally; CBWFQ: class-based WFQ defines classes with bandwidth guarantees). Policing: drops or remarks excess traffic exceeding a rate. Shaping: buffers/delays excess traffic to smooth output to a configured rate.",
+      "Shaping drops excess traffic; policing buffers it.",
+      "Marking is done at Layer 2 (CoS), classification can be Layer 2-4; DSCP is Layer 3 marking."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the architecture and operation of MPLS (Multiprotocol Label Switching). How does it enable traffic engineering, VPN services (L2/L3), and Quality of Service over an IP network?",
+    "options": [
+      "MPLS replaces IP routing entirely with labels for all network types.",
+      "MPLS forwards packets based on short, fixed-length labels. Ingress Label Edge Routers (LERs) classify IP packets into Forwarding Equivalence Classes (FECs) and push labels. Core Label Switch Routers (LSRs) perform fast label swapping and forwarding along pre-established Label Switched Paths (LSPs). Egress LERs pop labels. Enables Traffic Engineering (explicit LSPs), L3 VPNs (VRFs with unique labels per VPN), L2 VPNs (e.g., VPLS, EoMPLS), and QoS (mapping IP Precedence/DSCP to MPLS EXP bits).",
+      "MPLS labels are used only for encrypting IP packet data.",
+      "VPN services in MPLS are achieved by assigning different IP address ranges per VPN, not labels."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe the DNS resolution process in detail, from a client stub resolver querying a local recursive resolver, through to interaction with root servers, TLD servers, and authoritative name servers. Include the role of caching at different levels.",
+    "options": [
+      "Client queries root server directly, then TLD, then authoritative, caching only the final result.",
+      "1. Client stub resolver sends query to local recursive resolver (e.g., ISP's or configured). 2. Recursive resolver checks its cache. 3. If miss, queries a root server (e.g., for '.com' TLD server address). 4. Root responds with TLD server referral. 5. Recursive resolver queries TLD server (e.g., '.com' server for 'example.com' authoritative server). 6. TLD responds with authoritative server referral. 7. Recursive resolver queries authoritative server for the specific record (e.g., 'www.example.com' A record). 8. Authoritative server responds with the IP. 9. Recursive resolver caches the response (respecting TTL) and returns to client. Client also caches.",
+      "Recursive resolver only queries authoritative name servers; TLD servers manage all caching.",
+      "Root servers hold all DNS records for all domains, not just referrals."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is DNSSEC (Domain Name System Security Extensions)? Explain its purpose and how it uses digital signatures and cryptographic keys (e.g., KSK, ZSK, RRSIG, DNSKEY, DS records) to provide data origin authentication and integrity.",
+    "options": [
+      "DNSSEC encrypts all DNS query and response traffic for confidentiality.",
+      "DNSSEC adds security to DNS by digitally signing DNS records to ensure authenticity (data came from the correct authoritative source) and integrity (data has not been tampered with during transit). KSK (Key Signing Key) signs ZSKs (Zone Signing Keys) and is part of the chain of trust. ZSKs sign resource record sets (RRsets), creating RRSIG records (the signatures). DNSKEY records publish the public keys (ZSKs and KSKs). DS (Delegation Signer) records in parent zones create a secure delegation to child zone keys, forming a chain of trust up to a trust anchor (e.g., root zone KSK).",
+      "DNSSEC uses a single symmetric shared key for signing all DNS records in a zone.",
+      "RRSIG records contain the private keys used for signing; DNSKEY records contain signatures."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the differences and use cases for various types of NAT (Network Address Translation): Static NAT, Dynamic NAT, PAT (Port Address Translation or NAPT), and CGNAT (Carrier-Grade NAT).",
+    "options": [
+      "Static NAT uses dynamic ports; PAT uses static IP addresses.",
+      "Static NAT: One-to-one mapping of a private IP to a public IP (e.g., for a server). Dynamic NAT: Maps private IPs to a pool of public IPs on demand. PAT (NAPT/IP Masquerading): Maps multiple private IPs to a single public IP using different source port numbers to distinguish connections (most common for home/SOHO). CGNAT: Large-scale NAT performed by ISPs, mapping many customers behind a smaller set of public IPs, leading to shared public IPs.",
+      "PAT is less common than Dynamic NAT because it limits port numbers.",
+      "CGNAT is a form of Static NAT used by large carriers."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe the operation of Spanning Tree Protocol (STP, IEEE 802.1D) and its variants (RSTP, MSTP). How do they prevent bridge loops in a redundant switched Ethernet network, and what are their convergence characteristics?",
+    "options": [
+      "STP creates multiple active paths to increase bandwidth; RSTP is slower.",
+      "STP prevents L2 loops by logically disabling redundant paths, creating a loop-free tree topology. It elects a Root Bridge, then each switch determines its Root Port (best path to Root Bridge) and Designated Ports (forwarding ports for segments). Other ports are blocked. Convergence is slow (30-50s). RSTP (802.1w): Faster convergence (sub-second) through new port states/roles and direct link failure detection. MSTP (802.1s): Allows multiple spanning tree instances for different VLANs, enabling better load balancing over redundant links.",
+      "RSTP uses BPDUs, STP does not; MSTP is for wireless networks.",
+      "STP blocks all ports except those connected to the root bridge."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is an 'anycast' address? How is it used in practice (e.g., for DNS root servers or CDNs), and what are the routing implications?",
+    "options": [
+      "Anycast sends a packet to any random host; routing is complex.",
+      "Anycast is a network addressing and routing methodology where a single destination IP address is assigned to multiple physical endpoints (servers) in different geographical locations. Packets sent to this anycast address are routed by standard routing protocols (e.g., BGP) to the 'nearest' or 'best' endpoint from the client's perspective (based on routing metrics). Used for DNS root/TLD servers for resilience and locality, and CDNs to serve content from edge servers closest to users. Routing directs users to one instance.",
+      "Anycast is a type of multicast where any host can join the group.",
+      "Routing for anycast requires specialized anycast-aware routers."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the mechanisms of IPv6 Stateless Address Autoconfiguration (SLAAC) and DHCPv6 (Stateful and Stateless). How do they differ in assigning addresses and other configuration parameters?",
+    "options": [
+      "SLAAC uses a central server for addresses; DHCPv6 is always stateless.",
+      "SLAAC: Host generates its own link-local address, then uses Router Advertisements (RAs) from routers (containing network prefix) to form a global unicast address (often combining prefix with EUI-64 or temporary interface ID). No central server for addresses. DHCPv6 Stateful: Server assigns addresses and other parameters (DNS, NTP) and tracks leases. DHCPv6 Stateless: Server provides other parameters (DNS, NTP) but host gets address via SLAAC. RAs can indicate which DHCPv6 mode to use.",
+      "DHCPv6 Stateful uses SLAAC for DNS servers.",
+      "SLAAC requires manual configuration of prefixes on each host."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe the IPsec protocol suite, including its two main modes (Transport and Tunnel), and the roles of Authentication Header (AH) and Encapsulating Security Payload (ESP).",
+    "options": [
+      "IPsec encrypts only Layer 2 headers; Tunnel mode is for host-to-host.",
+      "IPsec secures IP communications. Transport Mode: Secures payload of original IP packet (encrypts/authenticates data after IP header). Used host-to-host. Tunnel Mode: Encapsulates entire original IP packet within a new IP packet with IPsec headers. Used for VPNs (gateway-to-gateway or host-to-gateway). AH: Provides authentication, integrity, anti-replay for entire packet (except mutable fields). ESP: Provides confidentiality (encryption), and optionally authentication, integrity, anti-replay for IP payload.",
+      "AH provides encryption; ESP provides authentication only.",
+      "Transport mode creates a new outer IP header; Tunnel mode modifies the original."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'distributed hash table' (DHT) as used in peer-to-peer systems (e.g., Kademlia in BitTorrent)? How does it enable decentralized resource lookup?",
+    "options": [
+      "A DHT is a single, very large hash table stored on one server.",
+      "A DHT is a decentralized distributed system that provides a lookup service similar to a hash table. Key-value pairs are stored in the DHT, and any participating node can efficiently retrieve the value associated with a given key. Each node is responsible for a portion of the keyspace. Lookup involves routing queries iteratively through the network of nodes based on proximity in the keyspace (e.g., XOR metric in Kademlia), without a central coordinator.",
+      "DHTs use centralized servers for all lookups but store data P2P.",
+      "Kademlia is a type of centralized database used by BitTorrent."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the concept of 'Software-Defined Networking' (SDN). What are its key architectural components (data plane, control plane, application plane), and what benefits does it offer?",
+    "options": [
+      "SDN means all network devices run the same software.",
+      "SDN decouples the network control plane (which makes decisions about traffic forwarding) from the data plane (which forwards traffic based on those decisions). Control plane is centralized (SDN controller). Data plane consists of simple forwarding devices (switches/routers). Application plane uses APIs (e.g., OpenFlow) to program the controller. Benefits: centralized control, programmability, automation, agility, vendor independence, potentially lower cost hardware.",
+      "In SDN, the control plane is distributed on each switch, data plane is centralized.",
+      "SDN primarily benefits wireless networks, not wired."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Network Function Virtualization' (NFV)? How does it relate to SDN, and what are its goals?",
+    "options": [
+      "NFV virtualizes only network interface cards.",
+      "NFV decouples network functions (e.g., firewalls, load balancers, routers, IDS/IPS) from dedicated hardware appliances, allowing them to run as software (Virtual Network Functions - VNFs) on standard IT infrastructure (servers, storage, switches). Goals: reduce CAPEX/OPEX, service agility, scalability, vendor independence. NFV can be complemented by SDN (SDN can manage connectivity for VNFs), but they are distinct concepts.",
+      "NFV is a specific implementation of SDN.",
+      "SDN is about virtualizing network functions; NFV is about controlling them."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe how TLS 1.3 improves upon earlier TLS versions in terms of security and performance (e.g., handshake, cipher suites).",
+    "options": [
+      "TLS 1.3 removes all encryption for faster performance.",
+      "TLS 1.3 streamlines handshake (e.g., 1-RTT handshake, 0-RTT resumption), reducing latency. It removes obsolete/insecure cryptographic primitives (e.g., static RSA key exchange, CBC mode ciphers, SHA-1), mandates Perfect Forward Secrecy (PFS) for most key exchanges, and encrypts more of the handshake. It simplifies cipher suite negotiation to primarily AEAD ciphers.",
+      "TLS 1.3 uses a 4-way handshake instead of 3-way.",
+      "TLS 1.3 allows weaker cipher suites for compatibility with older clients."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is QUIC (Quick UDP Internet Connections) protocol? What are its key features and why is it often used as the transport for HTTP/3?",
+    "options": [
+      "QUIC is a faster version of TCP with more features.",
+      "QUIC is a transport layer network protocol built on UDP. Key features: multiplexed streams (avoids TCP head-of-line blocking), per-stream flow/congestion control, reduced connection establishment latency (often 0-RTT or 1-RTT), built-in encryption (like TLS 1.3), connection migration (survives IP/port changes). Used for HTTP/3 to overcome TCP limitations for web performance.",
+      "QUIC runs on top of TCP to add encryption and multiplexing.",
+      "HTTP/3 uses QUIC because UDP is more reliable than TCP."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the concept of 'congestion collapse' in a network and how TCP's congestion control mechanisms help prevent it.",
+    "options": [
+      "Congestion collapse is when a network physically collapses.",
+      "Congestion collapse is a condition where increasing network load leads to a drastic decrease in useful throughput. As routers' buffers overflow due to excessive traffic, packets are dropped, leading to retransmissions by senders, which further increases load, creating a vicious cycle. TCP's congestion control (slow start, congestion avoidance, fast retransmit/recovery) aims to match sending rate to available network capacity, backing off when congestion (packet loss) is detected, thus preventing or mitigating collapse.",
+      "TCP's flow control prevents congestion collapse, not congestion control.",
+      "Congestion collapse is only a problem for UDP traffic."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'Byzantine Fault' in distributed systems, and why is achieving 'Byzantine Fault Tolerance' (BFT) challenging?",
+    "options": [
+      "A fault specific to Byzantine-era computer systems.",
+      "A Byzantine fault is any fault presenting different symptoms to different observers (e.g., a node sending conflicting information to different peers, or behaving arbitrarily maliciously or erratically). BFT systems are designed to reach consensus and operate correctly even if some components exhibit such Byzantine behavior. Challenging because it requires complex algorithms (e.g., PBFT) to handle arbitrary failures, often with high communication overhead and limits on the number of faulty nodes tolerated (e.g., f < n/3).",
+      "BFT means the system can tolerate any number of faulty nodes.",
+      "Byzantine faults are simple hardware failures, easily detectable."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Describe how 'Shortest Path Bridging' (SPB, IEEE 802.1aq) provides loop prevention and multipathing in Ethernet networks, and how it compares to traditional Spanning Tree Protocols.",
+    "options": [
+      "SPB uses spanning tree for loop prevention and shortest paths for data.",
+      "SPB uses IS-IS link-state protocol to build a topology map and calculate shortest paths between all nodes. It creates multiple equal-cost loop-free paths by default, allowing for load balancing and fast convergence (sub-second) upon link/node failure. Unlike STP variants which block redundant links to create a single tree, SPB utilizes all available paths by creating shortest path trees rooted at each bridge or on a per-VLAN basis, offering higher bandwidth utilization and resilience.",
+      "SPB is a Layer 3 routing protocol similar to OSPF.",
+      "SPB relies on blocking ports like STP but uses shorter path calculations."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'segment routing' (SR, often SR-MPLS or SRv6)? How does it simplify network programmability and traffic engineering compared to traditional MPLS with LDP/RSVP-TE?",
+    "options": [
+      "Segment routing routes data based on TCP segments.",
+      "Segment routing is a source routing paradigm. The ingress router pre-pends an ordered list of segments (instructions, often representing nodes or links) to the packet. Intermediate routers simply execute the instruction at the top of the segment stack (e.g., forward to next segment/node). Simplifies control plane (no LDP/RSVP-TE needed for path setup), enables fine-grained traffic engineering by explicitly defining paths, and facilitates network slicing and service chaining. SR-MPLS uses MPLS labels as segments; SRv6 uses IPv6 addresses.",
+      "Segment routing requires LDP for label distribution.",
+      "SRv6 uses MPLS labels within IPv6 packets for routing."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the concept of 'network slicing' in 5G networks and its potential impact on service delivery.",
+    "options": [
+      "Physically slicing network cables to create separate networks.",
+      "Network slicing allows operators to create multiple virtualized, independent logical networks (slices) on top of a common physical infrastructure. Each slice can be customized with specific characteristics (e.g., bandwidth, latency, reliability, security) to meet the diverse requirements of different services or customers (e.g., enhanced mobile broadband, massive IoT, ultra-reliable low-latency communication). This enables tailored service delivery and new business models.",
+      "Network slicing is about dividing a single frequency band into smaller slices.",
+      "It's a technique for slicing data packets for efficient transmission."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Deterministic Networking' (DetNet) and what are its goals, particularly for industrial and real-time applications?",
+    "options": [
+      "Networking that uses deterministic algorithms for all functions.",
+      "DetNet refers to technologies and standards (e.g., by IETF, IEEE TSN) aimed at providing deterministic data paths with bounded low latency, low jitter, and extremely high reliability for time-critical applications (e.g., industrial automation, autonomous driving, professional audio/video). It involves mechanisms like time synchronization, traffic scheduling, path reservation, and redundancy.",
+      "Networking that determines the best path for non-real-time data.",
+      "A network where all packet arrival times are predetermined at connection setup."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "How does 'Time-Sensitive Networking' (TSN), defined by IEEE 802.1 working groups, contribute to achieving deterministic communication over Ethernet?",
+    "options": [
+      "TSN makes Ethernet sensitive to time zones.",
+      "TSN is a set of IEEE 802.1 standards that provide mechanisms for deterministic communication over standard Ethernet. Key components include: time synchronization (e.g., 802.1AS), traffic scheduling (e.g., time-aware shaper 802.1Qbv), frame preemption (802.1Qbu/802.3br), and stream reservation/redundancy protocols. This enables Ethernet to support applications with strict latency, jitter, and reliability requirements.",
+      "TSN is a proprietary networking protocol, not based on Ethernet.",
+      "TSN primarily focuses on increasing Ethernet bandwidth, not determinism."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain 'Header Compression' techniques (e.g., ROHC - Robust Header Compression). Why are they particularly important for wireless and constrained networks?",
+    "options": [
+      "Compressing only the HTTP headers of web traffic.",
+      "Header compression reduces the size of packet headers (e.g., IP/UDP/RTP, IP/TCP) by sending only the differences from previous headers or by using context-based compression. ROHC is designed to be robust against packet loss. Important for wireless/constrained networks because: 1. Bandwidth is often limited, so reducing header overhead (which can be significant for small payloads like VoIP) saves bandwidth. 2. Error rates can be higher, so robust schemes are needed.",
+      "ROHC is a technique for compressing the entire packet, not just headers.",
+      "Header compression is only used for IPv4, not IPv6 due to larger headers."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Named Data Networking' (NDN) or 'Content-Centric Networking' (CCN)? How does its architectural paradigm differ from the current IP-based host-centric internet?",
+    "options": [
+      "NDN is a new naming scheme for IP addresses.",
+      "NDN/CCN is a future internet architecture proposal that shifts from host-centric communication (IP addresses identify endpoints) to data-centric communication. Users request named data content, not specific hosts. Routers forward Interest packets based on names and can cache Data packets. Security is intrinsic to data (signed content). Aims to improve content distribution, mobility, and security. Differs fundamentally from IP's end-to-end principle focused on host connectivity.",
+      "NDN uses IP addresses to name data content.",
+      "CCN is about networking content creators, NDN about data naming."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Discuss the security challenges and mitigation strategies for IoT (Internet of Things) devices and networks.",
+    "options": [
+      "IoT devices are inherently secure due to their small size.",
+      "Challenges: resource constraints (limits processing/memory for strong security), insecure defaults (passwords), lack of updates/patching, insecure communication protocols, physical tampering, botnets (e.g., Mirai). Mitigations: secure boot, hardware security modules, lightweight crypto, secure communication (TLS/DTLS), network segmentation, regular updates, vulnerability management, authentication/authorization, intrusion detection for IoT networks.",
+      "Mitigation primarily involves using strong Wi-Fi passwords for all IoT devices.",
+      "IoT security is solely the responsibility of the network provider, not device manufacturers."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What are 'Zero Trust' security models, and how do they apply to network access and backend systems?",
+    "options": [
+      "A model where no security measures are trusted or implemented.",
+      "Zero Trust is a security model based on the principle of 'never trust, always verify'. It assumes no implicit trust for users or devices, regardless of whether they are inside or outside the network perimeter. Access to resources is granted on a per-session, least-privilege basis, after explicit verification (authentication, authorization, device posture check). Applies to network access (microsegmentation, identity-aware proxies) and application/API access.",
+      "Zero Trust means trusting only users within the corporate network.",
+      "It's a model where users have zero trust in the IT department."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "Explain the concept of 'Bloom Filters'. How can they be used in networking or distributed systems for tasks like membership testing, and what are their characteristics (e.g., false positives)?",
+    "options": [
+      "Bloom filters are for filtering out blooming network traffic.",
+      "A Bloom filter is a probabilistic, space-efficient data structure used to test whether an element is a member of a set. It uses multiple hash functions to map an element to bit positions in a bit array. False positives are possible (may report an element is in the set when it's not), but false negatives are not (if it says an element is not in the set, it's definitely not). Used for: checking if a URL is malicious, duplicate detection in streams, cache membership testing, P2P resource discovery.",
+      "Bloom filters guarantee no false positives but allow false negatives.",
+      "They are primarily used for encrypting set membership information."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  },
+  {
+    "question": "What is 'Multipath TCP' (MPTCP)? How does it aim to improve performance and resilience for TCP connections?",
+    "options": [
+      "TCP that uses multiple paths for error messages only.",
+      "MPTCP is an extension to TCP that allows a single TCP connection to use multiple paths (e.g., Wi-Fi and cellular, multiple Ethernet links) simultaneously between two endpoints. Benefits: increased throughput (by aggregating bandwidth of paths), improved resilience (if one path fails, connection can continue over others), seamless handover between networks.",
+      "MPTCP creates multiple TCP connections for each data stream.",
+      "It's a version of TCP that only works on networks with exactly two paths."
+    ],
+    "answer": 1,
+    "category": "Networking",
+    "difficulty": 4
+  }
+]

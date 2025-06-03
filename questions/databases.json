@@ -1,0 +1,597 @@
+[
+    {
+      "question": "What is the primary purpose of a primary key in a relational database?",
+      "options": ["To allow duplicate records", "To uniquely identify each record in a table", "To store foreign keys", "To index all columns"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which SQL clause is used to filter rows in a query?",
+      "options": ["SELECT", "WHERE", "GROUP BY", "ORDER BY"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What does ACID stand for in the context of database transactions?",
+      "options": ["Atomicity, Consistency, Isolation, Durability", "Accuracy, Completeness, Integrity, Durability", "Atomicity, Concurrency, Isolation, Dependability", "Availability, Consistency, Integrity, Durability"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which type of join returns all rows from both tables, with NULLs where there is no match?",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+      "answer": 3,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the purpose of an index in a database?",
+      "options": ["To enforce data integrity", "To speed up data retrieval operations", "To store backup data", "To define relationships between tables"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which SQL command is used to modify existing data in a table?",
+      "options": ["INSERT", "UPDATE", "DELETE", "SELECT"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a foreign key in a relational database?",
+      "options": ["A key that uniquely identifies a table", "A field that links two tables by referencing the primary key of another table", "A key used for indexing", "A key that allows duplicate values"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which normal form ensures that there are no transitive dependencies in a table?",
+      "options": ["First Normal Form (1NF)", "Second Normal Form (2NF)", "Third Normal Form (3NF)", "Boyce-Codd Normal Form (BCNF)"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What does the SQL keyword 'DISTINCT' do in a query?",
+      "options": ["Sorts the result set", "Removes duplicate rows from the result", "Groups rows by a column", "Joins multiple tables"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the purpose of the SQL 'GROUP BY' clause?",
+      "options": ["To filter rows", "To sort the result set", "To group rows that have the same values in specified columns", "To join tables"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which SQL function is used to count the number of rows in a result set?",
+      "options": ["SUM()", "AVG()", "COUNT()", "MAX()"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a database schema?",
+      "options": ["A single table in a database", "The structure that defines the organization of data in a database", "A query to retrieve data", "A backup of the database"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What does the SQL 'ORDER BY' clause do?",
+      "options": ["Filters rows based on a condition", "Groups rows by a column", "Sorts the result set by one or more columns", "Joins two tables"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which type of database model organizes data into a tree-like structure?",
+      "options": ["Relational", "Hierarchical", "Network", "NoSQL"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the purpose of the SQL 'HAVING' clause?",
+      "options": ["To filter rows before grouping", "To filter groups after applying GROUP BY", "To sort the result set", "To join tables"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a relational database?",
+      "options": ["A database that stores data in key-value pairs", "A database that organizes data into tables with relationships", "A database that uses a graph structure", "A database that stores unstructured data"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which SQL command is used to remove a table from a database?",
+      "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What does the SQL 'INNER JOIN' return?",
+      "options": ["All rows from both tables", "Rows from both tables where there is a match", "All rows from the left table", "All rows from the right table"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the purpose of a database view?",
+      "options": ["To store physical data", "To provide a virtual table based on a query", "To index a table", "To enforce constraints"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which SQL keyword is used to add new rows to a table?",
+      "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What does First Normal Form (1NF) require in a relational database?",
+      "options": ["No repeating groups or arrays in a table", "No partial dependencies", "No transitive dependencies", "A single primary key"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which SQL clause is used to combine rows from two or more tables based on a related column?",
+      "options": ["WHERE", "JOIN", "GROUP BY", "HAVING"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the purpose of the SQL 'LIKE' operator?",
+      "options": ["To perform exact matches", "To search for a specified pattern in a column", "To sort data", "To group data"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "Which type of database is designed to handle unstructured or semi-structured data?",
+      "options": ["Relational", "NoSQL", "Hierarchical", "Network"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the purpose of the SQL 'TRUNCATE' command?",
+      "options": ["To delete specific rows", "To remove all rows from a table without dropping it", "To drop a table", "To update existing rows"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the main advantage of normalization in a relational database?",
+      "options": ["Increases data redundancy", "Reduces data redundancy and improves data integrity", "Speeds up query execution", "Simplifies query writing"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which SQL clause is used to aggregate data, such as finding the sum or average of a column?",
+      "options": ["WHERE", "GROUP BY", "HAVING", "Aggregate functions like SUM() or AVG()"],
+      "answer": 3,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose of a clustered index in a database?",
+      "options": ["To store data in a sorted order physically on disk", "To allow duplicate keys", "To link multiple tables", "To store temporary data"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which SQL join returns all rows from the left table and matching rows from the right table?",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a candidate key in a relational database?",
+      "options": ["A key that can never be used as a primary key", "A minimal set of attributes that can uniquely identify a tuple", "A key that links two tables", "A key that allows null values"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the significance of the 'Isolation' property in ACID transactions?",
+      "options": ["Ensures transactions are processed in parallel", "Ensures transactions are independent and do not affect each other", "Ensures data is backed up", "Ensures data is always consistent"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which SQL function is used to find the maximum value in a column?",
+      "options": ["SUM()", "AVG()", "COUNT()", "MAX()"],
+      "answer": 3,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a non-clustered index in a database?",
+      "options": ["An index that physically sorts the table", "An index that stores pointers to the data without altering the table's order", "An index that enforces uniqueness", "An index that links multiple tables"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What does Second Normal Form (2NF) require in a relational database?",
+      "options": ["No repeating groups", "No partial dependencies on a composite key", "No transitive dependencies", "A single primary key"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which SQL command is used to grant permissions to a user?",
+      "options": ["GRANT", "REVOKE", "ALTER", "CREATE"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose of a database trigger?",
+      "options": ["To index a table", "To automatically execute a procedure in response to certain events", "To store temporary data", "To enforce foreign key constraints"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which NoSQL database type is best suited for hierarchical data?",
+      "options": ["Key-Value", "Document", "Column-Family", "Graph"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose of the SQL 'UNION' operator?",
+      "options": ["To join two tables", "To combine the result sets of two or more SELECT queries", "To filter rows", "To group rows"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a composite key in a relational database?",
+      "options": ["A single column that uniquely identifies a record", "A combination of two or more columns that uniquely identify a record", "A key that allows null values", "A key used for indexing only"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which SQL clause is used to limit the number of rows returned in a query?",
+      "options": ["WHERE", "LIMIT", "GROUP BY", "ORDER BY"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose of a database transaction?",
+      "options": ["To create a new table", "To ensure a set of database operations is executed as a single unit", "To index data", "To backup the database"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which type of NoSQL database is best suited for relationships between entities?",
+      "options": ["Key-Value", "Document", "Column-Family", "Graph"],
+      "answer": 3,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What does the SQL 'BETWEEN' operator do?",
+      "options": ["Joins two tables", "Selects values within a given range", "Groups rows by a column", "Sorts the result set"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose of a database constraint?",
+      "options": ["To speed up queries", "To enforce rules on the data in a table", "To store temporary data", "To create views"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "Which SQL command is used to remove specific rows from a table?",
+      "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the significance of Boyce-Codd Normal Form (BCNF)?",
+      "options": ["Eliminates all repeating groups", "Eliminates all partial dependencies", "Eliminates all non-trivial functional dependencies except those on candidate keys", "Eliminates transitive dependencies"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is a database deadlock?",
+      "options": ["A situation where a query runs indefinitely", "A situation where two or more transactions are unable to proceed because each is waiting for the other", "A situation where a table is dropped during a transaction", "A situation where an index fails"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which indexing structure is commonly used for range queries in databases?",
+      "options": ["Hash Index", "B-Tree Index", "Bitmap Index", "Inverted Index"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the purpose of a database transaction log?",
+      "options": ["To store query results", "To record all changes made to the database for recovery purposes", "To index data", "To store temporary tables"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which SQL isolation level allows dirty reads?",
+      "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the significance of a covering index in a database?",
+      "options": ["An index that includes all columns used in a query, avoiding table access", "An index that enforces uniqueness", "An index that sorts the table physically", "An index that links multiple tables"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the purpose of the SQL 'WITH' clause (Common Table Expression)?",
+      "options": ["To define temporary result sets for use in a query", "To create a new table", "To index a table", "To enforce constraints"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which NoSQL database type is best for time-series data?",
+      "options": ["Key-Value", "Document", "Column-Family", "Graph"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the significance of the 'Durability' property in ACID transactions?",
+      "options": ["Ensures transactions are processed in parallel", "Ensures changes are permanently saved even in case of system failure", "Ensures data consistency", "Ensures transactions are independent"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which SQL command is used to revoke permissions from a user?",
+      "options": ["GRANT", "REVOKE", "ALTER", "CREATE"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the purpose of a database partition?",
+      "options": ["To enforce constraints", "To divide a large table into smaller, more manageable pieces", "To create a backup", "To index all columns"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is a materialized view in a database?",
+      "options": ["A virtual table that updates dynamically", "A physical copy of a query result that is stored and periodically refreshed", "A table used for indexing", "A temporary table for transactions"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which SQL isolation level prevents phantom reads?",
+      "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+      "answer": 3,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the purpose of a database cursor?",
+      "options": ["To index a table", "To iterate over a result set row by row", "To enforce constraints", "To create a backup"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which type of index is best suited for columns with low cardinality?",
+      "options": ["B-Tree Index", "Hash Index", "Bitmap Index", "Clustered Index"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the significance of the CAP theorem in distributed databases?",
+      "options": ["It states that a database can achieve all three: Consistency, Availability, Partition Tolerance", "It states that a distributed database can only guarantee two out of Consistency, Availability, and Partition Tolerance", "It defines the ACID properties", "It ensures high performance"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the purpose of a database checkpoint?",
+      "options": ["To create a backup", "To ensure all committed transactions are written to disk", "To index a table", "To enforce constraints"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which SQL clause is used to pivot data from rows to columns?",
+      "options": ["PIVOT", "GROUP BY", "HAVING", "TRANSPOSE"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the purpose of a database shard?",
+      "options": ["To enforce constraints", "To distribute data across multiple servers for scalability", "To create a backup", "To index all columns"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "Which SQL function is used to concatenate strings?",
+      "options": ["SUM()", "CONCAT()", "COUNT()", "AVG()"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the significance of a database optimizer?",
+      "options": ["It enforces constraints", "It determines the most efficient way to execute a query", "It creates backups", "It indexes all columns"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the time complexity of a B-Tree index lookup in a database?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which technique is used to resolve write conflicts in a distributed database?",
+      "options": ["Two-Phase Commit", "Hash Indexing", "Bitmap Indexing", "Query Optimization"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of a database replication?",
+      "options": ["To enforce constraints", "To create multiple copies of data for redundancy and availability", "To index a table", "To partition a table"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which algorithm is commonly used for query optimization in relational databases?",
+      "options": ["Dijkstra's Algorithm", "Dynamic Programming", "Greedy Algorithm", "Backtracking"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the significance of a write-ahead log (WAL) in a database?",
+      "options": ["It indexes data", "It records changes before they are applied to ensure durability", "It optimizes queries", "It creates backups"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which NoSQL database consistency model allows reads to return outdated data?",
+      "options": ["Strong Consistency", "Eventual Consistency", "Causal Consistency", "Strict Consistency"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of a database bloom filter in indexing?",
+      "options": ["To enforce constraints", "To quickly check if a value is likely in an index", "To sort data", "To create backups"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which technique is used to balance load across database shards?",
+      "options": ["Consistent Hashing", "B-Tree Indexing", "Bitmap Indexing", "Two-Phase Commit"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the significance of a multi-version concurrency control (MVCC) in databases?",
+      "options": ["It optimizes query execution", "It allows multiple transactions to access different versions of data concurrently", "It enforces constraints", "It creates backups"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which SQL clause is used to unpivot data from columns to rows?",
+      "options": ["UNPIVOT", "GROUP BY", "HAVING", "TRANSPOSE"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the time complexity of a hash index lookup in a database?",
+      "options": ["O(1) average case", "O(log n)", "O(n)", "O(n log n)"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which database isolation level prevents non-repeatable reads?",
+      "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+      "answer": 2,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of a database cost-based optimizer?",
+      "options": ["To enforce constraints", "To choose the query execution plan with the lowest estimated cost", "To create backups", "To index all columns"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which technique is used to handle distributed transactions across multiple databases?",
+      "options": ["B-Tree Indexing", "Two-Phase Commit", "Bitmap Indexing", "Query Optimization"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the significance of a database inverted index?",
+      "options": ["It stores data in sorted order", "It maps content to its locations for efficient text search", "It enforces constraints", "It creates backups"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which NoSQL database type is best for high-speed key lookups?",
+      "options": ["Key-Value", "Document", "Column-Family", "Graph"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of a database snapshot isolation?",
+      "options": ["To enforce constraints", "To provide a consistent view of the database at a specific point in time", "To index data", "To create backups"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "Which algorithm is used for efficient range queries in a column-family NoSQL database?",
+      "options": ["B-Tree", "Hashing", "Bitmap Indexing", "Inverted Indexing"],
+      "answer": 0,
+      "category": "Databases",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the significance of a database log-structured merge (LSM) tree?",
+      "options": ["It optimizes read-heavy workloads", "It optimizes write-heavy workloads with sequential writes", "It enforces constraints", "It creates backups"],
+      "answer": 1,
+      "category": "Databases",
+      "difficulty": 4
+    }
+]

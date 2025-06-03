@@ -1,0 +1,1409 @@
+[
+  {
+    "question": "What is the standard way to begin a PHP code block?",
+    "options": ["<php>", "<script language='php'>", "<?php", "<?"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which symbol is used for single-line comments in PHP?",
+    "options": ["#", "/* */", "//", "Both // and #"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you print output to the browser/console in PHP?",
+    "options": ["console.log()", "System.out.println()", "printf()", "echo (or print)"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which symbol is used to prefix all user-defined variables in PHP?",
+    "options": ["@", "#", "%", "$"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the operator for string concatenation in PHP?",
+    "options": ["+", "&", ".", "||"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the length of an array named `$myArray` in PHP?",
+    "options": ["$myArray.length", "length($myArray)", "count($myArray)", "size($myArray)"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to create a loop that iterates over elements of an array or properties of an object?",
+    "options": ["loop", "for", "while", "foreach"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you access the first element of an indexed array `$arr`?",
+    "options": ["$arr(0)", "$arr.first", "$arr[0]", "$arr.get(0)"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which superglobal array is used to collect values from a form submitted with the HTTP GET method?",
+    "options": ["$_REQUEST", "$_POST", "$_SESSION", "$_GET"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which superglobal array is used to collect values from a form submitted with the HTTP POST method?",
+    "options": ["$_GET", "$_SERVER", "$_FILES", "$_POST"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What keyword is used to define a function in PHP?",
+    "options": ["def", "func", "function", "method"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which function checks if a variable is set and not null?",
+    "options": ["is_null()", "defined()", "empty() (checks if null, false, 0, empty string/array)", "isset()"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `echo \"Hello\" . \"World\";`?",
+    "options": ["Hello World", "HelloWorld", "Hello.World", "Error"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which statement is used to make decisions in PHP?",
+    "options": ["decide", "switch", "if", "choose"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What value is considered `false` in a boolean context in PHP (among others)?",
+    "options": ["The string \"0\"", "An empty array `[]`", "The integer `0`", "All of the above"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you start a multi-line comment in PHP?",
+    "options": ["//", "/*", "<!--", "##"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which PHP data type is used to store a collection of key-value pairs where keys can be integers or strings?",
+    "options": ["List", "Object", "String", "Array (associative array)"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you create an empty array in PHP?",
+    "options": ["new Array()", "array()", "[] (PHP 5.4+)", "Both B and C"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to include and evaluate a specified file in PHP?",
+    "options": ["import", "use", "require (or include)", "load"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the comparison operator for 'not equal to' (value only, loose comparison)?",
+    "options": ["<>", "!==", "!=", "Both <> and !="],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the strict comparison operator for 'not equal to' (value and type)?",
+    "options": ["<>", "!==", "!=", "not =="],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "If `$arr = [10, 20, 30];`, what is `$arr[1]`?",
+    "options": ["10", "20", "30", "null (if not set)"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which loop continues as long as its condition evaluates to true?",
+    "options": ["for", "if", "do...while", "while"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you define a constant in PHP using `define()`?",
+    "options": ["const MY_CONSTANT = 'value';", "define('MY_CONSTANT', 'value');", "$MY_CONSTANT = 'value'; const;", "define MY_CONSTANT 'value';"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which method is used to remove the last element from an array and return it?",
+    "options": ["array_remove_last()", "array_delete_last()", "array_pop()", "array_shift()"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "The `elseif` statement can also be written as what in PHP?",
+    "options": ["elif", "else if", "else_if", "if_else"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `'JavaScript'[0]` in PHP (treating string as array of chars)?",
+    "options": ["J", "a", "S", "Error (use mb_substr or similar for multibyte)"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you check the data type of a variable `$x` in PHP?",
+    "options": ["type($x)", "typeof $x", "gettype($x)", "is_type($x)"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What character is used to access values in an associative array by key?",
+    "options": ["()", "->", "{}", "[]"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which statement is used to stop the execution of a loop or switch statement prematurely?",
+    "options": ["stop", "exit", "break", "halt"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "In PHP, variable names are case-sensitive.",
+    "options": ["True", "False (function names are not, but variables are)", "Sometimes", "Only for global variables"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `5 % 2` in PHP?",
+    "options": ["2.5", "2", "1", "0"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "The `NULL` constant in PHP represents:",
+    "options": ["An empty string", "The integer zero", "A special value representing a variable with no value", "A boolean false"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `'php' . 5` if not explicitly converted (PHP attempts type juggling)?",
+    "options": ["php5", "Error", "NaN", "php 5"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you define a class in PHP?",
+    "options": ["function MyClass {}", "class MyClass {}", "MyClass class {}", "new class MyClass {}"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the typical file extension for a PHP source file?",
+    "options": [".ph", ".phps", ".phtml", ".php"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to handle potential exceptions in a block of code?",
+    "options": ["catch", "error", "try", "handle_error"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "If `$str = \"hello\";`, what is `strtoupper($str)`?",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `strlen()` function return when applied to a string?",
+    "options": ["The number of words", "The number of bytes (for ASCII/single-byte encodings; use `mb_strlen` for multibyte)", "The memory size", "The number of lines"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How to check if a key `'name'` exists in an associative array `$assocArray`?",
+    "options": ["`'name' in $assocArray` (Python style)", "`array_key_exists('name', $assocArray)` or `isset($assocArray['name'])`", "`$assocArray.has_key('name')`", "`$assocArray['name'] != NULL` (isset is better)"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `true && false` in PHP?",
+    "options": ["true", "false", "1", "0 (false prints as empty string or 0 depending on context)"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `true || false` in PHP?",
+    "options": ["true", "false", "1 (true prints as 1 or string '1')", "0"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "The `explode()` function in PHP, when given a delimiter and a string, does what?",
+    "options": ["Joins array elements into a string", "Splits a string by a string delimiter and returns an array of strings", "Explodes a file into pieces", "Counts the occurrences of a substring"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which data structure in PHP stores items in an ordered manner (for numerically indexed arrays) and allows duplicates?",
+    "options": ["Set", "Object", "Map", "Array"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the purpose of the `__construct()` method in a PHP class?",
+    "options": ["To initialize class static properties when the class is declared", "A special method automatically called when an object of the class is created, used for initialization", "To destroy an object", "To return a string representation of the object for construction"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following will correctly open a file named `data.txt` for reading in PHP?",
+    "options": ["$file = fopen('data.txt', 'r');", "$file = open_file('data.txt', 'read');", "$file = read_file('data.txt');", "$file.open('data.txt', 'r');"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `continue` statement do in a loop in PHP?",
+    "options": ["Exits the loop entirely", "Skips the rest of the current iteration and continues with the next iteration of the loop", "Pauses the loop", "Restarts the loop from the beginning"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "If `$x = 5;`, what is the value of `$x += 2;`?",
+    "options": ["5", "2", "7", "Error"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the output of `!true` in PHP?",
+    "options": ["true", "false (prints as empty string or 0)", "null", "Error"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `'apple'[1]` in PHP?",
+    "options": ["a", "p", "e", "Error (string offset access works per byte)"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to define a block that will always be executed after a `try` block, regardless of whether an exception occurred (PHP 5.5+)?",
+    "options": ["ensure", "finally", "always", "execute_after"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `$_SESSION` superglobal array used for?",
+    "options": ["Storing data from the current URL query string", "Storing data that persists across multiple page requests for a single user's session", "Accessing server environment variables", "Handling uploaded files"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which function must be called before any output is sent to the browser if you want to use sessions?",
+    "options": ["`session_start()`", "`init_session()`", "`start_session_cookies()`", "`php_session_begin()`"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "The `implode()` function in PHP does what?",
+    "options": ["Splits a string into an array", "Joins array elements with a string delimiter", "Implodes a building in a script", "Counts elements in an array"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "The `->` operator in PHP is used to:",
+    "options": ["Access elements of an array", "Access methods and properties of an object instance", "Dereference a pointer (PHP doesn't have C-style pointers)", "Indicate a lambda function"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "The `::` operator (Scope Resolution Operator) in PHP is used to:",
+    "options": ["Access instance members of an object", "Access static members (properties, methods) of a class, or class constants, or to call a parent's method", "Define a namespace", "Separate parts of a URL"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `json_encode()` function in PHP used for?",
+    "options": ["To decode a JSON string into a PHP variable", "To encode a PHP variable (e.g., array, object) into a JSON string representation", "To check if a string is valid JSON", "To load JSON data from a file"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `json_decode()` function in PHP used for?",
+    "options": ["To encode a PHP variable into JSON", "To decode a JSON string into a PHP variable (object or associative array)", "To validate JSON structure", "To pretty-print JSON data"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is Composer in the PHP ecosystem?",
+    "options": ["A PHP code editor", "A dependency manager for PHP, allowing you to declare libraries your project depends on and manage their installation/updates", "A PHP music composition tool", "A PHP framework for building websites"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to inherit from a parent class in PHP?",
+    "options": ["inherits", "super", "extends", ":"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is an 'abstract class' in PHP?",
+    "options": ["A class that cannot have any methods", "A class that cannot be instantiated directly and may contain abstract methods (methods declared but not implemented)", "A class that is hidden from other scripts", "A class that is automatically static"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is an 'interface' in PHP?",
+    "options": ["A graphical user interface element", "A contract that defines a set of methods a class must implement, without providing the implementation of those methods", "A way to interface with hardware", "A type of network connection"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used for a class to adopt an interface?",
+    "options": ["uses", "adopts", "extends", "implements"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'trait' in PHP (PHP 5.4+)?",
+    "options": ["A character trait of a PHP developer", "A mechanism for code reuse in single inheritance languages like PHP. Traits can group methods that can be included within multiple classes.", "A specific data type for storing personality traits", "A way to define global functions"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you access a static property `$myStaticProp` of a class `MyClass`?",
+    "options": ["$this->myStaticProp", "$MyClass->myStaticProp", "MyClass::myStaticProp", "MyClass.myStaticProp"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "The `$_COOKIE` superglobal array contains:",
+    "options": ["Information about cookies sent by the server to the browser", "Variables passed to the current script via HTTP cookies from the browser", "Recipes for cookies", "Session cookie data only"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which function is used to set a cookie in PHP?",
+    "options": ["`create_cookie()`", "`cookie_set()`", "`setcookie()`", "`http_set_cookie()`"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `===` operator in PHP used for?",
+    "options": ["Assignment", "Identical comparison (checks both value and type are the same)", "Loose equality (checks value after type juggling)", "Greater than or equal to"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `==` operator in PHP used for?",
+    "options": ["Assignment", "Identical comparison (value and type)", "Equal comparison (checks value after type juggling, if necessary)", "Less than or equal to"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `PDO (PHP Data Objects)` provide?",
+    "options": ["A way to define PHP data object structures", "A consistent interface for accessing various databases (e.g., MySQL, PostgreSQL, SQLite) in PHP", "A library for creating dynamic objects at runtime", "An object-oriented file access layer"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is XSS (Cross-Site Scripting)?",
+    "options": ["A PHP script for crossing sites", "A type of security vulnerability where malicious scripts are injected into otherwise trusted websites, often by not properly sanitizing user input displayed on a page", "A CSS framework for cross-browser compatibility", "A server configuration for site-to-site VPNs"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Which PHP function is often used to prevent XSS by converting special characters to HTML entities?",
+    "options": ["`strip_tags()`", "`addslashes()`", "`mysql_real_escape_string()` (deprecated)", "`htmlspecialchars()` or `htmlentities()`"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is SQL Injection?",
+    "options": ["Injecting SQL database servers into a PHP script", "A code injection technique where malicious SQL statements are inserted into an entry field for execution (e.g., to dump database contents to the attacker)", "A PHP function for fast SQL queries", "A type of database vaccine"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a common technique to prevent SQL injection when using PDO or MySQLi?",
+    "options": ["Concatenating user input directly into SQL queries", "Using prepared statements with bound parameters", "Encoding all user input with `htmlspecialchars()`", "Disabling SQL error messages"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is an anonymous function (or closure) in PHP (PHP 5.3+)?",
+    "options": ["A function that has no name and can be assigned to a variable or passed as an argument to other functions", "A function that cannot access variables from its outer scope", "A function that is defined within a class but is not a method", "A built-in PHP function with an unknown name"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `use` keyword allow in an anonymous function's definition in PHP?",
+    "options": ["To import namespaces into the function", "To inherit variables from the parent scope into the closure's scope", "To specify which external libraries the function uses", "To use global variables directly without the `global` keyword"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Arrow functions (short anonymous functions) were introduced in which PHP version?",
+    "options": ["PHP 5.6", "PHP 7.0", "PHP 7.2", "PHP 7.4"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `yield` keyword used for in PHP (PHP 5.5+)?",
+    "options": ["To return multiple values as an array", "To create generator functions, which can produce a sequence of values one at a time without needing to compute them all at once and store them in memory", "To yield control to the operating system", "To pause script execution indefinitely"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `...` operator (splat operator or argument unpacking/packing) used for in PHP 5.6+ function arguments?",
+    "options": ["To indicate a pointer to an argument", "For variadic functions: to pack multiple trailing arguments into an array, or to unpack an array/traversable into individual arguments when calling a function", "To define a range of arguments", "To comment out arguments"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "Type declarations (scalar types, return types) were significantly enhanced starting from which PHP version?",
+    "options": ["PHP 4", "PHP 5.3", "PHP 5.6", "PHP 7.0"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `declare(strict_types=1);` directive do at the beginning of a PHP file?",
+    "options": ["Enables strict error reporting for all types", "Enforces strict type checking for scalar type declarations (int, float, string, bool) within that file; type coercions are disallowed, and TypeErrors are thrown", "Makes all variables in the file strictly typed", "Declares that the file uses only built-in types"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the null coalescing operator `??` in PHP 7.0+ used for?",
+    "options": ["To check if two variables are both null", "To return its first operand if it exists and is not `NULL`; otherwise, it returns its second operand (a shorthand for a common `isset()` ternary pattern)", "To combine multiple null values into one", "To assign `NULL` to a variable if a condition is met"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the spaceship operator `<=>` in PHP 7.0+ used for?",
+    "options": ["To launch spaceships in a game", "For three-way comparison: returns 0 if operands are equal, -1 if the left is less than the right, and 1 if the left is greater than the right", "To define a custom comparison for space-related data", "To assign values between three variables"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `PSR` in the context of PHP (e.g., PSR-4, PSR-12)?",
+    "options": ["PHP Standard Runtime", "PHP Standard Recommendations - coding style guides, autoloading standards, interface definitions, etc., proposed by the PHP Framework Interop Group (PHP-FIG)", "PHP Secure Repository", "PHP Script Runner"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What does autoloading (often following PSR-4) help with in PHP projects?",
+    "options": ["Automatically loading PHP extensions", "Automatically loading class/interface/trait definitions when they are first used, without needing explicit `require` or `include` statements for every file", "Loading all PHP files in a directory at once", "Automatically updating PHP versions"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `final` keyword used for with a class or method in PHP?",
+    "options": ["To mark the final version of the class/method", "If applied to a class, it prevents the class from being extended (inherited from). If applied to a method, it prevents the method from being overridden in a child class.", "To indicate the class/method is complete and needs no further changes", "To execute the class/method last in a sequence"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the difference between `include` and `require` in PHP?",
+    "options": ["`include` is for files, `require` is for directories", "They are identical in functionality", "`include` will produce a warning if the file is not found and continue script execution; `require` will produce a fatal error and stop script execution if the file is not found.", "`require` is faster than `include`"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What are magic methods (or magic constants) in PHP (e.g., `__construct`, `__toString`, `__FILE__`)?",
+    "options": ["Methods/constants that perform magical tricks", "Special predefined methods (often with double underscore prefixes) that PHP calls automatically in certain situations (e.g., object creation, string conversion, property access), or predefined constants that provide information about the script's environment.", "Methods/constants that are encrypted", "Methods/constants available only in specific PHP extensions"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `instanceof` operator used for in PHP?",
+    "options": ["To create a new instance of a class", "To check if an object is an instance of a particular class, a child class of it, or implements a particular interface", "To get the number of instances of a class", "To define an instance variable"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is Reflection API in PHP used for?",
+    "options": ["Reflecting images in web pages", "Inspecting and manipulating classes, methods, properties, parameters, etc., at runtime, allowing for dynamic analysis and modification of code structure", "A UI library for creating reflective surfaces", "Optimizing PHP code by reflecting on its execution path"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `DateTime` class (and related classes like `DateTimeImmutable`, `DateInterval`) in PHP used for?",
+    "options": ["Storing only the current time", "Representing and manipulating dates and times in an object-oriented way, providing robust timezone support and date/time arithmetic", "Formatting date strings for display only", "A class for timing script execution"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What are 'prepared statements' in database interaction (e.g., with PDO or MySQLi)?",
+    "options": ["SQL statements that are prepared in advance by the database administrator", "A feature where an SQL query template is sent to the database server first, and then parameter values are sent separately. This helps prevent SQL injection and can improve performance for repeated queries.", "Statements that are always ready for execution without compilation", "SQL statements written by a prepared developer"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `SplFileInfo` class in PHP's Standard PHP Library (SPL) used for?",
+    "options": ["Storing information about PHP code files", "Providing an object-oriented interface for accessing information about files and directories (e.g., size, permissions, modification time)", "Splitting large files into smaller pieces", "Validating file info structures"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What are SPL iterators (e.g., `ArrayIterator`, `RecursiveDirectoryIterator`) used for?",
+    "options": ["Iterating over user interface elements", "Providing a common way to iterate over various data structures (arrays, directories, etc.) and enabling custom iteration logic", "A tool for iterating PHP version numbers", "Iterating through errors in a script"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is serialization in PHP (`serialize()`, `unserialize()`)?",
+    "options": ["Arranging items in a series", "The process of converting a PHP data structure (e.g., array, object) into a string representation that can be stored or transmitted, and then reconstructing the original data structure from that string", "Creating TV serial scripts using PHP", "Encrypting PHP variables"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between `GET` and `POST` HTTP methods in the context of HTML forms?",
+    "options": ["`GET` is more secure than `POST`", "`GET` appends form data to the URL, visible in the address bar and limited in size; `POST` sends form data in the HTTP request body, not visible in the URL and can handle larger amounts of data. `GET` is typically for idempotent requests (retrieving data), `POST` for non-idempotent (changing state).", "`POST` is faster than `GET`", "They are interchangeable for all types of forms"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `php.ini` file?",
+    "options": ["A PHP initialization script for web pages", "The main PHP configuration file, controlling various aspects of PHP's behavior (e.g., error reporting, resource limits, enabled extensions)", "A file containing PHP installation instructions", "An INI parser library for PHP"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `error_reporting(E_ALL); ini_set('display_errors', 1);` typically do in a PHP development environment?",
+    "options": ["Disables all error reporting", "Enables reporting of all PHP errors and displays them directly in the browser/output, which is useful for debugging but should be turned off for production", "Logs all errors to a file without displaying them", "Only reports fatal errors"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `use` keyword used for with namespaces in PHP?",
+    "options": ["To use a specific PHP version", "To import a namespace or alias a class/interface/etc. from a namespace, allowing you to refer to it with a shorter name within the current scope", "To define user permissions for a namespace", "To mark a namespace as being in use"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `this` keyword used for inside a PHP class method?",
+    "options": ["To refer to the class itself (static context)", "To refer to the current object instance", "To call static methods of the same class", "To create a new instance of the class"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which magic method is automatically called when an object is treated as a string (e.g., in an `echo` statement)?",
+    "options": ["__toString()", "__asString()", "__getString()", "__print()"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between `include` and `require` if the specified file is not found?",
+    "options": ["`include` throws an Error, `require` throws an Exception", "`include` generates a Warning and continues script execution, `require` generates a fatal Error and stops script execution", "`require` generates a Warning, `include` generates a fatal Error", "There is no difference in error handling"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `final` keyword prevent when used with a PHP class?",
+    "options": ["The class from being instantiated", "The class from being extended (inherited from)", "The class from having any methods", "The class from being included in other files"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `final` keyword prevent when used with a PHP method?",
+    "options": ["The method from being called", "The method from having any parameters", "The method from being overridden in a child class", "The method from returning a value"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which PHP function is used to check if a variable is an array?",
+    "options": ["check_array()", "is_array_type()", "is_array()", "array_is()"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `array_push()` function do in PHP?",
+    "options": ["Prepends one or more elements to the beginning of an array", "Appends one or more elements to the end of an array", "Removes and returns the last element of an array", "Pushes an array onto a stack"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which PHP function is used to sort an array by its values, maintaining key association?",
+    "options": ["sort()", "rsort()", "ksort()", "asort()"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of the `static` keyword when declaring a class property in PHP?",
+    "options": ["The property's value cannot be changed", "The property belongs to the class itself, not to instances of the class (it's a class variable)", "The property can only be accessed by static methods", "The property is automatically initialized"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "How do you call a static method `myStaticMethod()` of a class `MyClass` from outside the class?",
+    "options": ["$object = new MyClass(); $object->myStaticMethod();", "$MyClass->myStaticMethod();", "MyClass.myStaticMethod();", "MyClass::myStaticMethod();"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is an 'abstract method' in an abstract PHP class?",
+    "options": ["A method that is implemented in the abstract class but cannot be called directly", "A method that is declared in an abstract class but contains no implementation; it must be implemented by any child class that is not abstract", "A method that can only call other abstract methods", "A private method within an abstract class"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Can you instantiate an abstract class directly in PHP?",
+    "options": ["Yes, always", "No, abstract classes cannot be instantiated", "Only if it has no abstract methods", "Yes, using a special `new abstract` syntax"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does an 'interface' define in PHP?",
+    "options": ["A set of private properties for a class", "A contract specifying a set of public methods that a class must implement, without providing the implementation for those methods", "A visual user interface layout", "A connection to an external service"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which keyword is used by a class to indicate it will adhere to an interface's contract?",
+    "options": ["uses", "extends", "implements", "inherits"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'trait' in PHP (PHP 5.4+)?",
+    "options": ["A way to define global constants", "A mechanism for code reuse in single inheritance languages like PHP, allowing a set of methods to be included into multiple classes", "A specific type of error", "A marker for private methods"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which PHP function is used to get the current timestamp (seconds since Unix Epoch)?",
+    "options": ["get_timestamp()", "now()", "time()", "current_time()"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `date()` function in PHP typically require as its first argument?",
+    "options": ["A timestamp", "A format string specifying how the date/time should be output", "A timezone string", "The number of days"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which magic constant gives the full path and filename of the current PHP script?",
+    "options": ["__DIR__", "__NAMESPACE__", "__FILE__", "__LINE__"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which magic constant gives the directory of the current PHP script?",
+    "options": ["__FILE__", "__DIR__", "__PATH__", "__FOLDER__"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of `$_FILES` superglobal array in PHP?",
+    "options": ["To access GET request parameters", "To store information about files uploaded to the server via HTTP POST", "To list all files in the current directory", "To manage session files"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which function is used to move an uploaded file to a new location in PHP?",
+    "options": ["`copy_uploaded_file()`", "`upload_file()`", "`file_move_uploaded()`", "`move_uploaded_file()`"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `isset($var)` primarily check for?",
+    "options": ["If `$var` is empty", "If `$var` is true", "If `$var` is declared and its value is not `NULL`", "If `$var` is of a specific type"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `empty($var)` check for?",
+    "options": ["Only if `$var` is `NULL`", "If `$var` is considered empty (e.g., `\"\"`, `0`, `\"0\"`, `NULL`, `FALSE`, `array()`)", "If `$var` has not been declared", "If `$var` is an empty object"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "How do you destroy a specific session variable, e.g., `$_SESSION['username']`?",
+    "options": ["`session_delete('username');`", "`destroy_session_var('username');`", "`unset($_SESSION['username']);`", "`$_SESSION['username'] = null;` (this only nullifies, unset removes)"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which function is used to destroy all data registered to a session?",
+    "options": ["`session_clear_all()`", "`end_session()`", "`session_destroy()`", "`unset_session()`"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the typical use of the `header()` function in PHP related to page redirection?",
+    "options": ["To set the HTML header content", "To send a raw HTTP header, often used for redirection (e.g., `header('Location: newpage.php');`)", "To get header information from a request", "To style the page header"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "When must the `header()` function be called in a PHP script to avoid errors?",
+    "options": ["Anywhere in the script", "Only after some HTML output has been sent", "Before any actual output is sent to the browser (HTML, whitespace, etc.)", "Only within a function"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which PHP function is used to get the number of elements in an array?",
+    "options": ["`sizeof()`", "`count()`", "`array_length()`", "Both `sizeof()` and `count()` are aliases"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `include_once` statement do differently from `include`?",
+    "options": ["`include_once` is faster", "`include_once` ensures that the specified file is included only once during script execution, even if called multiple times", "`include_once` can only include files from the same directory", "`include_once` throws a fatal error if the file is missing"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `PDO::prepare()` method do in database operations?",
+    "options": ["Executes an SQL query immediately", "Prepares an SQL statement template to be executed later with bound parameters, helping to prevent SQL injection", "Connects to the database server", "Fetches all results from a query"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `PDOStatement::execute()` method do?",
+    "options": ["Prepares an SQL statement", "Executes a previously prepared SQL statement, optionally with an array of bound parameter values", "Fetches the next row from a result set", "Closes the database connection"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `PDOStatement::fetchAll()` typically return?",
+    "options": ["A single row as an associative array", "An array containing all of the remaining rows in the result set", "A boolean indicating success or failure", "The number of affected rows"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `E_NOTICE` in PHP error reporting?",
+    "options": ["A fatal error that stops script execution", "A run-time notice indicating that the script encountered something that could be an error, but execution continues (e.g., using an undefined variable)", "A warning that should be fixed but doesn't stop the script", "A parse error detected by the compiler"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which PHP function is used to check if a value exists in an array?",
+    "options": ["`array_contains()`", "`exists_in_array()`", "`has_value()`", "`in_array()`"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between `strpos()` and `strstr()` in PHP?",
+    "options": ["`strpos()` returns the position of the first occurrence of a substring, while `strstr()` returns the part of the string from the first occurrence to the end (or `false` if not found)", "`strstr()` returns the position, `strpos()` returns the substring", "They are aliases for the same function", "`strpos()` is case-sensitive, `strstr()` is case-insensitive"],
+    "answer": 0,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `__call()` magic method handle?",
+    "options": ["Calls to undefined static methods", "Calls to undefined instance methods on an object", "Calls made when an object is constructed", "Calls made when an object is treated as a function"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `__callStatic()` magic method handle?",
+    "options": ["Calls to undefined instance methods", "Calls to undefined static methods on a class", "Calls made during static property initialization", "Calls made when a class is first declared"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `DateTime::format()` method used for?",
+    "options": ["To parse a date string into a DateTime object", "To format a DateTime object into a string representation according to a specified format", "To compare two DateTime objects", "To calculate the difference between two dates"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "How can you pass arguments to a PHP script executed via the command line (CLI)?",
+    "options": ["Using `$_GET`", "Using `$_POST`", "They are available in the `$argv` array (and `$argc` for count)", "Using `$_REQUEST`"],
+    "answer": 2,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of the `use` keyword when defining an anonymous function (closure) in PHP?",
+    "options": ["To import namespaces into the closure", "To inherit variables from the parent scope into the closure's scope. By default, closures do not automatically inherit variables.", "To specify that the closure uses global variables", "To use traits within the closure"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `is_callable()` function check in PHP?",
+    "options": ["If a variable can be called as a phone number", "If the contents of a variable can be called as a function (e.g., string with function name, array for object/static method, closure)", "If a function call will succeed without errors", "If a function is currently being called"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between `self::` and `$this->` inside a class method?",
+    "options": ["`self::` is for static members, `$this->` is for parent members", "`self::` is used to access static members (properties or methods) or constants of the current class. `$this->` is used to access instance members (non-static properties or methods) of the current object.", "`$this->` is for static members, `self::` for instance members", "They are interchangeable"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which PHP function can be used to apply a callback function to each element of an array and return a new array with the results?",
+    "options": ["`array_walk()`", "`array_filter()`", "`array_reduce()`", "`array_map()`"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which PHP function can be used to filter elements of an array using a callback function?",
+    "options": ["`array_map()`", "`array_filter()`", "`array_reduce()`", "`array_search()`"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of `file_get_contents()` function in PHP?",
+    "options": ["To get the metadata of a file", "To read the entire contents of a file into a string", "To list contents of a directory", "To check if a file's contents have changed"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of `file_put_contents()` function in PHP?",
+    "options": ["To append data to a file only", "To write data (a string or an array) to a file, creating the file if it doesn't exist or overwriting it by default", "To get the contents of a remote file via PUT request", "To manage file permissions"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the typical use of heredoc syntax in PHP?",
+    "options": ["Defining very short strings", "Defining multi-line strings or strings containing many quotes, without needing to escape them as frequently. Starts with `<<<IDENTIFIER` and ends with `IDENTIFIER;` on its own line.", "Documenting hereditable classes", "Creating here-maps for geolocation"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between heredoc and nowdoc syntax in PHP?",
+    "options": ["Heredoc is for HTML, Nowdoc for plain text", "Heredoc (`<<<EOT`) performs variable parsing and escape sequence processing within the string; Nowdoc (`<<<'EOT'`) treats the string literally, with no parsing of variables or escape sequences (similar to single-quoted strings).", "Nowdoc is faster than Heredoc", "There is no difference, Nowdoc is an alias"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `$_SERVER['REQUEST_METHOD']` typically used for?",
+    "options": ["To get the server's current processing method", "To determine which HTTP request method was used to access the page (e.g., 'GET', 'POST', 'PUT')", "To set the preferred request method for future requests", "To get a list of allowed request methods for the server"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `global` keyword do inside a PHP function?",
+    "options": ["Declares a variable as globally accessible from any script", "Imports a global variable from the global scope into the function's local scope, allowing the function to modify the global variable directly", "Makes the function itself globally accessible", "Sets the function's scope to global"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `instanceof` operator used for in PHP?",
+    "options": ["To count the number of instances of a class", "To check if an object is an instance of a particular class, a child of that class, or implements a particular interface", "To create an instance of a class", "To get the name of an object's class"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a common use for the `yield` keyword in PHP (PHP 5.5+)?",
+    "options": ["To yield execution to another PHP script", "To create generator functions, which allow you to write iterators more easily by producing values one at a time, without building an entire array in memory", "To make a function return multiple arrays", "To pause a script and wait for user input"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `...` (splat operator) do when used in a function's parameter list (e.g., `function sum(...$numbers)`) in PHP 5.6+?",
+    "options": ["It indicates the function takes exactly three arguments", "It allows the function to accept a variable number of arguments, which are then available as an array inside the function (variadic function)", "It unpacks an array into individual arguments", "It's a comment indicating more parameters follow"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does the `...` (splat operator) do when used in a function call (e.g., `myFunction(...$array)`) in PHP 5.6+?",
+    "options": ["It passes the array as a single argument", "It unpacks an array or Traversable object into individual arguments for the function call (argument unpacking)", "It creates a new array from the function's return values", "It indicates the function call has many arguments"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the null coalescing operator `??` (PHP 7.0+) used for?",
+    "options": ["To check if a variable is exactly null", "It returns its first operand if it exists and is not `NULL`; otherwise, it returns its second operand. It's a shorthand for `isset($var) ? $var : $default;`.", "To assign null to multiple variables", "To concatenate strings, treating nulls as empty strings"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the spaceship operator `<=>` (PHP 7.0+) used for?",
+    "options": ["To navigate spaceships in a PHP game", "It performs a three-way comparison: returns an integer less than, equal to, or greater than zero when its first operand is respectively less than, equal to, or greater than its second operand. Useful for sorting.", "To assign a value based on space availability", "A bitwise operator for spatial calculations"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Scalar type declarations (e.g., `function add(int $a, int $b): int`) were introduced in which major PHP version?",
+    "options": ["PHP 4", "PHP 5.3", "PHP 5.6", "PHP 7.0"],
+    "answer": 3,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of the `protected` access modifier for class members in PHP?",
+    "options": ["Accessible only within the same class", "Accessible within the class itself, by classes that inherit from it, and by parent classes", "Accessible from anywhere", "Accessible only by friend classes"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between `==` (equal) and `===` (identical) operators when comparing values in PHP?",
+    "options": ["`==` checks type only, `===` checks value only", "`==` compares values after type juggling (if types are different); `===` compares both value and type, without type juggling.", "`===` is faster than `==`", "They are functionally identical"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "Which function is used to check if a session has already been started?",
+    "options": ["`is_session_active()`", "`session_status() == PHP_SESSION_ACTIVE`", "`check_session()`", "`session_started()` (deprecated, use session_status)"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `ini_get('upload_max_filesize')` typically return?",
+    "options": ["The maximum number of files that can be uploaded", "A string representing the maximum allowed size for uploaded files as configured in `php.ini` (e.g., '2M')", "The current size of uploaded files for the session", "A boolean indicating if file uploads are enabled"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `filter_input()` function often used for?",
+    "options": ["Filtering output before sending it to the browser", "Getting an external variable (e.g., from GET, POST, COOKIE) and optionally filtering it", "Applying image filters", "Filtering database query results"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `__get()` magic method used for in a PHP class?",
+    "options": ["To get the value of all private properties", "It is triggered when reading data from inaccessible (protected or private) or non-existing properties of an object", "To get the class name", "To define a getter for all properties"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `__set()` magic method used for in a PHP class?",
+    "options": ["To set the value of all properties at once", "It is run when writing data to inaccessible (protected or private) or non-existing properties of an object", "To set default values for properties", "To define a setter for all properties"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `password_needs_rehash()` (PHP 5.5+) check?",
+    "options": ["If a password needs to be changed due to policy", "If a given password hash was created using an outdated algorithm or cost factor, indicating it should be rehashed and updated", "If the password hashing function needs an update", "If a user has requested a password rehash"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is an 'iterable' type hint (PHP 7.1+) used for?",
+    "options": ["To indicate a variable that can be iterated with a `for` loop only", "To specify that a function parameter or return value must be an array or an object implementing the `Traversable` interface (i.e., something that can be iterated with `foreach`)", "A type for objects that manage IT resources", "A special type for iterable numbers"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a 'void' return type (PHP 7.1+) used for in a function declaration?",
+    "options": ["The function returns an empty string", "To indicate that the function does not return any value. If declared, the function must not have a `return` statement with a value, or only `return;`.", "The function returns a `NULL` value", "The function's return value is ignored by the caller"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `mb_strlen()` function typically used for instead of `strlen()`?",
+    "options": ["To get the length of a string in megabytes", "To get the length (number of characters) of a string, correctly handling multi-byte character encodings (like UTF-8), whereas `strlen()` returns the number of bytes.", "A more modern version of `strlen()`", "To get the length of a memory block"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What does `preg_match()` function in PHP primarily do?",
+    "options": ["Matches a string against a POSIX regular expression", "Performs a regular expression match (Perl-compatible regular expressions - PCRE) on a string, returning `1` if the pattern matches, `0` if it does not, or `false` on error. It can also populate an array with match results.", "Matches predefined patterns like email or URL", "Generates strings based on a regex pattern"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `static::` keyword used for in PHP, especially in the context of inheritance?",
+    "options": ["To refer to static members of the parent class only", "For 'late static binding': it refers to the class that was called at runtime in the static context, allowing static methods in a base class to call overridden static methods or access static properties of the child class.", "To make a static variable dynamic", "An alias for `self::` in all cases"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the purpose of the `SplFixedArray` class?",
+    "options": ["An array that can only store floating-point numbers", "An SPL data structure that provides a fixed-size array, which can be more memory-efficient than standard PHP arrays for certain use cases when the size is known and fixed.", "An array that cannot be modified after creation", "An array used for fixing software bugs"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `array_column()` (PHP 5.5+) useful for?",
+    "options": ["Selecting a specific column from a database table", "Returning the values from a single column of a multi-dimensional array (an array of arrays or objects)", "Formatting an array into columns for display", "Counting the number of columns in a 2D array"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the typical behavior of `json_decode($jsonString, true)`?",
+    "options": ["Decodes the JSON string into a PHP object, and true indicates success", "Decodes the JSON string into PHP associative arrays instead of objects when the second argument is `true`", "Decodes only if the JSON string is `true`", "Validates the JSON string and returns `true` if valid"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `stream_context_create()` function used for?",
+    "options": ["Creating a new context for a TV stream", "Creating a stream context resource, which can be used to modify the behavior of file or network stream operations (e.g., setting HTTP headers, proxy settings)", "Managing the context of PHP error streams", "Defining a context for multithreaded stream processing"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the 'ternary operator' in PHP (e.g., `$result = (condition) ? value_if_true : value_if_false;`)?",
+    "options": ["An operator that works with three different data types", "A conditional operator that takes three operands: a condition, a value to return if the condition is true, and a value to return if the condition is false. It's a concise way to write simple if-else statements.", "An operator for performing three arithmetic operations at once", "A way to define tertiary relationships in databases"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `filter_var()` function in PHP often used for?",
+    "options": ["Filtering images in PHP", "Validating and sanitizing data, such as user input (e.g., checking if a string is a valid email address, integer, or URL; removing HTML tags)", "Filtering array elements based on a callback", "Applying CSS filters to HTML output"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What are 'magic constants' in PHP (e.g., `__LINE__`, `__FILE__`, `__FUNCTION__`)?",
+    "options": ["Constants that have magical, unpredictable values", "Predefined constants whose values change depending on where they are used, providing information about the script's execution context (e.g., current line number, file path, function name)", "Constants that are defined by external magic libraries", "Constants used in PHP's magic methods"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `password_hash()` function (PHP 5.5+) used for?",
+    "options": ["To encrypt passwords using a reversible algorithm", "To create a secure, one-way hash of a password, typically using algorithms like bcrypt, suitable for storing password verifiers", "To generate random passwords", "To check if a password matches a specific hash format"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `password_verify()` function (PHP 5.5+) used for?",
+    "options": ["To verify if a password meets complexity requirements", "To verify that a given plain-text password matches a previously created hash (e.g., from `password_hash()`)", "To encrypt a password for verification", "To verify a user's identity based on their password"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `Throwable` interface (PHP 7+) in the context of error handling?",
+    "options": ["An interface for objects that can be thrown as weapons in a game", "A base interface for anything that can be thrown via a `throw` statement, including both `Error` and `Exception` objects. `catch` blocks can catch `Throwable` to handle all types of throwable errors.", "An interface for UI elements that can be thrown around the screen", "A way to define throwable data types"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the difference between `Error` and `Exception` in PHP 7+?",
+    "options": ["`Error` is for compile-time errors, `Exception` for runtime errors", "Both represent errors, but `Error` generally represents more severe internal PHP errors or programmer errors that should not typically be caught and recovered from in normal application logic (e.g., `TypeError`, `ParseError`), while `Exception` is for recoverable runtime conditions that applications might handle (e.g., `LogicException`, `RuntimeException`). Both implement `Throwable`.", "`Exception` is a subclass of `Error`", "They are synonyms for the same error mechanism"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 2
+  },
+  {
+    "question": "What is the `OPcache` extension in PHP?",
+    "options": ["An opcode debugger for PHP", "A caching engine that improves PHP performance by storing precompiled script bytecode in shared memory, thereby reducing the overhead of parsing and compiling PHP scripts on each request", "A cache for PHP session data", "An operation cache for database queries"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'Just-In-Time' (JIT) compiler, introduced experimentally in PHP 8?",
+    "options": ["A compiler that delivers PHP code just in time for dinner", "A feature that can compile parts of PHP bytecode into native machine code at runtime, potentially improving performance for CPU-intensive workloads, by working in conjunction with OPcache", "A way to compile PHP into JavaScript for JIT execution in browsers", "A compiler that only compiles code when it's absolutely necessary"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What are 'Attributes' (or Annotations) in PHP 8?",
+    "options": ["HTML attributes for PHP-generated elements", "A way to add structured, machine-readable metadata to declarations of classes, properties, methods, parameters, and constants, using `#[AttributeName]` syntax. This metadata can then be inspected via Reflection.", "Special comments that act as attributes", "Attributes of a PHP script file (e.g., read-only, hidden)"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'match expression' in PHP 8?",
+    "options": ["An expression for matching regular expressions", "A control structure similar to `switch`, but it's an expression (returns a value), uses strict type comparison (`===`) for conditions, doesn't require `break` statements (no fall-through by default), and can combine conditions.", "A way to match variable names for debugging", "An expression for finding matches in an array"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What are 'named arguments' in PHP 8?",
+    "options": ["Arguments that must have names starting with a letter", "A feature that allows passing arguments to a function by specifying the parameter name, instead of relying solely on their position. This can improve code readability and flexibility, especially for functions with many optional parameters.", "Arguments that are stored in an associative array named `args`", "A way to name arguments in error messages"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the 'nullsafe operator' (`?->`) in PHP 8?",
+    "options": ["An operator to check if a variable is null and safe to use", "A way to chain property and method calls on an object that might be `null`. If any part of the chain evaluates to `null`, the entire expression short-circuits and returns `null` instead of throwing an error.", "An operator for safe database null handling", "A conditional operator that only works with null values"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What are 'union types' in PHP 8 (e.g., `int|string|null`)?",
+    "options": ["A way to combine multiple types into a single supertype", "A feature that allows a variable, parameter, or return type to be one of several specified types", "A type used for set union operations", "A way to define types that are unions of different PHP versions"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What are 'fibers' in PHP 8.1?",
+    "options": ["A new data type for storing textile fiber information", "Primitives for interruptible functions, providing a way to implement lightweight cooperative multitasking (coroutines) within PHP, allowing functions to pause and resume execution without blocking the main thread.", "Optical fibers for PHP network communication", "A UI framework for creating fibrous designs"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `readonly` properties in PHP 8.1?",
+    "options": ["Properties that can only be read by specific users", "Class properties that can be initialized once (either in their declaration or from within the constructor) and cannot be modified thereafter. An attempt to modify a readonly property outside of its initialization scope results in an Error.", "Properties that are read from a read-only file", "A way to make all object properties read-only by default"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What are 'enumerations' (enums) in PHP 8.1?",
+    "options": ["A way to enumerate all files in a directory", "A feature that allows defining a type with a fixed set of possible named values (cases). Enums can also have methods and implement interfaces, providing a more type-safe alternative to using constants for such sets of values.", "A tool for numbering lines in PHP code", "A list of PHP built-in functions"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `stream_socket_client()` function in PHP often used for?",
+    "options": ["Streaming video from a client socket", "Opening a client network connection (e.g., TCP, UDP, SSL/TLS) to a specified remote host and port, returning a stream resource that can be used for communication", "Managing client-side WebSocket connections", "Creating a socket server that listens for client connections"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the difference between `self::` and `static::` for accessing static members in PHP classes, especially concerning late static binding?",
+    "options": ["`self::` refers to the class where it's defined, `static::` refers to the parent class", "`self::` always refers to the class in which the keyword is actually written. `static::` (introduced in PHP 5.3 for late static binding) refers to the class that was called at runtime (the 'called class' in the inheritance chain). This is important when calling static methods or accessing static properties from a base class that are overridden/redefined in a child class.", "`static::` is for static properties, `self::` for static methods", "They are interchangeable"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a 'closure' in PHP, and how does it relate to anonymous functions and variable binding?",
+    "options": ["A security feature to close off parts of a script", "An anonymous function that can capture (or 'close over') variables from its surrounding lexical scope. The `use` keyword specifies which variables from the parent scope are made available inside the closure. Closures are objects of the `Closure` class.", "A way to define functions that are automatically closed after execution", "A block of code that is closed to external access"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `yield from` expression in PHP generators (PHP 7+)?",
+    "options": ["To yield values from a specific file", "To delegate yielding to another generator or a Traversable object. It iterates over the given generator/iterable and yields all its values as if they were yielded directly by the current generator.", "To make a generator yield values from a database query", "A way to force a generator to yield multiple values at once"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What are 'weak references' (`WeakReference` class, PHP 7.4+)?",
+    "options": ["References that are not strongly typed", "References to objects that do not prevent the object from being garbage collected. If the only remaining references to an object are weak references, the object can be destroyed by the garbage collector. Useful for implementing caches or observers without creating memory leaks.", "References that can only be accessed by weak functions", "A way to create references that are easily broken for testing"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the 'Preloading' feature in PHP 7.4 (configured in `php.ini`)?",
+    "options": ["Loading all PHP extensions before script execution", "A mechanism where a specified set of PHP files (classes, functions) can be compiled and cached in OPcache memory when the server starts, making them available to all subsequent requests without the need for re-parsing or re-compiling those specific files, potentially improving performance.", "Preloading user session data", "Loading web pages in the browser before they are requested"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the 'Foreign Function Interface' (FFI) extension in PHP 7.4+?",
+    "options": ["An interface for functions from foreign countries", "An extension that allows calling functions and accessing data structures in C-compatible native libraries (e.g., `.so` or `.dll` files) directly from PHP code, without needing to write a full PHP extension in C.", "A way to interface PHP with alien programming languages", "An interface for defining functions that are foreign to the current namespace"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the `ast` (Abstract Syntax Tree) extension in PHP (PHP 7+)?",
+    "options": ["A library for astronomical calculations", "An extension that exposes PHP's abstract syntax tree, allowing developers to parse PHP code into a tree structure and analyze or manipulate it programmatically. Useful for static analysis tools, code generators, and refactoring tools.", "A way to define abstract data types with tree structures", "A tool for visualizing PHP code as a tree"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What are PHP 'Fibers' (PHP 8.1+) and how do they differ from traditional threads or generators?",
+    "options": ["A new string type for representing optical fibers", "Fibers are primitives for interruptible functions, enabling cooperative multitasking. Unlike OS threads, they are managed within a single thread and require explicit yielding/resuming. Unlike generators (which are one-way iterators), Fibers can be paused and resumed with a value from any point in the call stack, allowing for more complex asynchronous-like control flows.", "A way to create very thin threads of execution", "A UI component for drawing fibrous patterns"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the purpose of the `never` return type in PHP 8.1?",
+    "options": ["A type for functions that never return a boolean value", "A special return type indicating that a function will never return normally, meaning it will always `throw` an exception or terminate script execution (e.g., via `exit()` or `die()`). This helps with static analysis.", "A type for variables that are never initialized", "A placeholder for functions whose return type is not yet known"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  },
+  {
+    "question": "What are 'intersection types' in PHP 8.1 (e.g., `Countable&Iterator`)?",
+    "options": ["Types used for geometric intersection calculations", "A feature that allows a parameter, property, or return type to be declared as implementing multiple interfaces simultaneously. An object must be an instance of all specified interfaces to satisfy the intersection type.", "Types that represent the intersection of two sets of values", "A way to define types that are shared between different PHP modules"],
+    "answer": 1,
+    "category": "PHP",
+    "difficulty": 4
+  }
+]

@@ -1,0 +1,933 @@
+[
+  {
+    "question": "What is the keyword used to define a function in C/C++ that returns no value?",
+    "options": ["none", "int", "void", "returnless"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which symbol is used for single-line comments in C++ (and often C99+)?",
+    "options": ["#", "/* */", "//", "<!-- -->"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you start a multi-line comment in C/C++?",
+    "options": ["//", "#*", "/*", "<--"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the entry point function for a standard C/C++ console application?",
+    "options": ["Start()", "Main()", "main()", "Execute()"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which data type is typically used to store whole numbers in C/C++?",
+    "options": ["float", "double", "int", "char*"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you print output to the console in C using the standard library?",
+    "options": ["Console.WriteLine()", "cout <<", "printf()", "print()"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you print output to the console in C++ using iostream?",
+    "options": ["printf()", "std::cout <<", "System.Console.Print()", "console.log()"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used to assign a value to a variable in C/C++?",
+    "options": ["==", ":=", "=", "=>"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What keyword is used to create an instance of a class (an object) in C++ using dynamic memory allocation?",
+    "options": ["create", "instance", "new", "object"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which of the following is an access specifier in C++ classes?",
+    "options": ["static", "final", "public", "abstract"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the typical file extension for a C source file?",
+    "options": [".cpp", ".cxx", ".h", ".c"],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a common file extension for a C++ source file?",
+    "options": [".c", ".cs", ".java", ".cpp (or .cxx, .cc)"],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which loop is used to iterate a specific number of times, often with an initializer, condition, and incrementer?",
+    "options": ["while", "foreach", "do-while", "for"],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you declare an integer variable named `age` in C/C++?",
+    "options": ["var age;", "int age;", "integer age;", "age int;"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the boolean type in C++?",
+    "options": ["Boolean", "boolean", "bool", "flag (C has _Bool or stdbool.h)"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used for logical AND in C/C++?",
+    "options": ["and", "&", "AND", "&&"],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used for logical OR in C/C++?",
+    "options": ["or", "|", "OR", "||"],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to define a constant variable whose value cannot be changed (in C/C++)?",
+    "options": ["static", "readonly", "final", "const"],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you get the length of a C-style string (null-terminated character array) `str`?",
+    "options": ["str.length", "strlen(str) (from <string.h> or <cstring>)", "length(str)", "str.size()"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to inherit from a base class in C++?",
+    "options": ["inherits", "extends", ": (colon with access specifier)", "super"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a `namespace` in C++ used for?",
+    "options": ["To define a region of memory", "To organize code and prevent naming conflicts by providing a scope", "To declare variables with global scope", "To specify character encoding"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you access the first element of an array `arr` in C/C++?",
+    "options": ["arr(0)", "arr.first()", "arr[0]", "arr.get(0)"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which statement is used for conditional execution of code blocks?",
+    "options": ["switch", "for", "if", "select"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the keyword used to make a member accessible only within its own class or by friend classes/functions in C++?",
+    "options": ["internal", "protected", "private", "local"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the equality comparison operator in C/C++?",
+    "options": ["=", "===", "equals", "=="],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "How do you declare a single-dimensional array of 5 integers named `numbers` in C/C++?",
+    "options": ["int numbers(5);", "int numbers<> = new int[5];", "int numbers[5];", "array<int> numbers(5);"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `NULL` (in C) or `nullptr` (in C++11 and later) used for?",
+    "options": ["To represent the integer zero", "To represent an uninitialized boolean", "To represent a pointer that does not point to any valid memory location", "To represent an empty string"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `break` statement do in a loop or switch statement?",
+    "options": ["Skips the current iteration", "Exits the loop or switch statement immediately", "Pauses execution", "Restarts the loop"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What does the `continue` statement do in a loop?",
+    "options": ["Exits the loop immediately", "Skips the rest of the current iteration and proceeds to the next conditional check/increment", "Restarts the entire loop", "Halts the program"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which C++ keyword is used to define an interface-like structure (a class with only pure virtual functions)?",
+    "options": ["Interface", "protocol", "abstract class (often with all pure virtuals)", "contract"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "A class can inherit from multiple base classes (multiple inheritance) in C++.",
+    "options": ["True", "False", "Only if the base classes are abstract", "Using a special keyword only"],
+    "answer": 0,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a constructor in C++?",
+    "options": ["A function used to destroy objects", "A special member function of a class that is automatically called when an object of that class is created, used for initialization", "A function that constructs strings", "A static function for building classes"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a destructor in C++ (e.g., `~MyClass()`)?",
+    "options": ["A function that constructs objects", "A special member function that is automatically called when an object is about to be destroyed, used for cleanup (e.g., releasing resources)", "A function to validate data before destruction", "A function that deletes all instances of a class"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used to refer to the current instance's pointer within a class member function in C++?",
+    "options": ["self", "current", "this", "object"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is function overloading in C/C++?",
+    "options": ["A derived class providing a specific implementation for a base class function", "Defining multiple functions in the same scope with the same name but different parameter lists (types or number of arguments)", "Making a function too complex", "Overriding the default behavior of an operator with a function"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is function overriding in C++ (related to virtual functions)?",
+    "options": ["A derived class providing a specific implementation for a virtual function defined in its base class", "Defining multiple functions with the same name and same parameters in the same class", "Calling a function from a base class", "Changing a function's return type in a derived class without changing parameters"],
+    "answer": 0,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which keyword is used in a base class to allow a member function to be overridden in a derived class polymorphically in C++?",
+    "options": ["override", "abstract", "virtual", "overridable"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is an `enum` in C/C++?",
+    "options": ["A type of error message", "A user-defined data type consisting of a set of named integral constants (enumerators)", "An event numerator", "A dynamic list of numbers"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "The `static` keyword, when applied to a local variable inside a function in C/C++, means:",
+    "options": ["The variable's value cannot be changed", "The variable's lifetime extends for the entire duration of the program, and it retains its value between function calls (initialized only once)", "The variable is automatically serialized", "The variable is accessible only within that function but shared across all calls"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which C standard library function is commonly used to convert a string to an integer?",
+    "options": ["strToInt()", "string_to_int()", "atoi() (from <stdlib.h> or <cstdlib>)", "parseInt()"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "A `struct` in C is a:",
+    "options": ["Reference type by default", "User-defined composite data type that groups variables of different data types under a single name", "Type of interface", "Way to define static data"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "In C++, a `struct` is almost identical to a `class`, with the main difference being:",
+    "options": ["Structs cannot have methods", "Default member access for structs is `public`, while for classes it's `private`", "Structs are always value types, classes are always reference types (not entirely true, depends on allocation)", "Structs cannot use inheritance"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which preprocessor directive is used to include a header file in C/C++?",
+    "options": ["using", "import", "package", "#include"],
+    "answer": 3,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `5 / 2` if both are integers in C/C++?",
+    "options": ["2.5", "2.0", "2", "3"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the result of `5.0 / 2` in C/C++ (assuming standard float/double arithmetic)?",
+    "options": ["2.5", "2.0", "2", "Error"],
+    "answer": 0,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "C/C++ supports operator overloading (for C++).",
+    "options": ["True (for C++)", "False", "Only for built-in types", "Only for arithmetic operators"],
+    "answer": 0,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a pointer in C/C++?",
+    "options": ["A UI element for mouse interaction", "A variable that stores the memory address of another variable", "A static configuration value", "A special type of array"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used to get the memory address of a variable in C/C++?",
+    "options": ["*", "->", "&", "@"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "Which operator is used to dereference a pointer (access the value at the address it holds) in C/C++?",
+    "options": ["&", "->", "*", "valueof"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `malloc()` in C (from `<stdlib.h>`) used for?",
+    "options": ["To create mail messages", "To dynamically allocate a block of memory of a specified size on the heap", "To manage logical conditions", "To multiply allocated memory"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `free()` in C (from `<stdlib.h>`) used for?",
+    "options": ["To make variables free to use by any function", "To deallocate a block of memory previously allocated by `malloc()`, `calloc()`, or `realloc()`", "To set a variable's value to a default 'free' state", "To free up CPU resources"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "In C++, what is `delete` operator used for?",
+    "options": ["To delete files", "To deallocate memory allocated with `new` for a single object", "To remove an item from a collection", "To clear the console screen"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "In C++, what is `delete[]` operator used for?",
+    "options": ["To delete multiple files", "To deallocate memory allocated with `new[]` for an array of objects", "To delete all elements in an array", "To remove a range of items from a collection"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a reference variable in C++ (e.g., `int &ref = original;`)?",
+    "options": ["A read-only pointer", "An alias or an alternative name for an existing variable; it must be initialized and cannot be changed to refer to another variable", "A variable that stores a web URL", "A variable used for bibliographic references"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `std::vector` in C++ STL?",
+    "options": ["A mathematical vector for physics calculations", "A dynamic array (resizable array) that stores elements of a specific type", "A vector graphics drawing tool", "A type of virus vector"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `std::string` in C++ STL?",
+    "options": ["A C-style character array", "A class that represents a sequence of characters, providing more functionalities than C-style strings (e.g., dynamic resizing, member functions)", "A way to string together multiple functions", "A hardware string processing unit"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `endl` (from `<iostream>`) do when used with `std::cout`?",
+    "options": ["Ends the current line and returns a value", "Inserts a newline character and flushes the output stream buffer", "Ends the program", "Deletes the last character printed"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a template in C++?",
+    "options": ["A pre-designed UI layout", "A feature that allows functions and classes to operate with generic types, enabling writing code that works for multiple data types without repetition", "A document template for code comments", "A placeholder for future code"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What does `sizeof(int)` typically return in C/C++?",
+    "options": ["The maximum value an int can hold", "The size of an integer variable in bytes (e.g., 4 on many systems)", "The number of bits in an int", "A pointer to an int"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the purpose of header guards (e.g., `#ifndef MY_HEADER_H ... #define MY_HEADER_H ... #endif`)?",
+    "options": ["To protect header files from viruses", "To prevent a header file from being included multiple times in a single compilation unit, which can cause redefinition errors", "To guard specific sections of code within a header", "To encrypt header file content"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "The `auto` keyword in modern C++ (C++11 and later) is used for:",
+    "options": ["Making a variable globally accessible", "Automatic memory management", "Type inference, where the compiler deduces the type of a variable from its initializer", "Creating automatic UI elements"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a range-based for loop in C++11 (e.g., `for (int x : myArray)`) used for?",
+    "options": ["Looping through a numerical range specified by start and end", "Iterating over the elements of a container (like an array, vector, list) or any type that supports iteration", "Defining a for loop with a fixed range", "Looping based on memory address ranges"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `std::map` in C++ STL?",
+    "options": ["A geographical map data structure", "An associative container that stores key-value pairs, where keys are unique and sorted, allowing for efficient lookup, insertion, and deletion", "A bitmask for memory mapping", "A tool for mapping network drives"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `std::set` in C++ STL?",
+    "options": ["A configuration setting for the compiler", "An associative container that stores a sorted set of unique elements (keys)", "A tool for setting variable values", "A mathematical set theory implementation"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is RAII (Resource Acquisition Is Initialization) in C++?",
+    "options": ["A railway industry initiative", "A programming idiom where resource management (acquisition and release) is tied to the lifetime of objects with automatic storage duration (stack objects) or objects managed by smart pointers. Resources are acquired in constructors and released in destructors.", "A rule about initializing all variables at acquisition", "A specific C++ library for resource management"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `std::unique_ptr` (C++11) primarily used for?",
+    "options": ["Pointing to unique memory locations", "A smart pointer that owns and manages another object through a pointer and disposes of that object when the `unique_ptr` goes out of scope or is explicitly reset. It enforces exclusive ownership.", "Creating unique identifiers for objects", "A pointer that can only point to one type of object"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `std::shared_ptr` (C++11) primarily used for?",
+    "options": ["A pointer that is shared between multiple threads without locking", "A smart pointer that retains shared ownership of an object through a pointer. Several `shared_ptr` objects may own the same object. The object is destroyed when the last remaining `shared_ptr` owning it is destroyed or reset.", "A way to share memory blocks between processes", "A pointer to a shared resource like a file"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a lambda expression in C++11 (e.g., `auto func = [](int x){ return x*x; };`)?",
+    "options": ["A mathematical expression involving lambda calculus", "A way to define an anonymous function object (a closure) inline, often used for short functions passed as arguments or returned from other functions", "A specific type of C++ preprocessor macro", "A label for a `goto` statement"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the Standard Template Library (STL) in C++?",
+    "options": ["A library for creating UI templates", "A software library that provides a collection of C++ template classes for common data structures (like vectors, lists, maps, sets) and algorithms (like sort, find, copy)", "A set of templates for C++ project files", "A library for standardizing C++ code style"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the `iostream` library in C++ used for?",
+    "options": ["Managing input/output for audio streams", "Providing basic input and output services (e.g., `std::cin`, `std::cout`, `std::cerr`) for console and file operations", "Controlling network I/O streams", "Interfacing with operating system I/O devices directly"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "The `fstream` library in C++ is used for:",
+    "options": ["Fast memory stream operations", "File stream operations (reading from and writing to files)", "Formatting string streams", "Streaming video content"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `typedef` in C/C++ used for (or `using` for type aliases in modern C++)?",
+    "options": ["To define a new data type from scratch", "To create an alias or a synonym for an existing data type", "To check the type of a variable", "To define a function's return type"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What does a `static` member variable of a class mean in C++?",
+    "options": ["Its value cannot be changed after initialization", "There is only one copy of this variable shared by all objects of the class; it belongs to the class itself, not to instances", "It is automatically initialized to zero", "It can only be accessed by static member functions"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What does a `static` member function of a class mean in C++?",
+    "options": ["It cannot modify any member variables of the class", "It can be called without creating an object of the class and can only access static member variables directly (does not have a `this` pointer)", "It is a function that is defined in a static library", "It is a function that is automatically inlined by the compiler"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is exception handling in C++ (using `try`, `catch`, `throw`)?",
+    "options": ["A way to handle hardware exceptions only", "A mechanism to detect and respond to runtime errors (exceptions) in a structured way, allowing programs to recover or terminate gracefully", "A technique for optimizing exceptional code paths", "A feature for handling user input exceptions specifically"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is a 'pure virtual function' in C++ (e.g., `virtual void func() = 0;`)?",
+    "options": ["A virtual function that has a very simple implementation", "A virtual function for which the base class provides no implementation; any class deriving from a class with a pure virtual function must provide an implementation for it (unless it too is abstract)", "A virtual function that can only be called by pure functions", "A virtual function that returns `void` and takes no arguments"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "A class containing at least one pure virtual function is called an:",
+    "options": ["Interface class", "Concrete class", "Abstract class", "Sealed class"],
+    "answer": 2,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "You can create an instance (object) of an abstract class directly in C++.",
+    "options": ["True", "False", "Only if it has a constructor", "Only if all pure virtual functions have default arguments"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `dynamic_cast` in C++ used for?",
+    "options": ["Casting any type to `dynamic`", "Safely casting a base class pointer or reference to a derived class pointer or reference at runtime, returning `nullptr` (for pointers) or throwing `std::bad_cast` (for references) if the cast is not valid", "Dynamically allocating memory for a cast operation", "Casting between dynamic arrays"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `static_cast` in C++ used for?",
+    "options": ["Casting static member variables", "Performing well-defined casts at compile time, such as conversions between related types (e.g., numeric types, pointers up/down a class hierarchy if known to be safe, void* to typed pointer)", "Casting to a static storage duration", "A cast that is always static and never changes"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `reinterpret_cast` in C++ used for?",
+    "options": ["Reinterpreting the meaning of code comments", "Low-level casting that reinterprets the bit pattern of a pointer or integral type as another type of a similar size, often unsafe and platform-dependent", "Casting to a `std::string` by reinterpreting bytes", "A cast that re-tries if it fails"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is `const_cast` in C++ used for?",
+    "options": ["Casting a variable to be constant", "Primarily used to add or remove `const` or `volatile` qualifiers from a pointer or reference; using it to modify an object that was originally `const` results in undefined behavior", "Casting constant expressions", "A cast that is always performed on constant objects"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 1
+  },
+  {
+    "question": "What is RVO (Return Value Optimization) or NRVO (Named Return Value Optimization) in C++?",
+    "options": ["An optimization for returning void types", "Compiler optimizations that can eliminate the temporary object created for a function's return value, constructing the object directly in the caller's destination memory, thus avoiding a copy/move operation", "A way to optimize recursive value outputs", "An optimization for very large return values only"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is an rvalue reference in C++11 (e.g., `int&& rref = 5;`)?",
+    "options": ["A reference that can only refer to read-only values", "A reference that binds to temporary objects (rvalues) or objects that can be moved from, enabling move semantics and perfect forwarding", "A reference to a register value", "A reference that is always on the right side of an assignment"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is move semantics in C++11 (using move constructors and move assignment operators)?",
+    "options": ["A way to physically move objects in memory", "An optimization technique that allows resources (like dynamically allocated memory) to be transferred from a temporary or expiring object to another object, instead of performing a deep copy, often improving performance", "Semantics for moving files and directories", "A way to define how objects move in a physics simulation"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `std::move` in C++11 used for?",
+    "options": ["To physically move an object to a new memory location", "To unconditionally cast an lvalue to an rvalue reference, signaling that its resources can be 'stolen' or moved from (it doesn't actually perform the move itself, but enables a move operation to be selected)", "To move the program execution pointer", "To move data between threads"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is perfect forwarding in C++11 (often using `std::forward`)?",
+    "options": ["Forwarding emails perfectly without loss", "A technique that allows a function template to pass its arguments to another function while preserving their original value categories (lvalue/rvalue) and const/volatile qualifiers, crucial for writing generic wrappers or factories", "A way to forward declare all functions perfectly", "A network protocol for forwarding data packets"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `constexpr` in C++11 and later used for?",
+    "options": ["Defining constant expressions that must be evaluated at runtime", "Indicating that an expression, function, or variable can be evaluated at compile time, allowing its use in contexts requiring compile-time constants (e.g., array bounds, template arguments)", "A special type of expression for expert programmers", "A keyword for defining constant pointers"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a variadic template in C++11 (e.g., `template<typename... Args> void func(Args... args);`)?",
+    "options": ["A template that can only accept a variable number of integer arguments", "A class or function template that can take a variable number of template arguments of varying types", "A template for creating variant data types", "A template that varies its behavior based on runtime conditions"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `std::thread` in C++11 used for?",
+    "options": ["Defining thread-local storage", "Creating and managing threads of execution within a program", "A class for drawing threads in UI", "A way to string together multiple execution paths"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `std::mutex` in C++11 used for?",
+    "options": ["A mutable X-value in expressions", "A synchronization primitive (mutual exclusion lock) used to protect shared data from being simultaneously accessed by multiple threads", "A way to mute audio output from threads", "A class for managing complex data mutations"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `std::condition_variable` in C++11 used for?",
+    "options": ["A variable that stores a conditional expression", "A synchronization primitive used in conjunction with a `std::mutex` to allow threads to wait until a certain condition becomes true or to notify other waiting threads when the condition changes", "A way to define variables with conditional types", "A variable that changes its value based on UI conditions"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `std::atomic` in C++11 used for?",
+    "options": ["Creating atomic bombs in simulations", "Providing atomic operations (indivisible operations that complete without interruption from other threads) on various data types, useful for lock-free programming or fine-grained synchronization", "A template for atomic data structures", "A class for managing atomic clocks"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `std::future` and `std::promise` in C++11 used for?",
+    "options": ["Predicting future values and making promises about code completion", "`std::promise` allows a value to be set (fulfilled) by one thread, and `std::future` allows another thread to retrieve that value, potentially waiting if it's not yet available. They facilitate asynchronous value passing between threads.", "Future language features and promises from the C++ committee", "A way to schedule tasks for future execution and promise their results"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is `std::async` in C++11 used for?",
+    "options": ["Making synchronous functions behave asynchronously", "A function template that can run a function asynchronously (potentially in a new thread or from a thread pool) and returns a `std::future` representing the result of that function call", "A way to synchronize asynchronous operations", "A keyword for defining asynchronous loops"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What are smart pointers like `std::unique_ptr` and `std::shared_ptr` designed to help prevent?",
+    "options": ["Compiler errors", "Memory leaks and dangling pointers by automating memory management (RAII)", "Type casting errors", "Performance bottlenecks in pointer arithmetic"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 2
+  },
+  {
+    "question": "What is SFINAE (Substitution Failure Is Not An Error) in C++ template metaprogramming?",
+    "options": ["A rule that states syntax failures in templates are not errors", "A principle where, during template argument deduction and substitution, if a particular substitution would result in an invalid construct, that specialization is simply discarded from the set of considered overloads, rather than causing a compile error (unless no valid specializations remain).", "A way to make template errors non-fatal at runtime", "A C++ standard library for handling template substitution failures"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is ADL (Argument-Dependent Lookup) or Koenig Lookup in C++?",
+    "options": ["A lookup method for debugger symbols", "A set of rules for looking up unqualified function names in C++ function calls. It considers functions in the namespaces of the arguments' types, in addition to the usual scope lookup.", "A way to dynamically load arguments for functions", "A lookup table for command-line arguments"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Rule of Three/Five/Zero in C++ class design regarding resource management?",
+    "options": ["Rules for limiting class members to three, five, or zero", "Guidelines for when to explicitly define or delete copy constructor, copy assignment operator, move constructor, move assignment operator, and destructor if a class manages a resource directly, to ensure correct resource handling and prevent issues like double frees or resource leaks.", "Rules for operator overloading precedence", "A set of design patterns for C++ resources"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is CRTP (Curiously Recurring Template Pattern) in C++?",
+    "options": ["A pattern for creating recursive templates", "An idiom where a class `Derived` inherits from a class template instantiation `Base<Derived>`, allowing `Base` to use static polymorphism by casting its `this` pointer to `Derived*` and calling `Derived`'s methods.", "A pattern for cryptographic templates", "A way to make templates recur infinitely if not careful"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `std::enable_if` (or `std::enable_if_t` in C++14) often used for?",
+    "options": ["Enabling specific compiler optimizations", "Conditionally enabling or disabling template specializations or function overloads based on type traits or compile-time conditions (related to SFINAE)", "Enabling if-statements within templates", "A way to enable runtime feature flags"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What are C++ Coroutines (C++20)?",
+    "options": ["A set of routines for coordinating multiple programs", "A feature that allows functions to be suspended and resumed, enabling cooperative multitasking and simplifying asynchronous programming by writing sequential-looking code for non-blocking operations. Uses `co_await`, `co_yield`, `co_return`.", "Routines for ensuring code correctness", "A way to define inline assembly routines"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What are C++ Concepts (C++20)?",
+    "options": ["High-level design concepts for C++ programs", "A feature that allows specifying constraints on template parameters, making template error messages more readable and enabling more precise template definitions by defining semantic requirements for types.", "Philosophical concepts related to C++ programming", "A way to group related classes into a concept"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What are C++ Modules (C++20)?",
+    "options": ["Hardware modules for C++ execution", "A feature designed to replace or augment traditional header file inclusion (`#include`) with a more robust and potentially faster way to organize and compile code into logical units (modules) with explicit interfaces.", "Small, self-contained C++ programs", "A way to dynamically load code modules at runtime"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `std::span` (C++20)?",
+    "options": ["A tool for measuring code execution time spans", "A non-owning view (a reference type) over a contiguous sequence of objects, providing bounds-checked access without incurring the cost of copying or owning the data. Similar to `Span<T>` in C#.", "A way to span data across multiple memory locations", "A data structure for representing time intervals"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `std::optional` (C++17)?",
+    "options": ["A way to make function arguments optional", "A type that represents an optional value; it can either contain a value of a specified type or contain no value (an empty state), providing a safer way to handle potentially missing values than pointers or magic values.", "A container for optional compiler settings", "A boolean type that can also be 'optional'"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `std::variant` (C++17)?",
+    "options": ["A variable that can change its type dynamically at runtime (like `dynamic` in C#)", "A type-safe discriminated union; an instance of `std::variant` can hold a value of one of its specified alternative types at any given time.", "A variant of the standard `std::vector`", "A way to define variant function signatures"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `std::any` (C++17)?",
+    "options": ["A pointer that can point to any memory location", "A type-safe container for single values of any copy-constructible type, allowing storage of values of different types in a type-erased manner, with retrieval via `std::any_cast`.", "A keyword that matches any type in a template", "A way to bypass C++ type system"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What are structured bindings in C++17 (e.g., `auto [x, y] = myPair;`)?",
+    "options": ["A way to bind structures to memory addresses", "A feature that allows decomposing objects like pairs, tuples, arrays, or structs into individual named variables in a single declaration", "Bindings for network sockets in a structured way", "A way to define strict binding rules for class members"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is `if constexpr` (C++17)?",
+    "options": ["A way to make `if` statements constant at runtime", "A compile-time conditional statement; the condition must be a constant expression, and only the branch corresponding to the true condition is compiled (the other branch is discarded if its condition is false).", "An `if` statement that can only be used with `constexpr` variables", "A more expressive version of the ternary operator"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the `[[nodiscard]]` attribute in C++17 used for?",
+    "options": ["To mark a variable as not discardable by the optimizer", "To encourage compilers to issue a warning if the return value of a function marked with `[[nodiscard]]` is ignored by the caller, useful for functions whose primary purpose is to return a value that should be used.", "To prevent a card from being discarded in a game program", "To mark code sections that should not be discarded during linking"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the difference between `std::vector` and `std::array` (C++11)?",
+    "options": ["`std::vector` is fixed-size, `std::array` is dynamic", "`std::vector` is a dynamic, resizable array stored on the heap (usually); `std::array` is a fixed-size array whose size must be known at compile time and is often stack-allocated if declared locally, providing a safer wrapper around C-style arrays.", "`std::array` does not support iterators", "`std::vector` can only store primitive types"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is linkage in C/C++ (e.g., internal vs. external linkage)?",
+    "options": ["How different parts of a linked list are connected", "A property of an identifier (variable or function name) that determines if multiple declarations of that identifier in different scopes or translation units refer to the same entity. External linkage means it's visible across translation units; internal linkage restricts it to one translation unit (e.g., `static` global variables or functions at file scope).", "The process of linking object files by the linker", "A way to link C++ code with other languages"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is ODR (One Definition Rule) in C++?",
+    "options": ["A rule that states every variable must be defined only once", "A fundamental rule stating that, within an entire program, a non-inline function or variable must have exactly one definition. Inline functions and class type definitions must have exactly one definition in every translation unit where they are used, and all such definitions must be identical.", "A rule for ordering definitions in a C++ file", "A design pattern for defining objects once"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 3
+  },
+  {
+    "question": "What is a 'placement new' in C++?",
+    "options": ["A `new` operator that places objects at random memory locations", "An overload of the `new` operator that allows constructing an object in a pre-allocated buffer of memory, instead of allocating new memory from the heap. The syntax is `new (address) Type(args);`.", "A way to define where the `new` operator allocates memory globally", "A new C++ feature for object placement in UI"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is ABI (Application Binary Interface) stability, and why is it a concern for C++ library developers?",
+    "options": ["The stability of an application's binary executable file", "It defines how compiled code (e.g., functions, classes, data structures) is represented and interacts at the binary level. Breaking ABI stability (e.g., by changing class layout, virtual function order) means that code compiled against an older version of a library may not link or run correctly with a newer version, even if the source API is compatible.", "A measure of how stable an application is after binary patching", "The interface for binary search algorithms"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is copy elision in C++?",
+    "options": ["A way to elide (omit) error messages during copying", "A compiler optimization technique that allows omitting copy and move constructors under certain circumstances (e.g., RVO, NRVO, passing/returning temporaries), even if they have side effects. Mandatory in some cases since C++17.", "A feature for selectively copying parts of an object", "A method for eliding parts of a string during copying"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is value category in C++ (lvalue, rvalue, prvalue, xvalue, glvalue)?",
+    "options": ["Categories for different types of numerical values", "A classification of expressions that determines properties like whether an expression can appear on the left-hand side of an assignment, whether its address can be taken, and how it behaves with move semantics. Lvalues typically represent objects that persist beyond a single expression; rvalues (prvalues, xvalues) typically represent temporary objects or values that can be moved from.", "A way to categorize variables based on their storage class", "Categories for error codes returned by C++ expressions"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is `std::launder` (C++17) used for?",
+    "options": ["Cleaning up (laundering) dirty memory", "A pointer optimization function that, in specific (and complex) situations involving object lifetime and placement new, can be used to obtain a valid pointer to an object within a region of storage where a new object of the same type (or similar layout) has been created, effectively making the new object accessible through the laundered pointer. It addresses some strict aliasing and object lifetime issues.", "A way to launder money in financial applications (figuratively)", "A function for randomizing memory pointers for security"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the purpose of `std::is_same_v<T, U>` (C++17, using `_v` helper for `std::is_same<T, U>::value`)?",
+    "options": ["To check if two variables `T` and `U` have the same value", "A compile-time type trait that evaluates to `true` if the types `T` and `U` are the same type, and `false` otherwise. Used in template metaprogramming and `if constexpr`.", "To check if two objects occupy the same memory location", "To determine if two types have the same size"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What are forwarding references (previously known as universal references) in C++ template functions (e.g., `template<typename T> void func(T&& param);`)?",
+    "options": ["References that can only be forwarded to other functions", "A special type of rvalue reference (`T&&`) in a context where type deduction for `T` occurs. If an lvalue is passed, `T` is deduced as an lvalue reference type (`U&`), and `param` becomes `U&` (due to reference collapsing). If an rvalue is passed, `T` is deduced as `U`, and `param` becomes `U&&`. This allows perfect forwarding with `std::forward<T>(param)`.", "References that always forward to the base class implementation", "A type of reference used exclusively in network forwarding"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the 'volatile' keyword in C/C++ primarily used for in the context of hardware interaction or multi-threading without explicit synchronization?",
+    "options": ["To make a variable's value change frequently by the compiler", "To tell the compiler that a variable's value may be changed by means not known to the compiler (e.g., by hardware, another thread without synchronization, or a signal handler), and therefore optimizations that might reorder or elide reads/writes to this variable should be suppressed. It does NOT guarantee atomicity or thread safety in general.", "To make a variable read-only and volatile", "To mark a variable as being stored in volatile RAM"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is memory alignment and why might it be important in C/C++?",
+    "options": ["Aligning text in memory for better readability", "The requirement or preference for data objects to be stored at memory addresses that are multiples of a certain value (e.g., 4 or 8 bytes). Proper alignment can improve performance (CPUs often access aligned data faster) and is sometimes required by hardware or specific instructions (e.g., SIMD). Misalignment can cause performance penalties or even crashes on some architectures.", "A way to align code segments in memory", "Aligning pointers to improve dereferencing speed"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the C++ memory model (C++11 and later) concerned with?",
+    "options": ["The physical layout of RAM chips", "It defines the semantics of memory accesses in multi-threaded programs, specifying how modifications to memory by one thread become visible to other threads, and the ordering constraints on memory operations. It includes concepts like atomics, memory fences, and happens-before relationships, crucial for writing correct concurrent code.", "A model for estimating memory usage of C++ programs", "The model used by `new` and `delete` for heap management"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is `std::atomic_flag`?",
+    "options": ["A flag used in atomic physics simulations", "A simple atomic boolean type that provides guaranteed lock-free operations (test-and-set, clear). It is often used as a basic building block for other synchronization primitives.", "A flag that indicates if an operation was atomic", "A compiler flag for enabling atomic optimizations"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What are `std::memory_order` enumerations (e.g., `memory_order_relaxed`, `memory_order_acquire`, `memory_order_release`, `memory_order_seq_cst`) used with `std::atomic` operations?",
+    "options": ["To specify the order in which atomic variables are declared", "To control the memory synchronization guarantees and ordering constraints for atomic operations, allowing fine-grained tuning of the trade-off between performance and consistency in concurrent code. `memory_order_seq_cst` provides the strongest guarantees (sequential consistency).", "To order memory allocations for atomic objects", "To define the byte order (endianness) for atomic operations"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is a vtable (virtual method table) in C++?",
+    "options": ["A table for storing virtual memory addresses", "A mechanism used to support dynamic dispatch (runtime polymorphism) for virtual functions. Typically, a class with virtual functions has a hidden pointer (vptr) to a vtable, which is an array of function pointers, one for each virtual function of the class, pointing to the correct overridden implementation.", "A table of variable types", "A data structure for visualizing tables in a virtual environment"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is name mangling (or name decoration) in C++?",
+    "options": ["A way to intentionally make names unreadable for security", "A process by which C++ compilers encode function and variable names with additional information (like parameter types, namespaces, class names) to ensure uniqueness for the linker, enabling features like function overloading and namespaces. The mangled names are what appear in object files and libraries.", "A technique for mangling data for encryption", "A set of naming conventions for C++ identifiers"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is the 'explicit' keyword used for with C++ constructors?",
+    "options": ["To make the constructor's definition explicit in the header file", "To prevent the constructor from being used for implicit type conversions. If a constructor is `explicit`, it can only be used for direct initialization (e.g., `MyClass obj(val);` or `MyClass obj = MyClass(val);`), not for implicit conversions (e.g., `MyClass obj = val;` if the constructor takes one argument).", "To indicate that the constructor explicitly initializes all members", "To make the constructor callable only from explicit friend classes"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is `std::initializer_list<T>` (C++11) used for?",
+    "options": ["A list of initializers for static variables", "A lightweight proxy object that represents a list of values of type `T`, typically used to allow constructors and functions to accept a braced-init-list (e.g., `{1, 2, 3}`) as an argument, facilitating uniform initialization.", "A way to initialize lists in a specific memory order", "A list of functions to be called during program initialization"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What are user-defined literals in C++11 (e.g., `operator\"\" _km(long double val); auto dist = 10.0_km;`)?",
+    "options": ["Literals that can only be defined by the user of a library", "A feature that allows programmers to define suffixes for literals (integer, floating-point, character, string) to create objects of user-defined types or perform custom processing on literal values at compile time or runtime.", "Literals that are specific to a single user's session", "A way to define literal string constants with user-defined encoding"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is `noexcept` specifier and operator in C++11?",
+    "options": ["A way to mark code that should never throw exceptions, otherwise the program terminates", "The `noexcept` specifier on a function indicates whether the function might throw exceptions. `noexcept(true)` (or just `noexcept`) means it guarantees not to throw. `noexcept(false)` means it might. The `noexcept` operator can be used in an expression to check if another expression is declared `noexcept`. This information can be used by the compiler for optimizations and by other generic code.", "A preprocessor directive to exclude exception handling code", "An operator to catch all exceptions without specifying types"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  },
+  {
+    "question": "What is `std::alignas` (C++11) specifier used for?",
+    "options": ["Aligning text output in the console", "To specify a custom memory alignment requirement for a variable or type, stricter than the default alignment for that type. This can be necessary for performance or hardware requirements.", "Aligning UI elements in a graphical application", "A way to align multiple threads for synchronization"],
+    "answer": 1,
+    "category": "C/C++",
+    "difficulty": 4
+  }
+]
