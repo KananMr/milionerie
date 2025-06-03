@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Millionaire</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+        :root {
+            /* Dark Theme - Matrix/Cyberpunk Inspired */
+            --primary: linear-gradient(135deg, #00ff88, #01D26D);
+            --secondary: linear-gradient(135deg, #00ff88, #01D26D);
+            --accent: linear-gradient(135deg, #01D26D, #01D26D);
+            --warning: linear-gradient(135deg, #feca57, #ff9ff3);
+            --background: #0f0f23;
+            --card-bg: rgba(30, 41, 59, 0.8);
+            --card-border: rgba(0, 255, 136, 0.3);
+            --text: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --correct: linear-gradient(135deg, #4ade80, #22c55e);
+            --wrong: linear-gradient(135deg, #f87171, #ef4444);
+            --disabled: rgba(100, 116, 139, 0.5);
+            --glow: 0 0 20px rgba(0, 255, 136, 0.4);
+            --shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            --glass: rgba(255, 255, 255, 0.1);
+            --backdrop: blur(10px);
+        }
+
+        /* Light Theme - Clean Modern Developer */
+        body.light-mode {
+            --primary: linear-gradient(135deg, #00ff88, #01D26D);
+            --secondary: linear-gradient(135deg, #00ff88, #01D26D);
+            --accent: linear-gradient(135deg, #01D26D, #01D26D);
+            --warning: linear-gradient(135deg, #feca57, #ff9ff3);
+            --background: #ffffff;
+            --card-bg: rgba(233, 233, 233, 0.8);
+            --card-border: rgba(0, 255, 136, 0.3);
+            --text: #000000;
+            --text-secondary: #94a3b8;
+            --correct: linear-gradient(135deg, #4ade80, #22c55e);
+            --wrong: linear-gradient(135deg, #f87171, #ef4444);
+            --disabled: rgba(100, 116, 139, 0.5);
+            --glow: 0 0 20px rgba(0, 255, 136, 0.4);
+            --shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            --glass: rgba(255, 255, 255, 0.1);
+            --backdrop: blur(10px);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow-x: hidden;
+            zoom: 0.8;
+        }
+
+        /* Animated Background Elements */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(90deg, transparent, transparent 98px, rgba(0, 255, 136, 0.03) 100px),
+                repeating-linear-gradient(0deg, transparent, transparent 98px, rgba(0, 255, 136, 0.03) 100px);
+            pointer-events: none;
+            z-index: -1;
+            animation: gridMove 20s linear infinite;
+        }
+
+        body.light-mode::before {
+            background: 
+                repeating-linear-gradient(90deg, transparent, transparent 98px, rgba(102, 126, 234, 0.05) 100px),
+                repeating-linear-gradient(0deg, transparent, transparent 98px, rgba(102, 126, 234, 0.05) 100px);
+        }
+
+        @keyframes gridMove {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(100px, 100px); }
+        }
+
+        /* Floating Code Elements */
+        body::after {
+            /*content: '{ } < > λ → ∀ ∃ ∈ ∅ ∞ Σ ∏ ∂ ∇ ∆';*/
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'JetBrains Mono', 'Courier New', monospace;
+            font-size: 2rem;
+            color: rgba(0, 255, 136, 0.08);
+            pointer-events: none;
+            z-index: -1;
+            overflow: hidden;
+            white-space: pre;
+            line-height: 4;
+            animation: floatCode 30s linear infinite;
+        }
+
+        body.light-mode::after {
+            color: rgba(102, 126, 234, 0.1);
+        }
+
+        @keyframes floatCode {
+            0% { transform: translateY(100vh) rotate(0deg); }
+            100% { transform: translateY(-100vh) rotate(360deg); }
+        }
+
+        header {
+            background: var(--glass);
+            backdrop-filter: var(--backdrop);
+            border-bottom: 1px solid var(--card-border);
+            padding: 1.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 136, 0.1), transparent);
+            animation: headerScan 3s ease-in-out infinite;
+        }
+
+        body.light-mode header::before {
+            background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+        }
+
+        @keyframes headerScan {
+            0% { left: -100%; }
+            50% { left: 100%; }
+            100% { left: 100%; }
+        }
+
+        h1 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            font-weight: 700;
+            background: var(--primary);
+            -webkit-background-clip: text;
+
+            background-clip: text;
+            text-shadow: var(--glow);
+            position: relative;
+            z-index: 1;
+            letter-spacing: -0.02em;
+        }
+
+        h1::after {
+            content: '';
+            animation: blink 1s infinite;
+            color: var(--text);
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .game-area {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .question-container {
+            background: var(--card-bg);
+            backdrop-filter: var(--backdrop);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .question-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--primary);
+            transform: scaleX(0);
+            transform-origin: left;
+            animation: progressLine 0.8s ease-out forwards;
+        }
+
+        @keyframes progressLine {
+            to { transform: scaleX(1); }
+        }
+
+        .question-container:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .question {
+            font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            font-weight: 500;
+            color: var(--text);
+            position: relative;
+        }
+
+        .question::before {
+            /*content: '// Question';*/
+            position: absolute;
+            top: -1.5rem;
+            left: 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            opacity: 0.7;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .options {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .option {
+            background: var(--card-bg);
+            backdrop-filter: var(--backdrop);
+            border: 2px solid var(--card-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: left;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            color: var(--text);
+        }
+
+        .option::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .option:hover:not(:disabled) {
+            transform: translateY(-4px) scale(1.02);
+            border-color: rgba(0, 255, 136, 0.6);
+            box-shadow: var(--glow), var(--shadow);
+        }
+
+        .option:hover:not(:disabled)::before {
+            left: 100%;
+        }
+
+        .option:active {
+            transform: translateY(-2px) scale(1.01);
+        }
+
+        .option:disabled {
+            background: var(--disabled);
+            cursor: not-allowed;
+            transform: none;
+            filter: grayscale(1);
+        }
+
+        .option.correct {
+            background: var(--correct);
+            border-color: #22c55e;
+            color: white;
+            box-shadow: 0 0 30px rgba(34, 197, 94, 0.5);
+            animation: correctPulse 0.6s ease-out;
+        }
+
+        .option.wrong {
+            background: var(--wrong);
+            border-color: #ef4444;
+            color: white;
+            box-shadow: 0 0 30px rgba(239, 68, 68, 0.5);
+            animation: wrongShake 0.6s ease-out;
+        }
+
+        @keyframes correctPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes wrongShake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-8px); }
+            75% { transform: translateX(8px); }
+        }
+
+        .option-prefix {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            margin-right: 1rem;
+            background: var(--primary);
+            color: white;
+            padding: 0.6rem 0.8rem;
+            border-radius: 12px;
+            min-width: 40px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .lifelines {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1rem;
+        }
+
+        .lifeline {
+            background: var(--card-bg);
+            backdrop-filter: var(--backdrop);
+            border: 2px solid var(--card-border);
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            font-size: 1.2rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            color: var(--text);
+        }
+
+        .lifeline::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            background: var(--accent);
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.3s ease;
+        }
+
+        .lifeline:hover:not(:disabled) {
+            transform: translateY(-4px) scale(1.1);
+            border-color: rgba(0, 255, 136, 0.8);
+            box-shadow: var(--glow);
+        }
+
+        .lifeline:hover:not(:disabled)::before {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .lifeline:hover:not(:disabled) {
+            color: white;
+            z-index: 1;
+        }
+
+        .lifeline:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
+            filter: grayscale(1);
+        }
+
+        .progress {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 0.8rem;
+            background: var(--card-bg);
+            backdrop-filter: var(--backdrop);
+            border: 1px solid var(--card-border);
+            padding: 1.5rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .prize-level {
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid transparent;
+            font-weight: 500;
+        }
+
+        .prize-level.current {
+            background: var(--primary);
+            color: white;
+            border-color: rgba(0, 255, 136, 0.5);
+            box-shadow: var(--glow);
+            transform: scale(1.02);
+            animation: currentLevel 2s ease-in-out infinite;
+        }
+
+        @keyframes currentLevel {
+            0%, 100% { box-shadow: var(--glow); }
+            50% { box-shadow: 0 0 30px rgba(0, 255, 136, 0.6); }
+        }
+
+        .prize-level.passed {
+            background: rgba(76, 201, 240, 0.15);
+            border-color: rgba(76, 201, 240, 0.3);
+            color: #4cc9f0;
+        }
+
+        .prize-amount {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .timer {
+            text-align: center;
+            font-size: 2rem;
+            margin: 1.5rem 0;
+            font-family: 'JetBrains Mono', monospace;
+            position: relative;
+        }
+
+        .timer::before {
+            content: 'TIMER:';
+            position: absolute;
+            top: -1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            letter-spacing: 0.2em;
+        }
+
+        .timer-value {
+            font-weight: 700;
+            background: var(--accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all 0.3s ease;
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 12px;
+            border: 2px solid var(--card-border);
+            background-color: var(--card-bg);
+            color: var(--text);
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .modal.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .modal-content {
+            background: var(--card-bg);
+            backdrop-filter: var(--backdrop);
+            border: 1px solid var(--card-border);
+            padding: 3rem;
+            border-radius: 24px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            transform: scale(0.8) translateY(40px);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .modal.show .modal-content {
+            transform: scale(1) translateY(0);
+        }
+
+        .modal-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--primary);
+        }
+
+        .modal-title {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            background: var(--accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        .modal-message {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        #modal-dynamic-area {
+            margin-bottom: 2.5rem;
+        }
+
+        .modal-button {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .modal-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .audience-chart {
+            width: 100%;
+            height: 250px;
+            margin: 2rem 0;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+            padding: 1rem;
+        }
+
+        .audience-bar {
+            width: 20%;
+            background: var(--secondary);
+            transition: height 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            color: white;
+            border-radius: 8px 8px 0 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .audience-bar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), transparent);
+            border-radius: 8px 8px 0 0;
+        }
+
+        .audience-percentage {
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+            z-index: 1;
+        }
+
+        .phone-friend {
+            font-style: italic;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: var(--glass);
+            backdrop-filter: var(--backdrop);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            border-left: 4px solid;
+            border-left-color: #4cc9f0;
+            position: relative;
+        }
+
+        .phone-friend::before {
+            content: '💬';
+            position: absolute;
+            top: -10px;
+            left: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .start-screen, .end-screen {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .start-button, .restart-button {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 1.5rem 3rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border-radius: 16px;
+            cursor: pointer;
+            margin-top: 2rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .start-button::before, .restart-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s ease, height 0.3s ease;
+        }
+
+        .start-button:hover, .restart-button:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .start-button:hover::before, .restart-button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .category-selector {
+            margin: 2rem 0;
+        }
+
+        .category-selector h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+        }
+
+        #categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .category {
+            background: var(--card-bg);
+            backdrop-filter: var(--backdrop);
+            border: 2px solid var(--card-border);
+            color: var(--text);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 500;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .category::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: var(--secondary);
+            transition: left 0.3s ease;
+            z-index: -1;
+        }
+
+        .category:hover, .category.selected {
+            border-color: rgba(0, 255, 136, 0.6);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .category:hover::before, .category.selected::before {
+            left: 0;
+        }
+
+        .dark-mode-toggle {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--card-bg);
+            backdrop-filter: var(--backdrop);
+            border: 2px solid var(--card-border);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            z-index: 100;
+            font-size: 1.5rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            color: var(--text);
+        }
+
+        .dark-mode-toggle:hover {
+            transform: translateY(-4px) scale(1.1);
+            box-shadow: var(--glow), var(--shadow);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+                gap: 1.5rem;
+            }
+
+            .question-container {
+                padding: 1.5rem;
+            }
+
+            .lifelines {
+                gap: 1rem;
+            }
+
+            .lifeline {
+                width: 60px;
+                height: 60px;
+                font-size: 1rem;
+            }
+
+            .modal-content {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            #categories {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .category {
+                min-width: 200px;
+            }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--secondary);
+        }
+
+        /* Selection styling */
+        ::selection {
+            background: rgba(0, 255, 136, 0.3);
+            color: white;
+        }
+
+        /* Focus styles for accessibility */
+        .option:focus, .lifeline:focus, .category:focus, 
+        .start-button:focus, .restart-button:focus, 
+        .modal-button:focus, .dark-mode-toggle:focus {
+            outline: 2px solid rgba(0, 255, 136, 0.6);
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dev Millionaire</h1>
+    </header>
+
+    <div class="container">
+        <div id="start-screen" class="start-screen">
+            <h2>Welcome to Dev Millionaire!</h2>
+            <p>Answer up to 15 questions correctly to win the ultimate developer prize!</p>
+            <div class="category-selector">
+                <h3>Select Categories:</h3>
+                <div id="categories">
+                    <!--<button class="category selected" data-category="all">All Categories</button>-->
+                    <button class="category" data-category="algorithms">Algorithms</button>
+                    <button class="category" data-category="backend">Backend</button>
+                    <button class="category" data-category="computer-architecture">Computer Architecture</button>
+                    <button class="category" data-category="databases">Databases</button>
+                    <button class="category" data-category="devops">DevOps</button>
+                    <button class="category" data-category="frontend">Frontend</button>
+                    <button class="category" data-category="linux">Linux</button>
+                    <button class="category" data-category="networking">Networking</button>
+                    <button class="category" data-category="javascript">JavaScript</button>
+                    <button class="category" data-category="php">PHP</button>
+                    <button class="category" data-category="python">Python</button>
+                    <button class="category" data-category="go">Go</button>
+                    <button class="category" data-category="java">Java</button>
+                    <button class="category" data-category="csharp">C#</button>
+                    <button class="category" data-category="c++">C/C++</button>
+                </div>
+            </div>
+            
+            <button id="start-button" class="start-button">Start Game</button>
+        </div>
+
+        <div id="game-area" class="game-area" style="display: none;">
+            <div class="timer">
+                Time left: <span id="timer-value" class="timer-value">30</span>s
+            </div>
+            <div class="safe-haven-info" style="margin:1.5em 0 2em 0; background:rgba(76,201,240,0.08); border-left:4px solid #4cc9f0; border-radius:12px; padding:1em 1.5em; color:#4cc9f0;">
+                <strong>Safe Haven:</strong> If you reach <b>$1,000</b> or <b>$32,000</b>, you are guaranteed to leave with at least that amount, even if you answer incorrectly later!
+            </div>
+            
+            <div class="question-container">
+                <div id="question" class="question"></div>
+                <div id="options" class="options"></div>
+            </div>
+
+            <div class="lifelines">
+                <button id="fifty-fifty" class="lifeline" title="50:50">50</button>
+                <button id="ask-audience" class="lifeline" title="Ask the Audience">A</button>
+                <button id="phone-friend" class="lifeline" title="Phone a Friend">P</button>
+            </div>
+
+            <div class="progress">
+                <!-- Prize levels will be inserted here by JS -->
+            </div>
+        </div>
+
+        <div id="end-screen" class="end-screen" style="display: none;">
+            <h2 id="end-title">Game Over</h2>
+            <p id="end-message"></p>
+            <p>You won: <span id="prize-won" style="font-weight: bold; color: var(--accent);"></span></p>
+            <button id="restart-button" class="restart-button">Play Again</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content"> <!-- This is the main modal box -->
+            <h2 id="modal-title" class="modal-title"></h2>
+            <p id="modal-message" class="modal-message"></p>
+            <div id="modal-dynamic-area"></div> <!-- Dedicated area for dynamic content -->
+            <button id="modal-button" class="modal-button">Continue</button>
+        </div>
+    </div>
+
+    <button id="dark-mode-toggle" class="dark-mode-toggle" title="Toggle Light/Dark Mode">🌓</button>
+
+    <script>
+        // Game state
+        const gameState = {
+            currentQuestion: 0,
+            score: 0,
+            timer: 30,
+            timerInterval: null,
+            lifelines: {
+                fiftyFifty: true,
+                askAudience: true,
+                phoneFriend: true
+            },
+            selectedCategories: ['all'],
+            questions: [],
+            gameStarted: false,
+            isDarkMode: true,
+            questionsByDifficulty: {
+                1: [], // Easy (Q1-Q5)
+                2: [], // Medium (Q6-Q10)
+                3: [], // Hard (Q11-Q13)
+                4: []  // Very Hard (Q14-Q15)
+            }
+        };
+
+        // Prize levels with difficulty mapping
+        const prizeLevels = [
+            { amount: "$100", safe: false, difficulty: 1 },        // Q1 - Easy
+            { amount: "$200", safe: false, difficulty: 1 },        // Q2 - Easy
+            { amount: "$300", safe: false, difficulty: 1 },        // Q3 - Easy
+            { amount: "$500", safe: false, difficulty: 1 },        // Q4 - Easy
+            { amount: "$1,000", safe: true, difficulty: 1 },       // Q5 - Easy (Safe Haven)
+            { amount: "$2,000", safe: false, difficulty: 2 },      // Q6 - Medium
+            { amount: "$4,000", safe: false, difficulty: 2 },      // Q7 - Medium
+            { amount: "$8,000", safe: false, difficulty: 2 },      // Q8 - Medium
+            { amount: "$16,000", safe: false, difficulty: 2 },     // Q9 - Medium
+            { amount: "$32,000", safe: true, difficulty: 2 },      // Q10 - Medium (Safe Haven)
+            { amount: "$64,000", safe: false, difficulty: 3 },     // Q11 - Hard
+            { amount: "$125,000", safe: false, difficulty: 3 },    // Q12 - Hard
+            { amount: "$250,000", safe: false, difficulty: 3 },    // Q13 - Hard
+            { amount: "$500,000", safe: false, difficulty: 4 },    // Q14 - Very Hard
+            { amount: "$1,000,000", safe: false, difficulty: 4 }   // Q15 - Very Hard (Grand Prize)
+        ];
+
+        // Timer durations by difficulty level
+        const timerDurations = {
+            1: 30, // Easy - 30 seconds
+            2: 45, // Medium - 45 seconds
+            3: 60, // Hard - 60 seconds
+            4: 90  // Very Hard - 90 seconds
+        };
+
+        // DOM elements
+        const elements = {
+            startScreen: document.getElementById('start-screen'),
+            gameArea: document.getElementById('game-area'),
+            endScreen: document.getElementById('end-screen'),
+            question: document.getElementById('question'),
+            options: document.getElementById('options'),
+            timerValue: document.getElementById('timer-value'),
+            startButton: document.getElementById('start-button'),
+            restartButton: document.getElementById('restart-button'),
+            fiftyFifty: document.getElementById('fifty-fifty'),
+            askAudience: document.getElementById('ask-audience'),
+            phoneFriend: document.getElementById('phone-friend'),
+            modal: document.getElementById('modal'),
+            modalTitle: document.getElementById('modal-title'),
+            modalMessage: document.getElementById('modal-message'),
+            modalDynamicArea: document.getElementById('modal-dynamic-area'),
+            modalButton: document.getElementById('modal-button'),
+            endTitle: document.getElementById('end-title'),
+            endMessage: document.getElementById('end-message'),
+            prizeWon: document.getElementById('prize-won'),
+            categories: document.getElementById('categories'),
+            darkModeToggle: document.getElementById('dark-mode-toggle'),
+            progressContainer: document.querySelector('.progress'),
+            difficultyIndicator: document.getElementById('difficulty-indicator')
+        };
+
+        // Utility function to shuffle array (Fisher-Yates shuffle)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        // Function to fetch questions from JSON files
+        async function fetchQuestionsForCategory(category) {
+            try {
+                const response = await fetch(`questions/${category}.json?v=${Date.now()}`);
+                if (!response.ok) {
+                    console.error(`Failed to load questions for ${category}: ${response.statusText}`);
+                    alert(`Error: Could not load questions for ${category}.json. Please ensure the file exists and is accessible.`);
+                    return [];
+                }
+                return await response.json();
+            } catch (error) {
+                console.error(`Error fetching ${category}.json:`, error);
+                alert(`Network or parsing error fetching ${category}.json. Please check the console for details.`);
+                return [];
+            }
+        }
+
+        // Function to organize questions by difficulty
+        function organizeQuestionsByDifficulty(questions) {
+            const organized = { 1: [], 2: [], 3: [], 4: [] };
+            
+            questions.forEach(question => {
+                const difficulty = question.difficulty || 1; // Default to easy if no difficulty specified
+                if (organized[difficulty]) {
+                    organized[difficulty].push(question);
+                }
+            });
+            
+            // Shuffle questions within each difficulty level
+            Object.keys(organized).forEach(difficulty => {
+                organized[difficulty] = shuffleArray(organized[difficulty]);
+            });
+            
+            return organized;
+        }
+
+        // Function to select questions for the game based on difficulty progression
+        function selectGameQuestions(questionsByDifficulty) {
+            const gameQuestions = [];
+            const questionsNeeded = {
+                1: 5,  // Q1-Q5 (Easy)
+                2: 5,  // Q6-Q10 (Medium)
+                3: 3,  // Q11-Q13 (Hard)
+                4: 2   // Q14-Q15 (Very Hard)
+            };
+            
+            for (let difficulty = 1; difficulty <= 4; difficulty++) {
+                const availableQuestions = questionsByDifficulty[difficulty] || [];
+                const needed = questionsNeeded[difficulty];
+                
+                if (availableQuestions.length < needed) {
+                    console.warn(`Not enough questions for difficulty ${difficulty}. Need ${needed}, have ${availableQuestions.length}`);
+                    // Take what we can get
+                    gameQuestions.push(...availableQuestions);
+                } else {
+                    // Take the required number of questions
+                    gameQuestions.push(...availableQuestions.slice(0, needed));
+                }
+            }
+            
+            return gameQuestions;
+        }
+
+        // Get difficulty level for current question
+        function getCurrentDifficulty() {
+            if (gameState.currentQuestion < 5) return 1;      // Q1-Q5: Easy
+            if (gameState.currentQuestion < 10) return 2;     // Q6-Q10: Medium
+            if (gameState.currentQuestion < 13) return 3;     // Q11-Q13: Hard
+            return 4;                                          // Q14-Q15: Very Hard
+        }
+
+        // Get difficulty name for display
+        function getDifficultyName(difficulty) {
+            const names = {
+                1: 'Easy',
+                2: 'Medium',
+                3: 'Hard',
+                4: 'Very Hard'
+            };
+            return names[difficulty] || 'Easy';
+        }
+
+        // Initialize the game
+        function initGame() {
+            elements.startButton.addEventListener('click', startGame);
+            elements.restartButton.addEventListener('click', restartGame);
+            elements.fiftyFifty.addEventListener('click', useFiftyFifty);
+            elements.askAudience.addEventListener('click', useAskAudience);
+            elements.phoneFriend.addEventListener('click', usePhoneFriend);
+            elements.modalButton.addEventListener('click', closeModal);
+            elements.darkModeToggle.addEventListener('click', toggleDarkMode);
+
+            const categoryButtons = elements.categories.querySelectorAll('.category');
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const category = button.dataset.category;
+                    const allCategoryButton = elements.categories.querySelector('.category[data-category="all"]');
+
+                    if (category === 'all') {
+                        gameState.selectedCategories = ['all'];
+                        categoryButtons.forEach(btn => btn.classList.remove('selected'));
+                        allCategoryButton.classList.add('selected');
+                    } else {
+                        if (gameState.selectedCategories.includes('all')) {
+                            gameState.selectedCategories = [];
+                            allCategoryButton.classList.remove('selected');
+                        }
+                        
+                        const index = gameState.selectedCategories.indexOf(category);
+                        if (index === -1) {
+                            gameState.selectedCategories.push(category);
+                            button.classList.add('selected');
+                        } else {
+                            gameState.selectedCategories.splice(index, 1);
+                            button.classList.remove('selected');
+                        }
+                        
+                        if (gameState.selectedCategories.length === 0) {
+                            gameState.selectedCategories = ['all'];
+                            allCategoryButton.classList.add('selected');
+                        }
+                    }
+                });
+            });
+
+            // Initialize progress display with difficulty indicators
+            // ${level.safe ? '<span class="safe-haven">Safe Haven</span>' : ''}
+            elements.progressContainer.innerHTML = '';
+            prizeLevels.forEach((level, index) => {
+                const levelElement = document.createElement('div');
+                levelElement.className = 'prize-level';
+                const difficultyName = getDifficultyName(level.difficulty);
+                levelElement.innerHTML = `
+                    <span>Q${index + 1} (${difficultyName})</span>
+                    <span class="prize-amount">${level.amount}</span>
+                `;
+                levelElement.dataset.difficulty = level.difficulty;
+                elements.progressContainer.appendChild(levelElement);
+            });
+
+            elements.startScreen.style.display = 'block';
+            elements.gameArea.style.display = 'none';
+            elements.endScreen.style.display = 'none';
+            
+            if (!gameState.isDarkMode) { 
+                document.body.classList.add('light-mode');
+                elements.darkModeToggle.textContent = '🌙';
+            } else {
+                document.body.classList.remove('light-mode');
+                elements.darkModeToggle.textContent = '☀️';
+            }
+        }
+
+        async function startGame() {
+            gameState.currentQuestion = 0;
+            gameState.score = 0;
+            gameState.lifelines = { fiftyFifty: true, askAudience: true, phoneFriend: true };
+            gameState.gameStarted = true;
+
+            gameState.questions = [];
+            elements.startButton.disabled = true;
+            elements.startButton.textContent = 'Loading Questions...';
+
+            try {
+                let allQuestions = [];
+                
+                if (gameState.selectedCategories.includes('all')) {
+                    allQuestions = await fetchQuestionsForCategory('all');
+                } else {
+                    const fetchPromises = gameState.selectedCategories.map(categoryKey =>
+                        fetchQuestionsForCategory(categoryKey)
+                    );
+                    const questionArrays = await Promise.all(fetchPromises);
+                    allQuestions = questionArrays.flat().filter(q => q && typeof q === 'object' && q.question);
+                }
+
+                // Check if any questions were loaded
+                if (!allQuestions || allQuestions.length === 0) {
+                    let errorMsg = "No questions available for the selected categories. ";
+                    if (gameState.selectedCategories.includes('all')) {
+                        errorMsg += "Please ensure 'all.json' exists and contains valid questions with difficulty levels.";
+                    } else {
+                        errorMsg += `Please ensure the JSON files for [${gameState.selectedCategories.join(', ')}] exist and contain valid questions with difficulty levels.`;
+                    }
+                    alert(errorMsg);
+                    resetToStartScreen();
+                    return;
+                }
+                
+                // Organize questions by difficulty
+                const questionsByDifficulty = organizeQuestionsByDifficulty(allQuestions);
+                
+                // Check if we have enough questions for each difficulty level
+                const minRequired = { 1: 5, 2: 5, 3: 3, 4: 2 };
+                for (let difficulty = 1; difficulty <= 4; difficulty++) {
+                    const available = questionsByDifficulty[difficulty].length;
+                    const required = minRequired[difficulty];
+                    if (available < required) {
+                        alert(`Insufficient questions for difficulty level ${difficulty} (${getDifficultyName(difficulty)}). Need ${required}, have ${available}. Please add more questions or adjust the dataset.`);
+                        resetToStartScreen();
+                        return;
+                    }
+                }
+                
+                // Select questions for the game
+                gameState.questions = selectGameQuestions(questionsByDifficulty);
+                
+                if (gameState.questions.length < 15) {
+                    alert(`Not enough questions to create a complete game. Have ${gameState.questions.length}, need 15.`);
+                    resetToStartScreen();
+                    return;
+                }
+
+                elements.startScreen.style.display = 'none';
+                elements.gameArea.style.display = 'flex';
+                elements.endScreen.style.display = 'none';
+
+                elements.fiftyFifty.disabled = false;
+                elements.askAudience.disabled = false;
+                elements.phoneFriend.disabled = false;
+
+                loadQuestion();
+
+            } catch (error) {
+                console.error("Error starting game:", error);
+                alert("An unexpected error occurred while starting the game. Please check the console and try again.");
+                resetToStartScreen();
+            } finally {
+                elements.startButton.disabled = false;
+                elements.startButton.textContent = 'Start Game';
+            }
+        }
+
+        function resetToStartScreen() {
+            elements.startScreen.style.display = 'block';
+            elements.gameArea.style.display = 'none';
+            gameState.gameStarted = false;
+        }
+
+        function loadQuestion() {
+            if (gameState.currentQuestion >= gameState.questions.length) {
+                endGame(true);
+                return;
+            }
+
+            const currentDifficulty = getCurrentDifficulty();
+            resetTimer(currentDifficulty);
+            updateProgress();
+            updateDifficultyIndicator(currentDifficulty);
+
+            const questionData = gameState.questions[gameState.currentQuestion];
+            elements.question.textContent = questionData.question;
+            elements.options.innerHTML = '';
+
+            const optionPrefixes = ['A', 'B', 'C', 'D'];
+            questionData.options.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.className = 'option';
+                button.innerHTML = `
+                    <span class="option-prefix">${optionPrefixes[index]}</span>
+                    <span>${option}</span>
+                `;
+                button.dataset.index = index;
+                button.addEventListener('click', () => selectAnswer(index));
+                elements.options.appendChild(button);
+            });
+        }
+
+        function updateDifficultyIndicator(difficulty) {
+            if (elements.difficultyIndicator) {
+                const difficultyName = getDifficultyName(difficulty);
+                elements.difficultyIndicator.textContent = `Level ${difficulty}: ${difficultyName}`;
+                elements.difficultyIndicator.className = `difficulty-indicator difficulty-${difficulty}`;
+            }
+        }
+
+        function selectAnswer(selectedIndex) {
+            clearInterval(gameState.timerInterval);
+            const optionButtons = Array.from(elements.options.querySelectorAll('.option'));
+            optionButtons.forEach(button => button.disabled = true);
+
+            const questionData = gameState.questions[gameState.currentQuestion];
+            const correctIndex = questionData.answer;
+
+            optionButtons[correctIndex].classList.add('correct');
+            if (selectedIndex === correctIndex) {
+                gameState.score++;
+                playSound('correct');
+                
+                // Show transition message for difficulty level changes
+                if (gameState.currentQuestion === 4) {
+                    showTransitionModal("Congratulations!", "You've completed Level 1 (Easy)!\nMoving to Level 2 (Medium) - You now have 45 seconds per question.");
+                } else if (gameState.currentQuestion === 9) {
+                    showTransitionModal("Excellent!", "You've completed Level 2 (Medium)!\nMoving to Level 3 (Hard) - You now have 60 seconds per question.");
+                } else if (gameState.currentQuestion === 12) {
+                    showTransitionModal("Outstanding!", "You've completed Level 3 (Hard)!\nMoving to Level 4 (Very Hard) - You now have 90 seconds per question.");
+                }
+                
+                setTimeout(() => {
+                    gameState.currentQuestion++;
+                    if (gameState.currentQuestion >= gameState.questions.length) {
+                        endGame(true);
+                    } else {
+                        loadQuestion();
+                    }
+                }, 2000);
+            } else {
+                optionButtons[selectedIndex].classList.add('wrong');
+                playSound('wrong');
+                setTimeout(() => endGame(false), 2000);
+            }
+        }
+
+        function showTransitionModal(title, message) {
+            setTimeout(() => {
+                showModal(title, message);
+            }, 1000);
+        }
+
+        function useFiftyFifty() {
+            if (!gameState.lifelines.fiftyFifty) return;
+            gameState.lifelines.fiftyFifty = false;
+            elements.fiftyFifty.disabled = true;
+
+            const questionData = gameState.questions[gameState.currentQuestion];
+            const correctIndex = questionData.answer;
+            const incorrectOptions = [];
+            for (let i = 0; i < questionData.options.length; i++) {
+                if (i !== correctIndex) incorrectOptions.push(i);
+            }
+            
+            shuffleArray(incorrectOptions);
+            const toRemove = incorrectOptions.slice(0, 2);
+            
+            const optionButtons = elements.options.querySelectorAll('.option');
+            toRemove.forEach(index => {
+                optionButtons[index].disabled = true;
+                optionButtons[index].style.opacity = '0.3';
+                optionButtons[index].innerHTML = `
+                    <span class="option-prefix">${optionButtons[index].querySelector('.option-prefix').textContent}</span>
+                    <span> </span>`;
+            });
+            playSound('lifeline');
+        }
+
+        function useAskAudience() {
+            if (!gameState.lifelines.askAudience) return;
+            gameState.lifelines.askAudience = false;
+            elements.askAudience.disabled = true;
+
+            const questionData = gameState.questions[gameState.currentQuestion];
+            const correctIndex = questionData.answer;
+            const currentDifficulty = getCurrentDifficulty();
+            const percentages = [0, 0, 0, 0];
+            let remaining = 100;
+            
+            // Audience confidence decreases with difficulty
+            const confidenceRanges = {
+                1: [60, 80],  // Easy: 60-80% for correct answer
+                2: [50, 70],  // Medium: 50-70% for correct answer
+                3: [40, 60],  // Hard: 40-60% for correct answer
+                4: [30, 50]   // Very Hard: 30-50% for correct answer
+            };
+            
+            const activeOptionButtons = Array.from(elements.options.querySelectorAll('.option:not([disabled])'));
+            const activeIndices = activeOptionButtons.map(btn => parseInt(btn.dataset.index));
+
+            let correctPercent = 0;
+            const [minConf, maxConf] = confidenceRanges[currentDifficulty];
+            
+            if (activeIndices.includes(correctIndex)) {
+                correctPercent = Math.floor(Math.random() * (maxConf - minConf + 1)) + minConf;
+                percentages[correctIndex] = correctPercent;
+                remaining -= correctPercent;
+            } else {
+                correctPercent = Math.floor(Math.random() * 21);
+                percentages[correctIndex] = correctPercent;
+                remaining -= correctPercent;
+            }
+            
+            const otherActiveIndices = activeIndices.filter(i => i !== correctIndex);
+            shuffleArray(otherActiveIndices);
+
+            for (let i = 0; i < otherActiveIndices.length; i++) {
+                const idx = otherActiveIndices[i];
+                if (i === otherActiveIndices.length - 1) {
+                    percentages[idx] = Math.max(0, remaining);
+                } else {
+                    const percent = Math.floor(Math.random() * (remaining / (otherActiveIndices.length - i) * 1.5));
+                    percentages[idx] = Math.max(0, Math.min(percent, remaining));
+                    remaining -= percentages[idx];
+                }
+            }
+            
+            if (remaining > 0) {
+                if (activeIndices.includes(correctIndex)) percentages[correctIndex] += remaining;
+                else if (otherActiveIndices.length > 0) percentages[otherActiveIndices[0]] += remaining;
+            }
+            
+            // Normalize to 100%
+            let currentTotal = percentages.reduce((sum, p) => sum + p, 0);
+            if (currentTotal !== 100 && currentTotal > 0) {
+                const factor = 100 / currentTotal;
+                for (let i = 0; i < percentages.length; i++) percentages[i] = Math.round(percentages[i] * factor);
+                currentTotal = percentages.reduce((sum, p) => sum + p, 0);
+                if (currentTotal !== 100 && percentages.length > 0) {
+                    percentages[percentages.length - 1] += (100 - currentTotal);
+                }
+            }
+
+            showModal(
+                "Ask the Audience",
+                "The audience poll results:",
+                `
+                <div class="audience-chart">
+                    ${percentages.map((p, i) => `
+                    <div class="audience-bar" style="height: ${p}%" title="Option ${['A','B','C','D'][i]}: ${p}%">
+                        <span class="audience-percentage">${p}%</span>
+                        <span>${['A', 'B', 'C', 'D'][i]}</span>
+                    </div>`).join('')}
+                </div>
+                `
+            );
+            playSound('lifeline');
+        }
+
+        function usePhoneFriend() {
+            if (!gameState.lifelines.phoneFriend) return;
+            gameState.lifelines.phoneFriend = false;
+            elements.phoneFriend.disabled = true;
+
+            const questionData = gameState.questions[gameState.currentQuestion];
+            const correctIndex = questionData.answer;
+            const currentDifficulty = getCurrentDifficulty();
+            
+            const activeOptionButtons = Array.from(elements.options.querySelectorAll('.option:not([disabled])'));
+            const activeIndices = activeOptionButtons.map(btn => parseInt(btn.dataset.index));
+
+            const friendNames = ["Alice", "Bob", "Charlie", "DevDave", "Eve", "CodeFrank", "GraceHopper.js"];
+            const friendName = friendNames[Math.floor(Math.random() * friendNames.length)];
+            
+            // Friend accuracy decreases with difficulty
+            const accuracyRates = { 1: 0.85, 2: 0.75, 3: 0.60, 4: 0.45 };
+            
+            let friendAnswerIndex;
+            if (activeIndices.length === 0) {
+                friendAnswerIndex = 0;
+            } else if (activeIndices.includes(correctIndex)) {
+                if (Math.random() < accuracyRates[currentDifficulty]) {
+                    friendAnswerIndex = correctIndex;
+                } else {
+                    const wrongActiveOptions = activeIndices.filter(i => i !== correctIndex);
+                    friendAnswerIndex = wrongActiveOptions.length > 0 ?
+                                        wrongActiveOptions[Math.floor(Math.random() * wrongActiveOptions.length)] :
+                                        activeIndices[Math.floor(Math.random() * activeIndices.length)];
+                }
+            } else {
+                friendAnswerIndex = activeIndices[Math.floor(Math.random() * activeIndices.length)];
+            }
+            
+            const optionLetters = ['A', 'B', 'C', 'D'];
+            const confidenceLevels = {
+                1: ["I'm pretty sure it's", "I'm confident it's"],
+                2: ["I think it might be", "I believe it's"],
+                3: ["Hmm, this is tough... maybe", "My best guess is"],
+                4: ["This is really difficult... I think", "I'm not certain, but maybe"]
+            };
+            
+            const confidence = confidenceLevels[currentDifficulty];
+            
+            showModal(
+                "Phone a Friend",
+                `You called ${friendName}...`,
+                `
+                <div class="phone-friend">
+                    "${confidence[Math.floor(Math.random() * confidence.length)]} <strong>${optionLetters[friendAnswerIndex]}</strong>. Good luck!"
+                </div>
+                `
+            );
+            playSound('lifeline');
+        }
+
+        function showModal(title, message, dynamicContentHTML = '') {
+            clearInterval(gameState.timerInterval);
+            elements.modalTitle.textContent = title;
+            elements.modalMessage.textContent = message;
+            elements.modalDynamicArea.innerHTML = dynamicContentHTML;
+            elements.modal.classList.add('show');
+        }
+
+        function closeModal() {
+            elements.modal.classList.remove('show');
+            elements.modalDynamicArea.innerHTML = '';
+            if (gameState.gameStarted && elements.gameArea.style.display === 'flex' && gameState.currentQuestion < gameState.questions.length) {
+                const currentDifficulty = getCurrentDifficulty();
+                resetTimer(currentDifficulty);
+            }
+        }
+
+        function endGame(isWinner) {
+            clearInterval(gameState.timerInterval);
+            gameState.gameStarted = false;
+            let prizeMoney = "$0";
+
+            if (isWinner && gameState.score === gameState.questions.length) { 
+                elements.endTitle.textContent = "🎉 MILLIONAIRE! 🎉";
+                elements.endMessage.textContent = `Congratulations! You've mastered all difficulty levels and answered all ${gameState.questions.length} questions correctly!`;
+                prizeMoney = prizeLevels[Math.min(gameState.score - 1, prizeLevels.length - 1)].amount;
+            } else { 
+                elements.endTitle.textContent = "Game Over";
+                let reason = "You answered incorrectly.";
+                if (gameState.timer <= 0 && !(isWinner && gameState.score === gameState.questions.length)) {
+                    reason = "You ran out of time!";
+                }
+                
+                const currentLevel = getCurrentDifficulty();
+                const levelName = getDifficultyName(currentLevel);
+                elements.endMessage.textContent = `${reason} You reached Level ${currentLevel} (${levelName}) and answered ${gameState.score} out of ${gameState.questions.length} questions correctly.`;
+                
+                prizeMoney = "$0";
+                let lastCorrectQuestionIndex = gameState.score - 1; 
+
+                for (let i = lastCorrectQuestionIndex; i >= 0; i--) {
+                    if (prizeLevels[i] && prizeLevels[i].safe) {
+                        prizeMoney = prizeLevels[i].amount;
+                        break; 
+                    }
+                }
+            }
+            
+            elements.prizeWon.textContent = prizeMoney;
+            
+            elements.startScreen.style.display = 'none';
+            elements.gameArea.style.display = 'none';
+            elements.endScreen.style.display = 'block';
+
+            playSound(isWinner && gameState.score === prizeLevels.length ? 'grand_win' : (isWinner ? 'win_round' : 'lose'));
+        }
+
+        function restartGame() {
+            elements.startScreen.style.display = 'block';
+            elements.gameArea.style.display = 'none';
+            elements.endScreen.style.display = 'none';
+        }
+
+        function updateProgress() {
+            const prizeElements = elements.progressContainer.querySelectorAll('.prize-level');
+            prizeElements.forEach((element, index) => {
+                element.classList.remove('current', 'passed', 'current-level');
+                if (index === gameState.currentQuestion) {
+                    element.classList.add('current');
+                    element.classList.add('current-level');
+                } else if (index < gameState.currentQuestion) {
+                    element.classList.add('passed');
+                }
+            });
+        }
+
+        function resetTimer(difficulty = 1) {
+            clearInterval(gameState.timerInterval);
+            gameState.timer = timerDurations[difficulty];
+            elements.timerValue.textContent = gameState.timer;
+            
+            if (elements.gameArea.style.display !== 'flex' || !gameState.gameStarted) return;
+
+            gameState.timerInterval = setInterval(() => {
+                gameState.timer--;
+                elements.timerValue.textContent = gameState.timer;
+                
+                // Change timer color based on remaining time
+                if (gameState.timer <= 10) {
+                    elements.timerValue.style.color = '#ff4757';
+                } else if (gameState.timer <= 20) {
+                    elements.timerValue.style.color = '#ffa502';
+                } else {
+                    elements.timerValue.style.color = '';
+                }
+                
+                if (gameState.timer <= 0) {
+                    clearInterval(gameState.timerInterval);
+                    playSound('timeout');
+                    const optionButtons = Array.from(elements.options.querySelectorAll('.option'));
+                    optionButtons.forEach(button => button.disabled = true);
+                    const questionData = gameState.questions[gameState.currentQuestion];
+                    if (questionData) {
+                        const correctIndex = questionData.answer;
+                        if (optionButtons[correctIndex]) optionButtons[correctIndex].classList.add('correct');
+                    }
+                    setTimeout(() => endGame(false), 2000);
+                }
+            }, 1000);
+        }
+
+        function playSound(type) {
+            // console.log(`Playing sound: ${type}`);
+        }
+
+        function toggleDarkMode() {
+            gameState.isDarkMode = !gameState.isDarkMode;
+            document.body.classList.toggle('light-mode', !gameState.isDarkMode);
+            elements.darkModeToggle.textContent = gameState.isDarkMode ? '☀️' : '🌙';
+            elements.darkModeToggle.title = gameState.isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode";
+        }
+
+        // Initialize the game when the script loads
+        initGame();
+    </script>
+</body>
+</html>
