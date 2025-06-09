@@ -1,0 +1,66 @@
+<!-- game.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Millionaire - The Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dev Millionaire</h1>
+        <p id="taunt-subtitle" class="taunt-subtitle">Let the humiliation commence.</p>
+    </header>
+
+    <div class="container">
+        <div id="game-area" class="game-area" style="display: none;">
+            <!-- Game UI elements -->
+            <div class="timer">Time left: <span id="timer-value" class="timer-value">30</span></div>
+            <div class="safe-haven-info" style="margin:1.5em 0 2em 0; background:rgba(76,201,240,0.08); border-left:4px solid #4cc9f0; border-radius:12px; padding:1em 1.5em; color:#4cc9f0;">
+                <strong>Safe Haven:</strong> Reach <b>$1,000</b> or <b>$32,000</b>. It's like pity money for when you inevitably fail later.
+            </div>
+            <div class="question-container">
+                <div id="question" class="question"></div>
+                <div id="options" class="options"></div>
+            </div>
+            <div class="lifelines">
+                <button id="fifty-fifty" class="lifeline" title="50:50"><span>50:50</span></button>
+                <button id="ask-audience" class="lifeline" title="Ask the Audience"><span>📊</span></button>
+                <button id="phone-friend" class="lifeline" title="Phone a Friend"><span>📞</span></button>
+            </div>
+            <div class="progress"></div>
+        </div>
+
+        <div id="end-screen" class="end-screen" style="display: none;">
+            <h2 id="end-title">Game Over</h2>
+            <p id="end-message"></p>
+            <p>You "won": <span id="prize-won" style="font-weight: bold; background: var(--accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;"></span></p>
+            <button id="restart-button" class="restart-button">Try Again, If You Dare</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title" class="modal-title"></h2>
+            <p id="modal-message" class="modal-message"></p>
+            <div id="modal-dynamic-area"></div>
+            <button id="modal-button" class="modal-button">Continue</button>
+        </div>
+    </div>
+
+    <button id="dark-mode-toggle" class="dark-mode-toggle" title="Toggle Light/Dark Mode">🌓</button>
+    
+    <div id="audio-container" style="display: none;">
+        <audio id="sound-correct" src="assets/correct.mp3" preload="auto"></audio>
+        <audio id="sound-wrong" src="assets/wrong-laugh.mp3" preload="auto"></audio>
+        <audio id="sound-lifeline" src="assets/lifeline.mp3" preload="auto"></audio>
+        <audio id="sound-win" src="assets/win.mp3" preload="auto"></audio>
+        <audio id="sound-lose" src="assets/lose.mp3" preload="auto"></audio>
+        <audio id="sound-tick" src="assets/tick.mp3" preload="auto" loop></audio>
+        <audio id="sound-bgm" src="assets/bgm.mp3" preload="auto" loop></audio>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
